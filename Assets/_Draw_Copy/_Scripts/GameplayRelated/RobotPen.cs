@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using _Draw_Copy._Scripts.ControllerRelated;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,9 +19,23 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             Vector3 initialLinePos =  new Vector3(transform.position.x, -1, transform.position.z);
             _line.SetPosition(0, points[0].position);
             _line.SetPosition(1, initialLinePos);
-            StartCoroutine(FormTheShape());
         }
-
+        private void OnEnable()
+        {
+            MainController.GameStateChanged += GameManager_GameStateChanged;
+        }
+        private void OnDisable()
+        {
+            MainController.GameStateChanged -= GameManager_GameStateChanged;
+        }
+        void GameManager_GameStateChanged(GameState newState, GameState oldState)
+        {
+            if(newState==GameState.RoboDrawing)
+            {
+                StartCoroutine(FormTheShape());
+            }
+            
+        }
         private void Update()
         {
             _line.positionCount++;
@@ -39,6 +54,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 transform.DOMove(new Vector3(points[i].position.x, transform.position.y, points[i].position.z), 0.12f).SetEase(Ease.Linear);
                 yield return new WaitForSeconds(0.12f);
             }
+            MainController.instance.SetActionType(GameState.PlayerDrawing);
         }
     }   
 }

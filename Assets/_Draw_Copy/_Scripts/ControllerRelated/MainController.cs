@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEditor;
 using UnityEngine;
 
@@ -22,7 +23,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public static MainController instance;
         
         [SerializeField] private GameState _gameState;
-        public static event System.Action<GameState, GameState> GamestateChanged;
+        public static event Action<GameState, GameState> GameStateChanged;
 
         public GameState GameState
         {
@@ -33,8 +34,8 @@ namespace _Draw_Copy._Scripts.ControllerRelated
                 {
                     GameState oldState = _gameState;
                     _gameState = value;
-                    if (GamestateChanged != null)
-                        GamestateChanged(_gameState, oldState);
+                    if (GameStateChanged != null)
+                        GameStateChanged(_gameState, oldState);
                 }
             }
         }
@@ -52,6 +53,10 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         void CreateGame()
         {
             GameState = GameState.Create;
+            DOVirtual.DelayedCall(2, () =>
+            {
+                GameState = GameState.RoboDrawing;
+            });
         }
 
         public void SetActionType(GameState _curState)

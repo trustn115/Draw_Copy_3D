@@ -20,29 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502d6599-c259-435e-91f7-3777a44178b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Brush.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Brush.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Shape Scale Down Test.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Shape Scale Down Test.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/Tests.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/Tests/ShapeScaleDown.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/Tests/ShapeScaleDown.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/Materials/board.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/Materials/board.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/Materials/pen.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/Materials/pen.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scenes/Level 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scenes/Level 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scenes/SampleScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scenes/SampleScene/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scenes/SampleScene/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scenes/SampleScene/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scenes/SampleScene/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scripts/RobotPen.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Draw_Copy/_Scripts/RobotPen.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,24 +56,38 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/Tests/ShapeScaleDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Draw_Copy/_Scripts/RobotPen.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/RobotPen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/Tests/ShapeScaleDown.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/DragScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PenDrag.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2C9r0Vxoxd5W7kvmlayfr8ER7CA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -103,8 +119,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
