@@ -12,13 +12,20 @@ namespace _Draw_Copy._Scripts.GameplayRelated
     {
         private LineRenderer _line;
         public List<Transform> points;
+        private bool _canDraw;
+
+        private List<Vector3> _drawnPointList = new List<Vector3>();
+        private Vector3 _defaultLinePos;
         
         private void Start()
         {
             _line = GetComponent<LineRenderer>();
-            Vector3 initialLinePos =  new Vector3(transform.position.x, -1, transform.position.z);
+            _defaultLinePos =  new Vector3(transform.position.x, -1, transform.position.z);
             _line.SetPosition(0, points[0].position);
-            _line.SetPosition(1, initialLinePos);
+            _line.SetPosition(1, _defaultLinePos);
+            
+            _drawnPointList.Add(points[0].position);
+            _drawnPointList.Add(_defaultLinePos);
         }
         private void OnEnable()
         {
@@ -32,18 +39,23 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         {
             if(newState==GameState.RoboDrawing)
             {
+                _canDraw = true;
                 StartCoroutine(FormTheShape());
+            }
+
+            if (newState == GameState.PlayerDrawing)
+            {
+                _canDraw = false;
             }
             
         }
         private void Update()
         {
-            _line.positionCount++;
-            _line.SetPosition(_line.positionCount - 1, new Vector3(transform.position.x, -1, transform.position.z) );
-
-            if (Input.GetMouseButtonDown(1))
+            if(_canDraw)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                _line.positionCount++;
+                Vector3 newPoint = new Vector3(transform.position.x, -1, transform.position.z);
+                _line.SetPosition(_line.positionCount - 1, newPoint);
             }
         }
 
@@ -51,9 +63,14 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         {
             for (int i = 0; i < points.Count; i++)
             {
-                transform.DOMove(new Vector3(points[i].position.x, transform.position.y, points[i].position.z), 0.12f).SetEase(Ease.Linear);
+                Vector3 newMovePos = new Vector3(points[i].position.x, transform.position.y, points[i].position.z);
+                transform.DOMove(newMovePos, 0.12f).SetEase(Ease.Linear);
+                _drawnPointList.Add(newMovePos);
                 yield return new WaitForSeconds(0.12f);
             }
+
+            CompareDrawings.instance.targetPts = _drawnPointList;
+            print("Robo Drawn Points = " + _drawnPointList.Count);
             MainController.instance.SetActionType(GameState.PlayerDrawing);
         }
     }   

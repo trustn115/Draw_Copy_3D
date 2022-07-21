@@ -17,6 +17,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         Transform _raypoint;
 
         private bool _canDraw;
+        private List<Vector3> _drawnPointList = new List<Vector3>();
 
         private void Start()
         {
@@ -46,8 +47,6 @@ namespace _Draw_Copy._Scripts.GameplayRelated
 
         private void Update()
         {
-            {
-            }
             if (Input.GetMouseButtonDown(0) && _canDraw)
             {
                 CreateBrush();
@@ -61,16 +60,24 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 {
                     Vector3 hitPos = hit.point;
                     pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
-                    if (hitPos != _lastPos)
+                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.02f)
                     {
                         AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
                         _lastPos = hitPos;
+                        _drawnPointList.Add(hitPos);
                     }
                 }
             }
             else
             {
                 _currentLine = null;
+            }
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                //DOVirtual.DelayedCall(0.5f, () => { MainController.instance.SetActionType(GameState.RoboDrawing);});
+                CompareDrawings.instance.drawnPts = _drawnPointList;
+                CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
             }
         }
 

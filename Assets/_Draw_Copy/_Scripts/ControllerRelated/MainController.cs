@@ -53,7 +53,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         void CreateGame()
         {
             GameState = GameState.Create;
-            DOVirtual.DelayedCall(2, () =>
+            DOVirtual.DelayedCall(1, () =>
             {
                 GameState = GameState.RoboDrawing;
             });

@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace _Draw_Copy._Scripts.ControllerRelated
 {
@@ -21,6 +23,14 @@ namespace _Draw_Copy._Scripts.ControllerRelated
                 
             }
             
+        }
+
+        private void Update()
+        {
+            if (Input.GetMouseButtonDown(1))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }   
 }
