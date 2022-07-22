@@ -29,8 +29,13 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         {
             if (Input.GetMouseButtonDown(1))
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                RetryLevel();
             }
+        }
+
+        public void RetryLevel()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }   
 }

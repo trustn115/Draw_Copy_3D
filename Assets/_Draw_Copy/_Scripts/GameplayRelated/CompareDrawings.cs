@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using _Draw_Copy._Scripts.ControllerRelated;
 using DG.Tweening;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
@@ -22,16 +23,14 @@ public class CompareDrawings : MonoBehaviour
     {
         //StartCoroutine(CompareShape(targetPts, drawnPts));
     }
-
+    
+    public List<Transform> targetPoints = new List<Transform>(), drawnPoints = new List<Transform>();
     public IEnumerator CompareShape()
     {
-        List<Transform> targetPoints, drawnPoints;
-        targetPoints = new List<Transform>();
-        drawnPoints = new List<Transform>();
         for (int i = 0; i < targetPts.Count; i++)
         {
             GameObject pt = new GameObject("PointTarget " + i);
-            pt.transform.position = targetPts[i];
+            pt.transform.position = new Vector3(targetPts[i].x, -1, targetPts[i].z);
             targetPoints.Add(pt.transform);
         }
         for (int i = 0; i < drawnPts.Count; i++)
@@ -76,9 +75,13 @@ public class CompareDrawings : MonoBehaviour
         if(drawnPoints.Count >= targetPoints.Count)
             skipper = Mathf.CeilToInt(drawnPoints.Count/targetPoints.Count);
         print("Skipper = " + skipper);
-
+        
+        /*Vector3 fromAngle = drawnPoints[0].position - drawnPointsParent.transform.position;
+        Vector3 toAngle = targetPoints[0].position - drawnPointsParent.transform.position;
+        float angle = Vector3.Angle(fromAngle, toAngle);
+        drawnPointsParent.transform.eulerAngles = Vector3.up * angle;
+        print("ANGLE= " + angle);*/
         // un parent the drawn points before calculating distance
-        yield return new WaitForSeconds(0.5f);
         for (int i = 0; i < drawnPoints.Count; i++)
         {
             drawnPoints[i].parent = null;
@@ -88,19 +91,63 @@ public class CompareDrawings : MonoBehaviour
         
         List<float> highDist = new List<float>();
         List<float> lowDist = new List<float>();
+        
         for (int i = 0; i < targetPoints.Count; i++)
         {
-            //print(i);
-            float d = Vector3.Distance(targetPoints[i].position, drawnPoints[i + skipper].position);
-            print("dst = " + d);
-            if(d > 0.75f) highDist.Add(d);
-            else lowDist.Add(d);
+            for (int j = 0; j < drawnPoints.Count; j++)
+            {
+                float d = Vector3.Distance(targetPoints[i].position, drawnPoints[j].position);
+                if(d < 0.1f)
+                {
+                    if (!lowDist.Contains(d))
+                    {
+                        lowDist.Add(d);
+                        print("d = " + d);    
+                    }
+                }
+                //else highDist.Add(d);
+            }
         }
+        
+        print("Low Dist Count 1 = " + lowDist.Count);
+        if(lowDist.Count > 0)
+        {
+            if (lowDist.Count > drawnPoints.Count)
+            {
+                StartCoroutine(LevelCondition(true));
+            }
+            else if (lowDist.Count < drawnPoints.Count)
+            {
+                if (lowDist.Count > (drawnPoints.Count * 50) / 100)
+                {
+                    StartCoroutine(LevelCondition(true));
+                }
+                else
+                {
+                    StartCoroutine(LevelCondition(false));
+                }
+            }
+        }
+        else
+        {
+            StartCoroutine(LevelCondition(false));
+        }
+        print("Low Dist Count 2 = " + lowDist.Count);
+        /*for (int i = 0 ; i < targetPoints.Count; i++)
+        {
+            //print(i);
+            //float d = Vector3.Distance(targetPoints[i].position, drawnPoints[i + skipper].position);
+            float d = (targetPoints[i].position - drawnPoints[i + skipper].position).magnitude;
+            float x = Mathf.InverseLerp(0, 2, d);
+            //print("dst = " + d);
+            if(d > 0.5f) highDist.Add(d);
+            else lowDist.Add(d);
+        }*/
 
-        if (highDist.Count > lowDist.Count || highDist.Count == lowDist.Count) wrongCounter++;
+        /*if (highDist.Count > lowDist.Count || highDist.Count == lowDist.Count) wrongCounter++;
         else correctCounter++;
         if(correctCounter > wrongCounter) print("WIN !!!");
-        else print("LOSE !!!");
+        else print("LOSE !!!");*/
 
         /*float totalDist = 0;
         for (int i = 0; i < lowDist.Count; i++)
@@ -115,6 +162,14 @@ public class CompareDrawings : MonoBehaviour
         if(percMatch > 0.5f)
             print("WIN !!!");
         else print("LOSE !!!");*/
+        yield return null;
+    }
+
+    IEnumerator LevelCondition(bool pass)
+    {
+        yield return new WaitForSeconds(2f);
+        if(pass) MainController.instance.SetActionType(GameState.Levelwin);
+        else MainController.instance.SetActionType(GameState.Levelfail);
     }
 
     Vector3 GetShapeMidPoint(List<Transform> shapePoints)

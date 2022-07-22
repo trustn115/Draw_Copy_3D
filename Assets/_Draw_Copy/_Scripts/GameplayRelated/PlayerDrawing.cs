@@ -60,7 +60,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 {
                     Vector3 hitPos = hit.point;
                     pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
-                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.02f)
+                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.05f)
                     {
                         AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
                         _lastPos = hitPos;
