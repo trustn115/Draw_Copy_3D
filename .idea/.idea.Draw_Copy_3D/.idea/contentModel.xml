@@ -18,6 +18,7 @@
               <e p="CompareDrawings.cs" t="Include" />
               <e p="PlayerDrawing.cs" t="Include" />
               <e p="RobotPen.cs" t="Include" />
+              <e p="StencilArt.cs" t="Include" />
             </e>
             <e p="Tests" t="Include">
               <e p="ShapeScaleDown.cs" t="Include" />

@@ -12,6 +12,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
     {
         private LineRenderer _line;
         public List<Transform> points;
+        public Transform ink;
+        public float inkFinishSpeed;
         private bool _canDraw;
 
         private List<Vector3> _drawnPointList = new List<Vector3>();
@@ -66,9 +68,14 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 Vector3 newMovePos = new Vector3(points[i].position.x, transform.position.y, points[i].position.z);
                 transform.DOMove(newMovePos, 0.12f).SetEase(Ease.Linear);
                 _drawnPointList.Add(newMovePos);
-                yield return new WaitForSeconds(0.12f);
+                
+                if(ink.localScale.y > 0)
+                {
+                    ink.localScale = new Vector3(ink.localScale.x, ink.localScale.y - Time.deltaTime * inkFinishSpeed,
+                        ink.localScale.z);
+                }
+                yield return new WaitForSeconds(0.08f);
             }
-
             CompareDrawings.instance.targetPts = _drawnPointList;
             print("Robo Drawn Points = " + _drawnPointList.Count);
             MainController.instance.SetActionType(GameState.PlayerDrawing);

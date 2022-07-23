@@ -25,6 +25,7 @@ public class CompareDrawings : MonoBehaviour
     }
     
     public List<Transform> targetPoints = new List<Transform>(), drawnPoints = new List<Transform>();
+    private List<Transform> lowDist;
     public IEnumerator CompareShape()
     {
         for (int i = 0; i < targetPts.Count; i++)
@@ -90,7 +91,7 @@ public class CompareDrawings : MonoBehaviour
         print("Drawn point[0] pos = " + drawnPoints[0].position);
         
         List<float> highDist = new List<float>();
-        List<float> lowDist = new List<float>();
+        lowDist = new List<Transform>();
         
         for (int i = 0; i < targetPoints.Count; i++)
         {
@@ -99,9 +100,9 @@ public class CompareDrawings : MonoBehaviour
                 float d = Vector3.Distance(targetPoints[i].position, drawnPoints[j].position);
                 if(d < 0.1f)
                 {
-                    if (!lowDist.Contains(d))
+                    if (!lowDist.Contains(drawnPoints[j]))
                     {
-                        lowDist.Add(d);
+                        lowDist.Add(drawnPoints[j]);
                         print("d = " + d);    
                     }
                 }
@@ -127,49 +128,36 @@ public class CompareDrawings : MonoBehaviour
                     StartCoroutine(LevelCondition(false));
                 }
             }
+            else if (lowDist.Count == drawnPoints.Count)
+            {
+                StartCoroutine(LevelCondition(true));
+            }
         }
         else
         {
             StartCoroutine(LevelCondition(false));
         }
         print("Low Dist Count 2 = " + lowDist.Count);
-        /*for (int i = 0 ; i < targetPoints.Count; i++)
-        {
-            //print(i);
-            //float d = Vector3.Distance(targetPoints[i].position, drawnPoints[i + skipper].position);
-            float d = (targetPoints[i].position - drawnPoints[i + skipper].position).magnitude;
-            float x = Mathf.InverseLerp(0, 2, d);
-            //print("dst = " + d);
-            if(d > 0.5f) highDist.Add(d);
-            else lowDist.Add(d);
-        }*/
-
-        /*if (highDist.Count > lowDist.Count || highDist.Count == lowDist.Count) wrongCounter++;
-        else correctCounter++;
-        if(correctCounter > wrongCounter) print("WIN !!!");
-        else print("LOSE !!!");*/
-
-        /*float totalDist = 0;
-        for (int i = 0; i < lowDist.Count; i++)
-        {
-            totalDist += lowDist[i];
-        }
-
-        float avgDist = totalDist / lowDist.Count;
-        print("Avg dist = " + avgDist);
-        //calculate % err  or
-        float percMatch = 1 - avgDist;
-        if(percMatch > 0.5f)
-            print("WIN !!!");
-        else print("LOSE !!!");*/
         yield return null;
     }
 
     IEnumerator LevelCondition(bool pass)
     {
-        yield return new WaitForSeconds(2f);
-        if(pass) MainController.instance.SetActionType(GameState.Levelwin);
-        else MainController.instance.SetActionType(GameState.Levelfail);
+        if(pass)
+        {
+            UIController.instance.winConfetti.SetActive(true);
+            yield return new WaitForSeconds(0.75f);
+            int perc = Mathf.CeilToInt((lowDist.Count / drawnPoints.Count) * 100);
+            UIController.instance.StartCoroutine(
+                UIController.instance.ShowMatchPercentage(perc));
+            yield return new WaitForSeconds(2f);
+            MainController.instance.SetActionType(GameState.Levelwin);
+        }
+        else
+        {
+            yield return new WaitForSeconds(2f);
+            MainController.instance.SetActionType(GameState.Levelfail);
+        }
     }
 
     Vector3 GetShapeMidPoint(List<Transform> shapePoints)

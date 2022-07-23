@@ -14,6 +14,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         public GameObject brush;
         private Camera _camera;
         public Transform pen;
+        public Transform ink;
+        public float inkFinishSpeed;
         Transform _raypoint;
 
         private bool _canDraw;
@@ -66,6 +68,12 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                         _lastPos = hitPos;
                         _drawnPointList.Add(hitPos);
                     }
+                }
+                
+                if(ink.localScale.y > 0)
+                {
+                    ink.localScale = new Vector3(ink.localScale.x, ink.localScale.y - Time.deltaTime * inkFinishSpeed,
+                        ink.localScale.z);
                 }
             }
             else
