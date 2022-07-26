@@ -14,6 +14,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         Levelstart,
         RoboDrawing,
         PlayerDrawing,
+        Coloring,
         Levelwin,
         Levelfail
     }

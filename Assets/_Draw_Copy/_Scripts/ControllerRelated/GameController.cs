@@ -8,6 +8,8 @@ namespace _Draw_Copy._Scripts.ControllerRelated
 {
     public class GameController : MonoBehaviour
     {
+        public List<GameObject> thingsToDeactivateDuringColoring;
+        
         private void OnEnable()
         {
             MainController.GameStateChanged += GameManager_GameStateChanged;
@@ -21,6 +23,14 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             if(newState==GameState.Levelstart)
             {
                 
+            }
+
+            if (newState == GameState.Coloring)
+            {
+                for (int i = 0; i < thingsToDeactivateDuringColoring.Count; i++)
+                {
+                    thingsToDeactivateDuringColoring[i].SetActive(false);
+                }
             }
             
         }

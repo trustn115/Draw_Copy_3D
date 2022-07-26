@@ -14,6 +14,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public GameObject winPanel, failPanel;
         public GameObject winConfetti;
         public TextMeshProUGUI drawingPercText;
+        public GameObject peelHelpButton;
 
         private void Awake()
         {

@@ -98,19 +98,19 @@ public class CompareDrawings : MonoBehaviour
             for (int j = 0; j < drawnPoints.Count; j++)
             {
                 float d = Vector3.Distance(targetPoints[i].position, drawnPoints[j].position);
-                if(d < 0.1f)
+                if(d < 0.2f)
                 {
                     if (!lowDist.Contains(drawnPoints[j]))
                     {
                         lowDist.Add(drawnPoints[j]);
-                        print("d = " + d);    
+                        //print("d = " + d);    
                     }
                 }
                 //else highDist.Add(d);
             }
         }
         
-        print("Low Dist Count 1 = " + lowDist.Count);
+        //print("Low Dist Count 1 = " + lowDist.Count);
         if(lowDist.Count > 0)
         {
             if (lowDist.Count > drawnPoints.Count)
@@ -137,7 +137,7 @@ public class CompareDrawings : MonoBehaviour
         {
             StartCoroutine(LevelCondition(false));
         }
-        print("Low Dist Count 2 = " + lowDist.Count);
+        //print("Low Dist Count 2 = " + lowDist.Count);
         yield return null;
     }
 
@@ -145,13 +145,16 @@ public class CompareDrawings : MonoBehaviour
     {
         if(pass)
         {
+            MainController.instance.SetActionType(GameState.Coloring);
             UIController.instance.winConfetti.SetActive(true);
-            yield return new WaitForSeconds(0.75f);
-            int perc = Mathf.CeilToInt((lowDist.Count / drawnPoints.Count) * 100);
-            UIController.instance.StartCoroutine(
-                UIController.instance.ShowMatchPercentage(perc));
+            yield return new WaitForSeconds(1f);
+            CameraController.instance.ChangeCameraForColoring();
             yield return new WaitForSeconds(2f);
-            MainController.instance.SetActionType(GameState.Levelwin);
+            ColorShapes.instance.ColorShape(drawnPts);
+            /*int perc = Mathf.CeilToInt((lowDist.Count / drawnPoints.Count) * 100);
+            UIController.instance.StartCoroutine(
+                UIController.instance.ShowMatchPercentage(perc));*/
+            //MainController.instance.SetActionType(GameState.Levelwin);
         }
         else
         {
