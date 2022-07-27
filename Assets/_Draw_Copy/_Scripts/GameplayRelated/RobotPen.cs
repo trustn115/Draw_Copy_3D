@@ -4,13 +4,15 @@ using System.Collections.Generic;
 using _Draw_Copy._Scripts.ControllerRelated;
 using DG.Tweening;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace _Draw_Copy._Scripts.GameplayRelated
 {
     public class RobotPen : MonoBehaviour
     {
-        private LineRenderer _line;
+        public static RobotPen instance;
+        
+        public GameObject brush;
+        private LineRenderer _currentLine;
         public List<Transform> points;
         public Transform ink;
         public float inkFinishSpeed;
@@ -18,16 +20,13 @@ namespace _Draw_Copy._Scripts.GameplayRelated
 
         private List<Vector3> _drawnPointList = new List<Vector3>();
         private Vector3 _defaultLinePos;
-        
-        private void Start()
+
+        public List<int> takes;
+        public List<Shape> shapes;
+
+        private void Awake()
         {
-            _line = GetComponent<LineRenderer>();
-            _defaultLinePos =  new Vector3(transform.position.x, -1, transform.position.z);
-            _line.SetPosition(0, points[0].position);
-            _line.SetPosition(1, _defaultLinePos);
-            
-            _drawnPointList.Add(points[0].position);
-            _drawnPointList.Add(_defaultLinePos);
+            instance = this;
         }
         private void OnEnable()
         {
@@ -42,7 +41,9 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             if(newState==GameState.RoboDrawing)
             {
                 _canDraw = true;
-                StartCoroutine(FormTheShape());
+                //StartCoroutine(FormTheShape());
+                if(_loopCounter < takes.Count)
+                    StartCoroutine(FormMultipleShapes());
             }
 
             if (newState == GameState.PlayerDrawing)
@@ -55,9 +56,9 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         {
             if(_canDraw)
             {
-                _line.positionCount++;
+                _currentLine.positionCount++;
                 Vector3 newPoint = new Vector3(transform.position.x, -1, transform.position.z);
-                _line.SetPosition(_line.positionCount - 1, newPoint);
+                _currentLine.SetPosition(_currentLine.positionCount - 1, newPoint);
             }
         }
 
@@ -80,5 +81,50 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             print("Robo Drawn Points = " + _drawnPointList.Count);
             MainController.instance.SetActionType(GameState.PlayerDrawing);
         }
-    }   
+
+        private int _loopCounter = 0, _pointsCounter = 0;
+        IEnumerator FormMultipleShapes()
+        {
+            PlayerDrawing.instance.currentTakes = takes[_loopCounter];
+            int loopNum = takes[_loopCounter++];
+            for (int i = 0; i < loopNum; i++)
+            {
+                List<Transform> pointsTaken = shapes[_pointsCounter++].points;
+                CreateBrush(pointsTaken);
+                for (int j = 1; j < pointsTaken.Count; j++)
+                {
+                    Vector3 newMovePos = new Vector3(pointsTaken[j].position.x, transform.position.y, pointsTaken[j].position.z);
+                    transform.DOMove(newMovePos, 0.12f).SetEase(Ease.Linear);
+                    _drawnPointList.Add(newMovePos);
+                    yield return new WaitForSeconds(0.08f);
+                }
+            }
+
+            /*if (_loopCounter < takes.Count)
+            {
+                StartCoroutine(FormMultipleShapes());
+                _loopCounter++;
+            }*/
+            MainController.instance.SetActionType(GameState.PlayerDrawing);
+        }
+        void CreateBrush(List<Transform> pointsTaken)
+        {
+            _canDraw = false;
+            GameObject brushInst = Instantiate(brush);
+            _currentLine = brushInst.GetComponent<LineRenderer>();
+            Vector3 penMovePos = new Vector3(pointsTaken[0].position.x, transform.position.y, pointsTaken[0].position.z);
+
+            transform.position = penMovePos;
+            _currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));
+            _currentLine.SetPosition(1, new Vector3(transform.position.x, -1, transform.position.z));
+            _canDraw = true;
+            /*transform.DOMove(penMovePos, 0.5f).OnComplete(() =>
+            {
+                _currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));
+                _currentLine.SetPosition(1, new Vector3(transform.position.x, -1, transform.position.z));
+                _canDraw = true;
+            });*/
+        }
+    }
+    
 }

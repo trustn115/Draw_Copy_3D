@@ -20,202 +20,167 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502d6599-c259-435e-91f7-3777a44178b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Data.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Data.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/ShapeGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/ShapeGenerator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Circle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Circle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/CircleWithHole.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/CircleWithHole.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Random2D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Random2D.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Square.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Square.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/SquareWithHole.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/SquareWithHole.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Cube.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Cube.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Random3D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Random3D.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Sphere.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Sphere.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/Shape.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/Shape.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleExtrusion.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleExtrusion.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2D.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2D.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2DAsync.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2DAsync.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry3D.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry3D.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleInteractiveVoronoi2D.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleInteractiveVoronoi2D.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2D.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2DAsync.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2DAsync.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry3D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry3D.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometryAlgorithms.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometryAlgorithms.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleInteractiveVoronoi2D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleInteractiveVoronoi2D.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExtrusionScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExtrusionScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Manual_GeometryAlgorithms.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Manual_GeometryAlgorithms.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/HullAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/HullAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull2DParameters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull2DParameters.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull3DParameters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull3DParameters.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/IParameters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/IParameters.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Parameters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Parameters.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation2DParameters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation2DParameters.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation3DParameters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation3DParameters.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi2DParameters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi2DParameters.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi3DParameters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi3DParameters.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/ThreadingAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/ThreadingAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/TriangulationAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/TriangulationAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/VoronoiAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/VoronoiAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Algorithm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Algorithm.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Extrusion.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Extrusion/ExtrusionAlgorithm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Extrusion/ExtrusionAlgorithm.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DAlgorithm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DAlgorithm.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DWrapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull3D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull3D/Hull3DWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull3D/Hull3DWrapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/MIConvexHull.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/MIConvexHull.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/TriangleNET.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/TriangleNET.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation2D/Triangulation2DWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation2D/Triangulation2DWrapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation3D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation3D/Triangulation3DWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation3D/Triangulation3DWrapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi2D/Voronoi2DWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi2D/Voronoi2DWrapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi3D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi3D/Voronoi3DWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi3D/Voronoi3DWrapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/EdgeInt.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/EdgeInt.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Enums.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Enums.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Geometry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Geometry.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Utils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Utils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/stencil.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/stencil.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Graffiti Lable.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Graffiti Lable.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Materials/Graffiti Lable.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Materials/Graffiti Lable.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/spray can.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/spray can.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Shape Color.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Shape Color.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spray Brush.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spray Brush.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Arrow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ButtonCircle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ButtonCircle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Finger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Finger.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stencil Cut Part.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stencil Cut Part.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stencil Folded Part.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stencil Folded Part.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/splash.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/splash.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Mesh Draw Test.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Mesh Draw Test.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CreateMesh.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/FillWithLineRenderer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/ColorShapes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/ColorShapes.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MeshGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rect.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Spray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Spray.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/Shape.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Baloo-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Baloo-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/brush 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/brush 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/pen body trans 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/pen body trans 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/pen body trans.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/pen body trans.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/Sprites/ButtonCircle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/Sprites/ButtonCircle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Data.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Data.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/ShapeGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/ShapeGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Circle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Circle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/CircleWithHole.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/CircleWithHole.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Random2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Random2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Square.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Square.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/SquareWithHole.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/SquareWithHole.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Cube.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Cube.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Random3D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Random3D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Sphere.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Sphere.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/Shape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/Shape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleExtrusion.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleExtrusion.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2DAsync.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2DAsync.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleInteractiveVoronoi2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleInteractiveVoronoi2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2DAsync.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2DAsync.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry3D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry3D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometryAlgorithms.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometryAlgorithms.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleInteractiveVoronoi2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleInteractiveVoronoi2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExtrusionScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExtrusionScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Manual_GeometryAlgorithms.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Manual_GeometryAlgorithms.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/HullAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/HullAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull2DParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull2DParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull3DParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull3DParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/IParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/IParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Parameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Parameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation2DParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation2DParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation3DParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation3DParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi2DParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi2DParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi3DParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi3DParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/ThreadingAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/ThreadingAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/TriangulationAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/TriangulationAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/VoronoiAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/VoronoiAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Algorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Algorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Extrusion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Extrusion/ExtrusionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Extrusion/ExtrusionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull3D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull3D/Hull3DWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull3D/Hull3DWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/MIConvexHull.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/MIConvexHull.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/TriangleNET.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/TriangleNET.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation2D/Triangulation2DWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation2D/Triangulation2DWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation3D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation3D/Triangulation3DWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation3D/Triangulation3DWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi2D/Voronoi2DWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi2D/Voronoi2DWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi3D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi3D/Voronoi3DWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi3D/Voronoi3DWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/EdgeInt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/EdgeInt.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Enums.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Enums.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Geometry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Geometry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Utils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Utils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Paper.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Paper.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/paper bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/paper bg.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/ColorShapes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/ColorShapes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +197,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/FillWithLineRenderer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CreateMesh.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FDD05F60-78ED-45AD-BCCC-43989AD47DA7/84/fa86e6c4/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" root0="FORCE_HIGHLIGHTING" />
@@ -243,11 +207,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ViewRelated/LevelFailView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MeshGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ViewRelated/LevelCompleteView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometryAlgorithms.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/Shape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/Tests/ShapeScaleDown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Data.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/Shape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/StencilArt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -261,19 +222,20 @@
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PenDrag.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ViewRelated/LevelFailView.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ViewRelated/LevelCompleteView.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MeshGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CreateMesh.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/FillWithLineRenderer.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/ColorShapes.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/Shape.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/ColorShapes.cs" />
       </list>
     </option>
   </component>

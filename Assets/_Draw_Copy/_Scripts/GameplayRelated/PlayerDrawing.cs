@@ -9,6 +9,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
 {
     public class PlayerDrawing : MonoBehaviour
     {
+        public static PlayerDrawing instance;
+
         private LineRenderer _currentLine;
         private Vector3 _lastPos;
         public GameObject brush;
@@ -20,31 +22,41 @@ namespace _Draw_Copy._Scripts.GameplayRelated
 
         private bool _canDraw;
         private List<Vector3> _drawnPointList = new List<Vector3>();
+        public int currentTakes;
+        [SerializeField] private int _takesCounter = 0;
+
+        private void Awake()
+        {
+            instance = this;
+        }
 
         private void Start()
         {
             _camera = Camera.main;
             _raypoint = pen.GetChild(0);
         }
+
         private void OnEnable()
         {
             MainController.GameStateChanged += GameManager_GameStateChanged;
         }
+
         private void OnDisable()
         {
             MainController.GameStateChanged -= GameManager_GameStateChanged;
         }
+
         void GameManager_GameStateChanged(GameState newState, GameState oldState)
         {
-            if(newState==GameState.PlayerDrawing)
+            if (newState == GameState.PlayerDrawing)
             {
                 _canDraw = true;
             }
-            if(newState==GameState.RoboDrawing)
+
+            if (newState == GameState.RoboDrawing)
             {
                 _canDraw = false;
             }
-            
         }
 
         private void Update()
@@ -69,8 +81,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                         _drawnPointList.Add(hitPos);
                     }
                 }
-                
-                if(ink.localScale.y > 0)
+
+                if (ink.localScale.y > 0)
                 {
                     ink.localScale = new Vector3(ink.localScale.x, ink.localScale.y - Time.deltaTime * inkFinishSpeed,
                         ink.localScale.z);
@@ -81,11 +93,19 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 _currentLine = null;
             }
 
-            if (Input.GetMouseButtonUp(0))
+            if (Input.GetMouseButtonUp(0) && _canDraw)
             {
-                //DOVirtual.DelayedCall(0.5f, () => { MainController.instance.SetActionType(GameState.RoboDrawing);});
-                CompareDrawings.instance.drawnPts = _drawnPointList;
-                CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
+                ColoringController.instance.AddNewShapes(GetTransformsOutOfPoints(_drawnPointList));
+                _drawnPointList = new List<Vector3>();
+                _takesCounter++;
+                if (_takesCounter == currentTakes)
+                {
+                    DOVirtual.DelayedCall(0.25f,
+                        () => { MainController.instance.SetActionType(GameState.RoboDrawing); });
+                    CompareDrawings.instance.drawnPts = _drawnPointList;
+                    _takesCounter = 0;
+                    //CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
+                }
             }
         }
 
@@ -105,6 +125,18 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             _currentLine.positionCount++;
             int positionIndex = _currentLine.positionCount - 1;
             _currentLine.SetPosition(positionIndex, pointPos);
+        }
+
+        List<Transform> GetTransformsOutOfPoints(List<Vector3> points)
+        {
+            List<Transform> drawnPointsAsTransforms = new List<Transform>();
+            for (int i = 0; i < points.Count; i++)
+            {
+                GameObject pointObj = new GameObject("User Drawn Point(" + i + ")");
+                pointObj.transform.position = points[i];
+                drawnPointsAsTransforms.Add(pointObj.transform);
+            }
+            return drawnPointsAsTransforms;
         }
     }
 }

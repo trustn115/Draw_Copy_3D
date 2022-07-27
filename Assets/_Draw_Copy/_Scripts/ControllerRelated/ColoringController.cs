@@ -10,11 +10,13 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
     public class ColoringController : MonoBehaviour
     {
         public static ColoringController instance;
-
+        
+        [Header("STENCIL RELATED")]
         public GameObject stencil;
         public GameObject sprayBottle;
         public GameObject peelingHelp;
         public Transform peelingPartsParent;
+        public Transform finalPeelingPart, finalFoldingPart;
         public float peelingSpeed;
         private Vector3 _stencilOrigPos;
 
@@ -22,6 +24,9 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
         private float _peelingTime = 0;
 
         public Color currentShapeColor;
+
+        [Header("SHAPE RELATED")]
+        public List<Shape> userDrawnShapes;
 
         private void Awake()
         {
@@ -35,13 +40,40 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
             _peelingParentOrigScale = peelingPartsParent.localScale;
         }
 
+        private int _shapesCounter;
+        public void AddNewShapes(List<Transform> points)
+        {
+            Shape newShape = Instantiate(new GameObject("UserDrawnShape").AddComponent<Shape>());
+            newShape.points = points;
+            userDrawnShapes.Add(newShape);
+            _shapesCounter++;
+            if (_shapesCounter == RobotPen.instance.shapes.Count)
+            {
+                //begin stencil work
+                StartCoroutine(BeginStencilWork());
+            }
+        }
+
+        IEnumerator BeginStencilWork()
+        {
+            yield return new WaitForSeconds(1);
+            CameraController.instance.ChangeCameraForColoring();
+            yield return new WaitForSeconds(1);
+            for (int i = 0; i < userDrawnShapes.Count; i++)
+            {
+                ColorShapes.instance.ColorShape(userDrawnShapes[i].points);   
+            }
+        }
+
+        private bool _peelingActivated;
         private void Update()
         {
-            if (Input.GetMouseButton(0) && _canPeel)
+            if (Input.GetMouseButtonDown(0) && _peelingActivated)
             {
-                
+                peelingHelp.SetActive(false);
+                _canPeel = true;
+                _peelingActivated = false;
             }
-
             if (Input.GetMouseButton(0) && _canPeel)
             {
                 if (peelingPartsParent.localScale.x < 53)
@@ -51,9 +83,8 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
                 else
                 {
                     _canPeel = false;
-                    stencil.SetActive(false);
+                    PeelCompletely();
                 }
-                
             }
 
             if (Input.GetMouseButtonUp(0) && _canPeel)
@@ -65,6 +96,18 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
             }
         }
 
+        void PeelCompletely()
+        {
+            finalFoldingPart.gameObject.SetActive(false);
+            finalFoldingPart.gameObject.SetActive(true);
+            finalPeelingPart.gameObject.SetActive(true);
+            
+            finalPeelingPart.DOScaleY(2.05f, 1);
+            finalFoldingPart.DOLocalMoveY(-6.35f,1).OnComplete(() =>
+            {
+                stencil.SetActive(false); 
+            });
+        }
         public IEnumerator MoveStencilForColoring(Vector3 stencilMovePos, List<Transform> drawnPoints)
         {
             _stencilOrigPos = stencil.transform.position;
@@ -89,7 +132,8 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
         {
             sprayBottle.SetActive(false);
             peelingHelp.SetActive(true);
-            UIController.instance.peelHelpButton.SetActive(true);
+            _peelingActivated = true;
+            //UIController.instance.peelHelpButton.SetActive(true);
         }
 
         public void OnPeelingHelpClicked()

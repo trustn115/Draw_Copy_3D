@@ -56,7 +56,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         private int _pointsReachCounter = 0;
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("midPoint"))
+            if (other.gameObject.layer == 6)
             {
                 print("mid point triggered - " + _pointsReachCounter);
                 other.GetComponent<Collider>().enabled = false;

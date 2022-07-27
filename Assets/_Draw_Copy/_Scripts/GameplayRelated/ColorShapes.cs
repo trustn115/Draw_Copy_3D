@@ -22,21 +22,24 @@ public class ColorShapes : MonoBehaviour
 
     private List<Transform> _midPointsList = new List<Transform>();
     
-    public void ColorShape(List<Vector3> drawnPts)
+    public void ColorShape(List<Transform> pts)
     {
-        for (int i = 0; i < drawnPts.Count; i++)
+        /*for (int i = 0; i < drawnPts.Count; i++)
         {
             GameObject pt = new GameObject("PointDrawn " + i);
             pt.transform.position = drawnPts[i];
             drawnPoints.Add(pt.transform);
-        }
+        }*/
+
+        drawnPoints = pts;
 
         Vector3 midpoint = GetShapeMidPoint(drawnPoints);
         GameObject midPointCenter = new GameObject("Midpoint Center");
 
         //bring the stencil
         ColoringController.instance.StartCoroutine(ColoringController.instance.MoveStencilForColoring(midpoint, drawnPoints));
-
+        
+        _midPointsList = new List<Transform>();
         for (int i = 0; i < drawnPoints.Count; i++)
         {
             GameObject mid = new GameObject("Midpoint(" + i + ")");
@@ -55,15 +58,15 @@ public class ColorShapes : MonoBehaviour
     //TODO: FORMING THE FILLED COLOR
     IEnumerator ShowColoredShape(Vector3 midpoint)
     {
-        yield return new WaitForSeconds(1.5f);
-        filledColor = Instantiate(shapeColor).GetComponent<LineRenderer>();
+        yield return new WaitForSeconds(0f);
+        LineRenderer fill = Instantiate(shapeColor).GetComponent<LineRenderer>();
         for (int i = 0; i < _midPointsList.Count; i++)
         {
-            filledColor.startWidth = (drawnPoints[i].position - midpoint).magnitude + 0.03f;
-            filledColor.endWidth = (drawnPoints[i].position - midpoint).magnitude + 0.03f;
+            fill.startWidth = (drawnPoints[i].position - midpoint).magnitude + 0.03f;
+            fill.endWidth = (drawnPoints[i].position - midpoint).magnitude + 0.03f;
             //yield return new WaitForSeconds(0.01f);
-            if (i > 1) filledColor.positionCount++;
-            filledColor.SetPosition(i, _midPointsList[i].position);
+            if (i > 1) fill.positionCount++;
+            fill.SetPosition(i, _midPointsList[i].position);
         }
     }
 
@@ -74,7 +77,7 @@ public class ColorShapes : MonoBehaviour
             BoxCollider boxCollider = _midPointsList[i].gameObject.AddComponent(typeof(BoxCollider)) as BoxCollider;
             boxCollider.size = Vector3.one * 0.1f;
             boxCollider.isTrigger = true;
-            _midPointsList[i].tag = "midPoint";
+            _midPointsList[i].gameObject.layer = 6;
         }
     }
     Vector3 GetShapeMidPoint(List<Transform> shapePoints)

@@ -23,6 +23,7 @@
               <e p="CompareDrawings.cs" t="Include" />
               <e p="PlayerDrawing.cs" t="Include" />
               <e p="RobotPen.cs" t="Include" />
+              <e p="Shape.cs" t="Include" />
               <e p="SprayColoring.cs" t="Include" />
               <e p="StencilArt.cs" t="Include" />
             </e>
@@ -82,96 +83,6 @@
               <e p="SampleProcedualAnimation.cs" t="Include" />
               <e p="SampleRotator.cs" t="Include" />
               <e p="SampleSinMover.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="GeometryAlgorithms" t="Include">
-          <e p="Examples" t="Include">
-            <e p="Data" t="Include">
-              <e p="Data.cs" t="Include" />
-              <e p="ShapeGenerator.cs" t="Include" />
-              <e p="Shapes" t="Include">
-                <e p="2D" t="Include">
-                  <e p="Bird.cs" t="Include" />
-                  <e p="Bird.txt" t="Include" />
-                  <e p="Circle.cs" t="Include" />
-                  <e p="CircleWithHole.cs" t="Include" />
-                  <e p="Dude.cs" t="Include" />
-                  <e p="Dude.txt" t="Include" />
-                  <e p="Horse13k.cs" t="Include" />
-                  <e p="Horse13k.txt" t="Include" />
-                  <e p="Owl15k.cs" t="Include" />
-                  <e p="Owl15k.txt" t="Include" />
-                  <e p="Random2D.cs" t="Include" />
-                  <e p="Square.cs" t="Include" />
-                  <e p="SquareWithHole.cs" t="Include" />
-                  <e p="Tank.cs" t="Include" />
-                  <e p="Tank.txt" t="Include" />
-                </e>
-                <e p="3D" t="Include">
-                  <e p="Cube.cs" t="Include" />
-                  <e p="Random3D.cs" t="Include" />
-                  <e p="Sphere.cs" t="Include" />
-                </e>
-                <e p="Shape.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="ExampleGeometry2D.cs" t="Include" />
-              <e p="ExampleGeometry2DAsync.cs" t="Include" />
-              <e p="ExampleGeometry3D.cs" t="Include" />
-              <e p="ExampleGeometryAlgorithms.cs" t="Include" />
-              <e p="ExampleInteractiveVoronoi2D.cs" t="Include" />
-              <e p="ExtrusionScript.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Source" t="Include">
-            <e p="Algorithms" t="Include">
-              <e p="Algorithm.cs" t="Include" />
-              <e p="Extrusion" t="Include">
-                <e p="ExtrusionAlgorithm.cs" t="Include" />
-              </e>
-              <e p="Hull2D" t="Include">
-                <e p="Hull2DAlgorithm.cs" t="Include" />
-                <e p="Hull2DWrapper.cs" t="Include" />
-              </e>
-              <e p="Hull3D" t="Include">
-                <e p="Hull3DWrapper.cs" t="Include" />
-              </e>
-              <e p="Triangulation2D" t="Include">
-                <e p="Triangulation2DWrapper.cs" t="Include" />
-              </e>
-              <e p="Triangulation3D" t="Include">
-                <e p="Triangulation3DWrapper.cs" t="Include" />
-              </e>
-              <e p="Voronoi2D" t="Include">
-                <e p="Voronoi2DWrapper.cs" t="Include" />
-              </e>
-              <e p="Voronoi3D" t="Include">
-                <e p="Voronoi3DWrapper.cs" t="Include" />
-              </e>
-            </e>
-            <e p="API" t="Include">
-              <e p="HullAPI.cs" t="Include" />
-              <e p="Parameters" t="Include">
-                <e p="Hull2DParameters.cs" t="Include" />
-                <e p="Hull3DParameters.cs" t="Include" />
-                <e p="IParameters.cs" t="Include" />
-                <e p="Parameters.cs" t="Include" />
-                <e p="Triangulation2DParameters.cs" t="Include" />
-                <e p="Triangulation3DParameters.cs" t="Include" />
-                <e p="Voronoi2DParameters.cs" t="Include" />
-                <e p="Voronoi3DParameters.cs" t="Include" />
-              </e>
-              <e p="ThreadingAPI.cs" t="Include" />
-              <e p="TriangulationAPI.cs" t="Include" />
-              <e p="VoronoiAPI.cs" t="Include" />
-            </e>
-            <e p="Core" t="Include">
-              <e p="EdgeInt.cs" t="Include" />
-              <e p="Enums.cs" t="Include" />
-              <e p="Geometry.cs" t="Include" />
-              <e p="Utils.cs" t="Include" />
             </e>
           </e>
         </e>

@@ -150,7 +150,7 @@ public class CompareDrawings : MonoBehaviour
             yield return new WaitForSeconds(1f);
             CameraController.instance.ChangeCameraForColoring();
             yield return new WaitForSeconds(2f);
-            ColorShapes.instance.ColorShape(drawnPts);
+            //ColorShapes.instance.ColorShape(drawnPts);
             /*int perc = Mathf.CeilToInt((lowDist.Count / drawnPoints.Count) * 100);
             UIController.instance.StartCoroutine(
                 UIController.instance.ShowMatchPercentage(perc));*/
