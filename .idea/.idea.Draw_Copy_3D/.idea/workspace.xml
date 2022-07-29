@@ -20,167 +20,368 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502d6599-c259-435e-91f7-3777a44178b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rect.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Spray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Spray.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/Shape.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Turn Strip Blinking.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Turn Strip Blinking.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Turn Strip.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Turn Strip.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Lighting Settings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Lighting Settings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Cubemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Cubemap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Polyverse Skies - Blue Sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Polyverse Skies - Blue Sky.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Polyverse Skies - Night Sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Polyverse Skies - Night Sky.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Polyverse Skies - yellow Sky 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Polyverse Skies - yellow Sky 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Polyverse Skies - yellow Sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Polyverse Skies - yellow Sky.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 14.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 14.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 15.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 15.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 16.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 16.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 17.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 17.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 18.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 18.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/Boxophobic.PolyverseSkies.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/Boxophobic.PolyverseSkies.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesCreate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesCreate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesHub.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesHub.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesWindows.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesWindows.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/Version.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Editor/Version.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Functions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Functions/Compute Rotation Y.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Functions/Compute Rotation Y.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 01.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 01.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 02.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 02.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 03.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 03.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 04.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 04.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 05.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 05.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Materials/Cloud.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Materials/Cloud.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Materials/Moons.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Materials/Moons.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Moons.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Moons.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 03.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 03.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 04.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 04.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 05.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 05.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 06.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 06.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 07.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 07.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 08.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 08.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 09.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 09.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 10.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 10.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 11.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 11.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 12.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 12.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 13.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 13.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Runtime/Boxophobic.PolyverseSkies.Runtime.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Runtime/Boxophobic.PolyverseSkies.Runtime.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Runtime/PolyverseSkies.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Runtime/PolyverseSkies.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Shaders/Simple.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Shaders/Simple.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Shaders/Standard.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Shaders/Standard.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 01 A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 01 A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 01 B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 01 B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 02 A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 02 A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 02 B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 02 B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 03 A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 03 A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 03 B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 03 B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 04 A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 04 A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 04 B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 04 B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 05 A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 05 A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 05 B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 05 B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 04.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 05.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Noise.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Noise/Noise 01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Noise/Noise 01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 5Corners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 5Corners.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 8Corners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 8Corners.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Disk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Disk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Rhombus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Rhombus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Square.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Suns.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Suns/Sun 01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Textures/Suns/Sun 01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Demo/Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Demo/Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Generator.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Generator.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Materials/Skybox.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Materials/Skybox.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Meshes/Cloud_Generator.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Meshes/Cloud_Generator.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Meshes/Cloud_Generator_Chunk.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Meshes/Cloud_Generator_Chunk.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Scripts/Boxophobic.PolyverseSkies.Scripts.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Scripts/Boxophobic.PolyverseSkies.Scripts.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Scripts/PolyverseSkiesGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Scripts/PolyverseSkiesGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Shaders/Rendering Clouds.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Shaders/Rendering Clouds.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Shaders/Rendering Clouds.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Shaders/Rendering Clouds.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Textures/Generic Cubemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Generator/Textures/Generic Cubemap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Polyverse Skies.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Polyverse Skies.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/User.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/User/User.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/User/User.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/Constants.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/SettingsUtils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledGUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupArrayDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupArrayDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupLayersDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupLayersDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMono.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerBegin.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerBegin.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerEnd.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerEnd.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerMiddle.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerMiddle.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryBegin.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryBegin.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryEnd.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryEnd.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryMiddle.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryMiddle.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - IconEdit.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - IconEdit.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - IconHelp.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - IconHelp.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Resources/Boxophobic - Logo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/SettingsUtils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupArray.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupArray.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupLayers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupLayers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledMono.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Utils.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Utils/Utils.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pen_Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pen_Player.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pen_Robo.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pen_Robo.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rotator L.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rotator L.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rotator R.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rotator R.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/STENCIL.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/STENCIL.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spray Bottle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spray Bottle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Rabbit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Rabbit.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Restart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Restart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 2 Rabbit.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 2 Rabbit.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/StencilController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/movie_006.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/ShapeGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/ShapeGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Bird.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Circle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Circle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/CircleWithHole.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/CircleWithHole.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Dude.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Horse13k.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Owl15k.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Random2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Random2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Square.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Square.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/SquareWithHole.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/SquareWithHole.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/2D/Tank.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Cube.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Cube.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Random3D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Random3D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Sphere.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/3D/Sphere.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/Shape.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Data/Shapes/Shape.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleExtrusion.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleExtrusion.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2DAsync.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry2DAsync.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleGeometry3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleInteractiveVoronoi2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scenes/ExampleInteractiveVoronoi2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2DAsync.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry2DAsync.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry3D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometry3D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometryAlgorithms.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleGeometryAlgorithms.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleInteractiveVoronoi2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExampleInteractiveVoronoi2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExtrusionScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Examples/Scripts/ExtrusionScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Manual_GeometryAlgorithms.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Manual_GeometryAlgorithms.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/HullAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/HullAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull2DParameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull2DParameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull3DParameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Hull3DParameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/IParameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/IParameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Parameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Parameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation2DParameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation2DParameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation3DParameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Triangulation3DParameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi2DParameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi2DParameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi3DParameters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/Parameters/Voronoi3DParameters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/ThreadingAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/ThreadingAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/TriangulationAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/TriangulationAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/VoronoiAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/API/VoronoiAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Algorithm.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Algorithm.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Extrusion.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Extrusion/ExtrusionAlgorithm.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Extrusion/ExtrusionAlgorithm.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DAlgorithm.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DAlgorithm.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull2D/Hull2DWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull3D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull3D/Hull3DWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Hull3D/Hull3DWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/MIConvexHull.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/MIConvexHull.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/TriangleNET.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Libraries/TriangleNET.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation2D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation2D/Triangulation2DWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation2D/Triangulation2DWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation3D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation3D/Triangulation3DWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Triangulation3D/Triangulation3DWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi2D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi2D/Voronoi2DWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi2D/Voronoi2DWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi3D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi3D/Voronoi3DWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Algorithms/Voronoi3D/Voronoi3DWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/EdgeInt.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/EdgeInt.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Enums.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Enums.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Geometry.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Geometry.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Utils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeometryAlgorithms/Source/Core/Utils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Paper.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Paper.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/paper bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/paper bg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Robo Mats/body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Robo Mats/body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brush.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Brush.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Collider.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Collider.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MeshGenerator.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MeshGenerator.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shape Color.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Shape Color.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spray Brush.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spray Brush.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/ColorShapes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/ColorShapes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,6 +411,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/Shape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/Tests/ShapeScaleDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/StencilArt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/StencilController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -225,17 +427,18 @@
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MeshGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CreateMesh.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/FillWithLineRenderer.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/Shape.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/StencilController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/ColorShapes.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" />
       </list>
     </option>
   </component>

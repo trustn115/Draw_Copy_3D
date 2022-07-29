@@ -9,18 +9,30 @@ namespace _Draw_Copy._Scripts.GameplayRelated
 {
     public class SprayColoring : MonoBehaviour
     {
+        public static SprayColoring instance;
+        
         [HideInInspector] public bool canSpray;
-        private LineRenderer _currentLine;
+        [HideInInspector] public LineRenderer currentLine;
         private Vector3 _lastPos;
         public GameObject brush;
 
         public int targetNumOfPointsToReach;
         private Collider _collider;
 
+        private void Awake()
+        {
+            instance = this;
+        }
+
+        private void OnEnable()
+        {
+            _collider = GetComponent<Collider>();
+            _collider.enabled = false;
+        }
+
         private void Start()
         {
             canSpray = true;
-            _collider = GetComponent<Collider>();
         }
 
         private void Update()
@@ -53,39 +65,46 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             }
         }
 
-        private int _pointsReachCounter = 0;
+        [SerializeField] private int _pointsReachCounter = 0;
         private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.layer == 6)
             {
-                print("mid point triggered - " + _pointsReachCounter);
+                other.gameObject.layer = 0;
                 other.GetComponent<Collider>().enabled = false;
                 _pointsReachCounter++;
                 if (_pointsReachCounter > (int)(targetNumOfPointsToReach / 1.3f))
                 {
-                    ColoringController.instance.MinimumColoringReached();
+                    StencilController.instance.MinimumColoringReached();
+                    _pointsReachCounter = 0;
                 }
             }
         }
 
         void AddPoint(Vector3 pointPos)
         {
-            _currentLine.positionCount++;
-            int positionIndex = _currentLine.positionCount - 1;
-            _currentLine.SetPosition(positionIndex, pointPos);
+            currentLine.positionCount++;
+            int positionIndex = currentLine.positionCount - 1;
+            currentLine.SetPosition(positionIndex, pointPos);
         }
 
         void CreateBrush()
         {
-            GameObject brushInst = Instantiate(brush);
-            _currentLine = brushInst.GetComponent<LineRenderer>();
-            brushInst.transform.parent = ColoringController.instance.stencil.transform;
+            currentLine = Instantiate(brush).GetComponent<LineRenderer>();
+            currentLine.transform.parent = StencilController.instance.stencil.transform;
+            currentLine.enabled = true;
             
             DOVirtual.DelayedCall(0.05f, () =>
             {
-                _currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));
-                _currentLine.SetPosition(1, new Vector3(transform.position.x, -1, transform.position.z));
+                currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));
+                currentLine.SetPosition(1, new Vector3(transform.position.x, -1, transform.position.z));
             });
+        }
+
+        public void DisableBrushAfterRound()
+        {
+            currentLine.positionCount = 2;
+            currentLine.enabled = false;
         }
     }
 }

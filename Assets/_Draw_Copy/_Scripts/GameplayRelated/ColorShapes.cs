@@ -20,7 +20,7 @@ public class ColorShapes : MonoBehaviour
         instance = this;
     }
 
-    private List<Transform> _midPointsList = new List<Transform>();
+    public List<Transform> _midPointsList = new List<Transform>();
     
     public void ColorShape(List<Transform> pts)
     {
@@ -37,7 +37,7 @@ public class ColorShapes : MonoBehaviour
         GameObject midPointCenter = new GameObject("Midpoint Center");
 
         //bring the stencil
-        ColoringController.instance.StartCoroutine(ColoringController.instance.MoveStencilForColoring(midpoint, drawnPoints));
+        StencilController.instance.StartCoroutine(StencilController.instance.MoveStencilForColoring(midpoint, drawnPoints));
         
         _midPointsList = new List<Transform>();
         for (int i = 0; i < drawnPoints.Count; i++)
@@ -53,13 +53,20 @@ public class ColorShapes : MonoBehaviour
         StartCoroutine(ShowColoredShape(midpoint));
     }
 
-    [HideInInspector] public LineRenderer filledColor;
+    [HideInInspector] public LineRenderer fill;
     
-    //TODO: FORMING THE FILLED COLOR
+    //--todo FORMING THE FILLED COLOR
+    private int _nextShapeSortingOrder = 5;
+    private int _sortingOrder;
+    private LineRenderer _lastShape;
     IEnumerator ShowColoredShape(Vector3 midpoint)
     {
-        yield return new WaitForSeconds(0f);
-        LineRenderer fill = Instantiate(shapeColor).GetComponent<LineRenderer>();
+        if (_lastShape != null) ColoringController.instance.ManageColoredShapeSorting(_lastShape);
+        fill = Instantiate(shapeColor).GetComponent<LineRenderer>();
+        ColoringController.instance.coloredShapeList.Add(fill);
+        _lastShape = fill;
+        fill.sortingOrder = _nextShapeSortingOrder++;
+        
         for (int i = 0; i < _midPointsList.Count; i++)
         {
             fill.startWidth = (drawnPoints[i].position - midpoint).magnitude + 0.03f;
@@ -68,6 +75,7 @@ public class ColorShapes : MonoBehaviour
             if (i > 1) fill.positionCount++;
             fill.SetPosition(i, _midPointsList[i].position);
         }
+        yield return null;
     }
 
     public void AddCollidersToMidPoints()

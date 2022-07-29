@@ -16,7 +16,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         public List<Transform> points;
         public Transform ink;
         public float inkFinishSpeed;
-        private bool _canDraw;
+        [SerializeField] private bool _canDraw;
 
         private List<Vector3> _drawnPointList = new List<Vector3>();
         private Vector3 _defaultLinePos;
@@ -40,7 +40,6 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         {
             if(newState==GameState.RoboDrawing)
             {
-                _canDraw = true;
                 //StartCoroutine(FormTheShape());
                 if(_loopCounter < takes.Count)
                     StartCoroutine(FormMultipleShapes());
@@ -52,6 +51,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             }
             
         }
+        
         private void Update()
         {
             if(_canDraw)
@@ -89,14 +89,14 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             int loopNum = takes[_loopCounter++];
             for (int i = 0; i < loopNum; i++)
             {
-                List<Transform> pointsTaken = shapes[_pointsCounter++].points;
+                List<Transform> pointsTaken = shapes[_pointsCounter++].points; 
                 CreateBrush(pointsTaken);
                 for (int j = 1; j < pointsTaken.Count; j++)
                 {
                     Vector3 newMovePos = new Vector3(pointsTaken[j].position.x, transform.position.y, pointsTaken[j].position.z);
-                    transform.DOMove(newMovePos, 0.12f).SetEase(Ease.Linear);
+                    transform.DOMove(newMovePos, 0.025f).SetEase(Ease.Linear);
                     _drawnPointList.Add(newMovePos);
-                    yield return new WaitForSeconds(0.08f);
+                    yield return  new WaitForSeconds(0.025f);
                 }
             }
 
@@ -106,6 +106,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 _loopCounter++;
             }*/
             MainController.instance.SetActionType(GameState.PlayerDrawing);
+            yield return null;
         }
         void CreateBrush(List<Transform> pointsTaken)
         {
@@ -120,8 +121,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             _canDraw = true;
             /*transform.DOMove(penMovePos, 0.5f).OnComplete(() =>
             {
-                _currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));
-                _currentLine.SetPosition(1, new Vector3(transform.position.x, -1, transform.position.z));
+                currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));
+                currentLine.SetPosition(1, new Vector3(transform.position.x, -1, transform.position.z));
                 _canDraw = true;
             });*/
         }

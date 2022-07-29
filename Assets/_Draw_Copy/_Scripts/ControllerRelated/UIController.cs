@@ -11,10 +11,12 @@ namespace _Draw_Copy._Scripts.ControllerRelated
     {
         public static UIController instance;
 
+        public GameObject HUD;
         public GameObject winPanel, failPanel;
         public GameObject winConfetti;
         public TextMeshProUGUI drawingPercText;
         public GameObject peelHelpButton;
+        public GameObject roboTurnStrip, yourTurnStrip;
 
         private void Awake()
         {
@@ -32,13 +34,26 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         {
             if(newState==GameState.Levelwin)
             {
+                HUD.SetActive(false);
                 winPanel.SetActive(true);
             }
 
             if (newState == GameState.Levelfail)
             {
                 drawingPercText.transform.parent.gameObject.SetActive(false);
+                HUD.SetActive(false);
                 failPanel.SetActive(true);
+            }
+
+            if (newState == GameState.RoboDrawing)
+            {
+                yourTurnStrip.SetActive(false);
+                roboTurnStrip.SetActive(true);
+            }
+            if (newState == GameState.PlayerDrawing)
+            {
+                yourTurnStrip.SetActive(true);
+                roboTurnStrip.SetActive(false);
             }
         }
 

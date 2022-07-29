@@ -12,32 +12,39 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
         public static ColoringController instance;
         
         [Header("STENCIL RELATED")]
-        public GameObject stencil;
-        public GameObject sprayBottle;
-        public GameObject peelingHelp;
-        public Transform peelingPartsParent;
-        public Transform finalPeelingPart, finalFoldingPart;
-        public float peelingSpeed;
         private Vector3 _stencilOrigPos;
 
         private bool _canPeel;
         private float _peelingTime = 0;
 
+        public List<Color>  shapeColors;
         public Color currentShapeColor;
 
         [Header("SHAPE RELATED")]
         public List<Shape> userDrawnShapes;
+
+        public int takesIndex = 0;
+        public List<int> takes;
+
+        public List<LineRenderer> outlinesList = new List<LineRenderer>(), coloredShapeList = new List<LineRenderer>();
 
         private void Awake()
         {
             instance = this;
         }
 
+        private int _sortingCounter = 0;
+        public void ManageColoredShapeSorting(LineRenderer shape)
+        {
+            if (_sortingCounter == 0) shape.sortingOrder = 0;
+            _sortingCounter++;
+        }
+
         private Vector3 _peelingParentOrigScale;
 
         private void Start()
         {
-            _peelingParentOrigScale = peelingPartsParent.localScale;
+            takes = RobotPen.instance.takes;
         }
 
         private int _shapesCounter;
@@ -50,99 +57,41 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
             if (_shapesCounter == RobotPen.instance.shapes.Count)
             {
                 //begin stencil work
+                MainController.instance.SetActionType(GameState.Coloring);
                 StartCoroutine(BeginStencilWork());
             }
         }
 
-        IEnumerator BeginStencilWork()
+        private int _shapeIndexCounter = 0;
+        public IEnumerator BeginStencilWork()
         {
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.5f);
             CameraController.instance.ChangeCameraForColoring();
-            yield return new WaitForSeconds(1);
-            for (int i = 0; i < userDrawnShapes.Count; i++)
-            {
-                ColorShapes.instance.ColorShape(userDrawnShapes[i].points);   
-            }
-        }
 
-        private bool _peelingActivated;
-        private void Update()
-        {
-            if (Input.GetMouseButtonDown(0) && _peelingActivated)
+            if (takesIndex >= takes.Count)
             {
-                peelingHelp.SetActive(false);
-                _canPeel = true;
-                _peelingActivated = false;
-            }
-            if (Input.GetMouseButton(0) && _canPeel)
-            {
-                if (peelingPartsParent.localScale.x < 53)
+                for (int i = 0; i < outlinesList.Count; i++)
                 {
-                    peelingPartsParent.localScale += Vector3.one * peelingSpeed * Time.deltaTime;
+                    outlinesList[i].sortingOrder = 2;
+                    if (i == 0) coloredShapeList[i].sortingOrder = 0;
+                     else coloredShapeList[i].sortingOrder = 1;
                 }
-                else
+                yield return new WaitForSeconds(0.5f);
+                UIController.instance.winConfetti.SetActive(true);
+                yield return new WaitForSeconds(1.5f);
+                MainController.instance.SetActionType(GameState.Levelwin);
+                yield break;
+            }
+            currentShapeColor = shapeColors[takesIndex];
+            int loopVal = takes[takesIndex++];
+            int loopEndVal = _shapeIndexCounter + loopVal;
+            for (int i = 0; i < loopVal; i++)
+            {
+                for (int j = _shapeIndexCounter; j < loopEndVal; j++, _shapeIndexCounter++)
                 {
-                    _canPeel = false;
-                    PeelCompletely();
+                    ColorShapes.instance.ColorShape(userDrawnShapes[j].points);   
                 }
             }
-
-            if (Input.GetMouseButtonUp(0) && _canPeel)
-            {
-                if (peelingPartsParent.localScale.x < 53)
-                {
-                    peelingPartsParent.DOScale(_peelingParentOrigScale, 1);
-                }
-            }
-        }
-
-        void PeelCompletely()
-        {
-            finalFoldingPart.gameObject.SetActive(false);
-            finalFoldingPart.gameObject.SetActive(true);
-            finalPeelingPart.gameObject.SetActive(true);
-            
-            finalPeelingPart.DOScaleY(2.05f, 1);
-            finalFoldingPart.DOLocalMoveY(-6.35f,1).OnComplete(() =>
-            {
-                stencil.SetActive(false); 
-            });
-        }
-        public IEnumerator MoveStencilForColoring(Vector3 stencilMovePos, List<Transform> drawnPoints)
-        {
-            _stencilOrigPos = stencil.transform.position;
-            stencil.SetActive(true);
-            stencil.transform.DOMove(stencilMovePos, 1);
-            
-            yield return new WaitForSeconds(2);
-            //show the spray bottle & spray help
-            sprayBottle.SetActive(true);
-            sprayBottle.GetComponent<SprayColoring>().targetNumOfPointsToReach = drawnPoints.Count;
-            sprayBottle.transform.DOMove(stencilMovePos, 1);
-            //calculate how many points touched - if more than 60%
-            
-            //show the peeling help
-            //peel on mousedown
-            //disable stencil after peeling
-            //READYYY
-            //stencil.transform.DOMove(_stencilOrigPos, 1);
-        }
-
-        public void MinimumColoringReached()
-        {
-            sprayBottle.SetActive(false);
-            peelingHelp.SetActive(true);
-            _peelingActivated = true;
-            //UIController.instance.peelHelpButton.SetActive(true);
-        }
-
-        public void OnPeelingHelpClicked()
-        {
-            peelingHelp.SetActive(false);
-            _canPeel = true;
-            LineRenderer filledColor = GetComponent<ColorShapes>().filledColor;
-            filledColor.startColor = currentShapeColor;
-            filledColor.endColor = currentShapeColor;
         }
     }
 }
