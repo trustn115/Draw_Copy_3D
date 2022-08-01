@@ -18,6 +18,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
 
         public int targetNumOfPointsToReach;
         private Collider _collider;
+        public ParticleSystem sprayFx;
 
         private void Awake()
         {
@@ -41,6 +42,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             {
                 CreateBrush();
                 _collider.enabled = true;
+                sprayFx.Play();
             }
 
             if (Input.GetMouseButton(0) && canSpray)
@@ -62,6 +64,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             if (Input.GetMouseButtonUp(0) && canSpray)
             {
                 _collider.enabled = false;
+                sprayFx.Stop();
             }
         }
 

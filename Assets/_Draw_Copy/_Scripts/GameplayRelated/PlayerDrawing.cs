@@ -21,7 +21,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         Transform _raypoint;
 
         private bool _canDraw;
-        private List<Vector3> _drawnPointList = new List<Vector3>();
+        public List<Vector3> _drawnPointList = new List<Vector3>();
         public int currentTakes;
         [SerializeField] private int _takesCounter = 0;
 
@@ -74,7 +74,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 {
                     Vector3 hitPos = hit.point;
                     pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
-                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.05f)
+                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.03f)
                     {
                         AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
                         _lastPos = hitPos;
@@ -95,17 +95,29 @@ namespace _Draw_Copy._Scripts.GameplayRelated
 
             if (Input.GetMouseButtonUp(0) && _canDraw)
             {
-                ColoringController.instance.AddNewShapes(GetTransformsOutOfPoints(_drawnPointList));
-                _drawnPointList = new List<Vector3>();
+                //ColoringController.instance.AddNewShapes(GetTransformsOutOfPoints(_drawnPointList));
+                CheckIfAllShapesDrawn();
                 _takesCounter++;
                 if (_takesCounter == currentTakes)
                 {
                     DOVirtual.DelayedCall(0.25f,
                         () => { MainController.instance.SetActionType(GameState.RoboDrawing); });
                     CompareDrawings.instance.drawnPts = _drawnPointList;
+                    CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
                     _takesCounter = 0;
-                    //CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
                 }
+                _drawnPointList = new List<Vector3>();
+            }
+        }
+
+        private int _shapesCounter = 0;
+        
+        void CheckIfAllShapesDrawn()
+        {
+            _shapesCounter++;
+            if (_shapesCounter == RobotPen.instance.shapes.Count)
+            {
+                CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CheckLevelState());
             }
         }
 

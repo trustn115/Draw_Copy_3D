@@ -18,7 +18,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             instance = this;
         }
 
-        public void ChangeCameraForColoring()
+        public void ChangeToWinCamera()
         {
             //mainCam.orthographic = true;
             coloringCamera.SetActive(true);

@@ -115,32 +115,51 @@ public class CompareDrawings : MonoBehaviour
         {
             if (lowDist.Count > drawnPoints.Count)
             {
-                StartCoroutine(LevelCondition(true));
+                //StartCoroutine(LevelCondition(true));
+                lowDistCounter++;
             }
             else if (lowDist.Count < drawnPoints.Count)
             {
                 if (lowDist.Count > (drawnPoints.Count * 50) / 100)
                 {
-                    StartCoroutine(LevelCondition(true));
+                    //StartCoroutine(LevelCondition(true));
+                    lowDistCounter++;
                 }
                 else
                 {
-                    StartCoroutine(LevelCondition(false));
+                    //StartCoroutine(LevelCondition(false));
+                    highDistCounter++;
                 }
             }
             else if (lowDist.Count == drawnPoints.Count)
             {
-                StartCoroutine(LevelCondition(true));
+                //StartCoroutine(LevelCondition(true));
+                lowDistCounter++;
             }
         }
         else
         {
-            StartCoroutine(LevelCondition(false));
+            //StartCoroutine(LevelCondition(false));
+            highDistCounter++;
         }
         //print("Low Dist Count 2 = " + lowDist.Count);
         yield return null;
     }
 
+    public int lowDistCounter = 0, highDistCounter = 0;
+
+    public IEnumerator CheckLevelState()
+    {
+        if (lowDistCounter >= highDistCounter)
+        {
+            MainController.instance.SetActionType(GameState.Coloring);
+            CameraController.instance.ChangeToWinCamera();
+            yield return new WaitForSeconds(1.2f);
+            UIController.instance.winConfetti.SetActive(true);
+            yield return new WaitForSeconds(1f);
+            MainController.instance.SetActionType(GameState.Levelwin);
+        }else MainController.instance.SetActionType(GameState.Levelfail);
+    }
     IEnumerator LevelCondition(bool pass)
     {
         if(pass)
@@ -148,7 +167,7 @@ public class CompareDrawings : MonoBehaviour
             MainController.instance.SetActionType(GameState.Coloring);
             UIController.instance.winConfetti.SetActive(true);
             yield return new WaitForSeconds(1f);
-            CameraController.instance.ChangeCameraForColoring();
+            CameraController.instance.ChangeToWinCamera();
             yield return new WaitForSeconds(2f);
             //ColorShapes.instance.ColorShape(drawnPts);
             /*int perc = Mathf.CeilToInt((lowDist.Count / drawnPoints.Count) * 100);

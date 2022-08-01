@@ -91,13 +91,15 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             {
                 List<Transform> pointsTaken = shapes[_pointsCounter++].points; 
                 CreateBrush(pointsTaken);
-                for (int j = 1; j < pointsTaken.Count; j++)
+                for (int j = 0; j < pointsTaken.Count; j++)
                 {
                     Vector3 newMovePos = new Vector3(pointsTaken[j].position.x, transform.position.y, pointsTaken[j].position.z);
                     transform.DOMove(newMovePos, 0.025f).SetEase(Ease.Linear);
                     _drawnPointList.Add(newMovePos);
                     yield return  new WaitForSeconds(0.025f);
                 }
+                CompareDrawings.instance.targetPts = _drawnPointList;
+                _drawnPointList = new List<Vector3>();
             }
 
             /*if (_loopCounter < takes.Count)

@@ -54,6 +54,7 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
             newShape.points = points;
             userDrawnShapes.Add(newShape);
             _shapesCounter++;
+            print("shape counter = " + _shapesCounter);
             if (_shapesCounter == RobotPen.instance.shapes.Count)
             {
                 //begin stencil work
@@ -66,7 +67,7 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
         public IEnumerator BeginStencilWork()
         {
             yield return new WaitForSeconds(0.5f);
-            CameraController.instance.ChangeCameraForColoring();
+            CameraController.instance.ChangeToWinCamera();
 
             if (takesIndex >= takes.Count)
             {
