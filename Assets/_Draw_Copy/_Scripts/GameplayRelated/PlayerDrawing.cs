@@ -59,14 +59,17 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             }
         }
 
+        private bool _mouseDownRecorded;
         private void Update()
         {
-            if (Input.GetMouseButtonDown(0) && _canDraw)
+            if (Input.GetMouseButtonDown(0) && _canDraw && !_mouseDownRecorded)
             {
                 CreateBrush();
+                _mouseDownRecorded = true;
+                SoundsController.instance.playerDrawSource.enabled = true;
             }
 
-            if (Input.GetMouseButton(0) && _canDraw)
+            if (Input.GetMouseButton(0) && _canDraw && _mouseDownRecorded)
             {
                 RaycastHit hit;
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -74,7 +77,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 {
                     Vector3 hitPos = hit.point;
                     pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
-                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.03f)
+                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.01f)
                     {
                         AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
                         _lastPos = hitPos;
@@ -93,20 +96,27 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 _currentLine = null;
             }
 
-            if (Input.GetMouseButtonUp(0) && _canDraw)
+            if (Input.GetMouseButtonUp(0) && _canDraw && _mouseDownRecorded)
             {
                 //ColoringController.instance.AddNewShapes(GetTransformsOutOfPoints(_drawnPointList));
-                CheckIfAllShapesDrawn();
                 _takesCounter++;
                 if (_takesCounter == currentTakes)
                 {
-                    DOVirtual.DelayedCall(0.25f,
+                    DOVirtual.DelayedCall(0.4f,
                         () => { MainController.instance.SetActionType(GameState.RoboDrawing); });
                     CompareDrawings.instance.drawnPts = _drawnPointList;
                     CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
                     _takesCounter = 0;
                 }
+
+                DOVirtual.DelayedCall(0.3f, () =>
+                {
+                    CheckIfAllShapesDrawn();
+                });
+                
                 _drawnPointList = new List<Vector3>();
+                _mouseDownRecorded = false;
+                SoundsController.instance.playerDrawSource.enabled = false;
             }
         }
 
@@ -124,12 +134,14 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         void CreateBrush()
         {
             GameObject brushInst = Instantiate(brush);
+            brushInst.SetActive(false);
             _currentLine = brushInst.GetComponent<LineRenderer>();
             ColoringController.instance.outlinesList.Add(_currentLine);
             DOVirtual.DelayedCall(0.05f, () =>
             {
                 _currentLine.SetPosition(0, new Vector3(pen.position.x, -1, pen.position.z));
                 _currentLine.SetPosition(1, new Vector3(pen.position.x, -1, pen.position.z));
+                brushInst.SetActive(true);
             });
         }
 

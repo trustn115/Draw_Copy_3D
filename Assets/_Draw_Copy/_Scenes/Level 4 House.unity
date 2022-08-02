@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.49411765, g: 0.5803922, b: 0.74509805, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 5390ccc6cbba36142a51bb2d8a8b582d, type: 2}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3337545, g: 0.3121588, b: 0.5141728, a: 1}
+  m_IndirectSpecularColor: {r: 0.6172511, g: 0.5987464, b: 0.74999934, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -554,7 +554,7 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 1, g: 0.6556604, b: 0.873508, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -595,8 +595,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.3907311, y: 0, z: 0, w: 0.9205049}
-  m_LocalPosition: {x: 0.1, y: 7.38, z: -7.43}
+  m_LocalRotation: {x: 0.42656872, y: 0, z: 0, w: 0.9044552}
+  m_LocalPosition: {x: 0.1, y: 5.11, z: -6.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -626,7 +626,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
+  m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -768,7 +768,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2295,8 +2295,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1518026239}
   m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.0115769915, y: 0.33922887, z: 2.6427312}
-  m_LocalScale: {x: 12.464441, y: 0.75, z: 10.499775}
+  m_LocalPosition: {x: 0.0116, y: 0.3392, z: 2.6427312}
+  m_LocalScale: {x: 21.585918, y: 1.2988499, z: 18.18351}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 473342807}
@@ -4588,6 +4588,21 @@ PrefabInstance:
       propertyPath: stencil
       value: 
       objectReference: {fileID: 73367495}
+    - target: {fileID: 8237314978295027064, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: comparePerc
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978350273241, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978350273241, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.39
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e384e86e8475e34da48d8dc4a687ae7, type: 3}

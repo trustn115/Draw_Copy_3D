@@ -89,7 +89,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             int loopNum = takes[_loopCounter++];
             for (int i = 0; i < loopNum; i++)
             {
-                List<Transform> pointsTaken = shapes[_pointsCounter++].points; 
+                CompareDrawings.instance.drawnPointsMovePos = shapes[_pointsCounter].transform.position;
+                List<Transform> pointsTaken = shapes[_pointsCounter++].points;
                 CreateBrush(pointsTaken);
                 for (int j = 0; j < pointsTaken.Count; j++)
                 {
@@ -100,6 +101,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 }
                 CompareDrawings.instance.targetPts = _drawnPointList;
                 _drawnPointList = new List<Vector3>();
+                SoundsController.instance.roboDrawSource.enabled = false;
             }
 
             /*if (_loopCounter < takes.Count)
@@ -107,7 +109,9 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 StartCoroutine(FormMultipleShapes());
                 _loopCounter++;
             }*/
-            MainController.instance.SetActionType(GameState.PlayerDrawing);
+            DOVirtual.DelayedCall(0.4f,
+                () => { MainController.instance.SetActionType(GameState.PlayerDrawing); });
+            
             yield return null;
         }
         void CreateBrush(List<Transform> pointsTaken)
@@ -121,6 +125,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             _currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));
             _currentLine.SetPosition(1, new Vector3(transform.position.x, -1, transform.position.z));
             _canDraw = true;
+
+            SoundsController.instance.roboDrawSource.enabled = true;
             /*transform.DOMove(penMovePos, 0.5f).OnComplete(() =>
             {
                 currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));

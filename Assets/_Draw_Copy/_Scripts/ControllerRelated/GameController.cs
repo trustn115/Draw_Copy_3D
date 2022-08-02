@@ -43,6 +43,11 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             }
         }
 
+        public void NextLevel()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
         public void RetryLevel()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

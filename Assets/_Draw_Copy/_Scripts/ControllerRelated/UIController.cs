@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using _Draw_Copy._Scripts.GameplayRelated;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -18,10 +19,18 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public GameObject peelHelpButton;
         public GameObject roboTurnStrip, yourTurnStrip;
 
+        private PlayerDrawing _playerPen;
+
         private void Awake()
         {
             instance = this;
         }
+
+        private void Start()
+        {
+            _playerPen = PlayerDrawing.instance;
+        }
+
         private void OnEnable()
         {
             MainController.GameStateChanged += GameManager_GameStateChanged;
@@ -34,8 +43,9 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         {
             if(newState==GameState.Levelwin)
             {
-                HUD.SetActive(false);
+                //HUD.SetActive(false);
                 winPanel.SetActive(true);
+                SoundsController.instance.PlaySound(SoundsController.instance.win);
             }
 
             if (newState == GameState.Levelfail)
@@ -43,17 +53,22 @@ namespace _Draw_Copy._Scripts.ControllerRelated
                 drawingPercText.transform.parent.gameObject.SetActive(false);
                 HUD.SetActive(false);
                 failPanel.SetActive(true);
+                SoundsController.instance.PlaySound(SoundsController.instance.fail);
             }
 
             if (newState == GameState.RoboDrawing)
             {
                 yourTurnStrip.SetActive(false);
                 roboTurnStrip.SetActive(true);
+                SoundsController.instance.PlaySound(SoundsController.instance.swoosh);
+                //_playerPen.enabled = false;
             }
             if (newState == GameState.PlayerDrawing)
             {
                 yourTurnStrip.SetActive(true);
                 roboTurnStrip.SetActive(false);
+                SoundsController.instance.PlaySound(SoundsController.instance.swoosh);
+                //_playerPen.enabled = true;
             }
         }
 
@@ -65,7 +80,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             for (int i = 0; i < perc; i++)
             {
                 drawingPercText.SetText(i.ToString());
-                yield return new WaitForSeconds(0.001f);
+                yield return new WaitForSeconds(0.0005f);
             }
         }
     }   
