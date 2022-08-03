@@ -41,8 +41,11 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             if(newState==GameState.RoboDrawing)
             {
                 //StartCoroutine(FormTheShape());
-                if(_loopCounter < takes.Count)
-                    StartCoroutine(FormMultipleShapes());
+                DOVirtual.DelayedCall(0.8f, () =>
+                {
+                    if(_loopCounter < takes.Count)
+                        StartCoroutine(FormMultipleShapes());
+                });
             }
 
             if (newState == GameState.PlayerDrawing)

@@ -37,10 +37,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
 
         private void Update()
         {
-            if (Input.GetMouseButtonDown(1))
-            {
-                RetryLevel();
-            }
+            
         }
 
         public void NextLevel()

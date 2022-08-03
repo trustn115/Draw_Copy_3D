@@ -20,119 +20,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502d6599-c259-435e-91f7-3777a44178b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Robo Turn Strip 1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Robo Turn Strip 1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Robo Turn Strip Blinking.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Robo Turn Strip Blinking.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Your Turn Strip Blinking 1.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Your Turn Strip Blinking 1.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Your Turn Strip.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Your Turn Strip.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/One Hand.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/One Hand.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player Hands.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player Hands.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Draw Player.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Draw Player.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Draw Robo.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Draw Robo.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Fail6.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Fail6.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Swoosh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Swoosh.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/win (1).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/win (1).mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/bird.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/bird.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/heart.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/panda.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/panda.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/wall copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/wall copy.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 10 Heart.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 10 Heart.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 11 Flower.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 11 Flower.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 12 Cat.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 12 Cat.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 13 Rabbit.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 13 Rabbit.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 6 AMong Us.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 6 AMong Us.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 7 Bird.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 7 Bird.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 8 Butterfly.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 8 Butterfly.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 9 Dog.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 9 Dog.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/SoundsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Draw Copy_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_Android.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FastIK/Materials/paper 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FastIK/Materials/paper 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/minions mats/glass strip.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/minions mats/glass strip.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/table 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/table 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/violet checker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/violet checker.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/wall pink.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/wall pink.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/wall yellow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/wall yellow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/water_brighter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/water_brighter.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Butterfly 2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Butterfly 2.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Dolphin.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Dolphin.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Ducks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Ducks.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Football.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Football.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Monster adult.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Monster adult.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Screenshot 2022-08-03 at 12.22.16 PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Screenshot 2022-08-03 at 12.22.16 PM.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Screenshot 2022-08-03 at 12.31.54 PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Screenshot 2022-08-03 at 12.31.54 PM.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 14 Monalisha.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 14 Monalisha.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 15 Turtle.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 15 Turtle.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 16 Dolphin.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 16 Dolphin.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 17 Adult 1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 17 Adult 1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 18 Ducks.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 18 Ducks.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 8 Butterfly 2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 8 Butterfly 2.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Draw Copy 3_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/1 a.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/5.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Turn Strip Blinking.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Turn Strip Blinking.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Turn Strip.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Turn Strip.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 15.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 15.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 16.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 16.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Robo Turn Strip Blinking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Robo Turn Strip Blinking.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Your Turn Strip Blinking 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Your Turn Strip Blinking 1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FastIK/Materials/White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FastIK/Materials/White.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Robo Mats/phongE1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Robo Mats/phongE1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Baloo-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Baloo-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Hand Writing Sans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Hand Writing Sans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Robo Mats/body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Robo Mats/body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Robo Mats/eye.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Robo Mats/eye.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/minions mats/body 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/minions mats/body 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/minions mats/glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/minions mats/glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/pen body trans.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/pen body trans.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/wall blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/wall blue.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/wood 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/wood 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/2548722f2514f9ed4790902d9397f3d5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/2548722f2514f9ed4790902d9397f3d5.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/289aa926f046a21831fe53eecafe5c46.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/289aa926f046a21831fe53eecafe5c46.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/3784f4a55f3a6016882c4dd6a0ee03f7.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/3784f4a55f3a6016882c4dd6a0ee03f7.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/5dd1df67335e8e01e9530fdc8553b925.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/5dd1df67335e8e01e9530fdc8553b925.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/74e2bf111e7d4b8aa1c14816c07c7897.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/74e2bf111e7d4b8aa1c14816c07c7897.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/89fe2243a4000fa05a04fede43b8af1e.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/89fe2243a4000fa05a04fede43b8af1e.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/950ec2879ef3607d5f2728bcb778fbb2.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/950ec2879ef3607d5f2728bcb778fbb2.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/Screenshot 2022-08-01 at 7.11.06 PM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/Screenshot 2022-08-01 at 7.11.06 PM.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/Screenshot 2022-08-01 at 7.11.18 PM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/Screenshot 2022-08-01 at 7.11.18 PM.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/a39c66dd76fb65581e745a940b5599b3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/a39c66dd76fb65581e745a940b5599b3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/ad47190b9f384eff5a72bd94049d7818.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/ad47190b9f384eff5a72bd94049d7818.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/bb97f77dc1da3dbfa645a6f325e8373f.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/bb97f77dc1da3dbfa645a6f325e8373f.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/e20ecac7e5818418f88d966215239b1c.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/e20ecac7e5818418f88d966215239b1c.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/ec18b0caf42d78fe12b41597db1b6e10.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/ec18b0caf42d78fe12b41597db1b6e10.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/ee32f8561586f4c1c2d31eeccf79ac04.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/ee32f8561586f4c1c2d31eeccf79ac04.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/eea8242bade6b65e2f459c409991687c.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/eea8242bade6b65e2f459c409991687c.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/id-bpc6xuzikka-youtube-automatic-460x249.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/id-bpc6xuzikka-youtube-automatic-460x249.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/images-12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/images-12.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/images-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/images-13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/images-46.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/images-46.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/images-48.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/images-48.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/wood 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/wood 2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1 Circle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1 Circle.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 10 Rabbit.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 10 Rabbit.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 11 Cat.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 11 Cat.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 2 Smiley.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 2 Smiley.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 3 Tree.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 3 Tree.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/0d759b1551a1d56c84882b3c8bbcbe14.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/drawings ref/drawings ref/0d759b1551a1d56c84882b3c8bbcbe14.jpg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 4 House.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 4 House.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 5 Apple.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 5 Apple.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recordings/movie_005.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Recordings/movie_006.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
@@ -188,13 +150,13 @@
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/SprayColoring.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/SoundsController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
       </list>
     </option>
   </component>

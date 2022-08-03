@@ -27,6 +27,7 @@ public class CompareDrawings : MonoBehaviour
     
     public List<Transform> targetPoints = new List<Transform>(), drawnPoints = new List<Transform>();
     private List<Transform> lowDist;
+    private int _totalDrawnPoints = 0, _totalLowDist = 0;
 
     public Vector3 drawnPointsMovePos;
     public IEnumerator CompareShape()
@@ -42,6 +43,7 @@ public class CompareDrawings : MonoBehaviour
             GameObject pt = new GameObject("PointDrawn " + i);
             pt.transform.position = drawnPts[i];
             drawnPoints.Add(pt.transform);
+            _totalDrawnPoints++;
         }
         
         Vector3 targetShapeMidPoint = GetShapeMidPoint(targetPoints);
@@ -74,7 +76,6 @@ public class CompareDrawings : MonoBehaviour
         //print("Scale amount = " + scaleAmount);
         //parent position = targetShapeMidPoint
         
-        yield return new WaitForSeconds(0.2f);
         drawnPointsParent.transform.position = targetShapeMidPoint;
         //calculate each drawnShapePoint's( (drawnPoints/targetPoints)th point ) distance from each targetPoint
         int skipper = 0;
@@ -103,11 +104,13 @@ public class CompareDrawings : MonoBehaviour
             for (int j = 0; j < drawnPoints.Count; j++)
             {
                 float d = Vector3.Distance(targetPoints[i].position, drawnPoints[j].position);
-                if(d < 10f)
+                
+                if(d < 0.2f)
                 {
                     if (!lowDist.Contains(drawnPoints[j]))
                     {
                         lowDist.Add(drawnPoints[j]);
+                        _totalLowDist++;
                         //print("d = " + d);    
                     }
                 }
@@ -116,6 +119,7 @@ public class CompareDrawings : MonoBehaviour
         }
         
         //print("Low Dist Count 1 = " + lowDist.Count);
+        print("low dist count = " + lowDist.Count);
         if(lowDist.Count > 0)
         {
             if (lowDist.Count > drawnPoints.Count)
@@ -128,6 +132,7 @@ public class CompareDrawings : MonoBehaviour
                 if (lowDist.Count > (drawnPoints.Count * comparePerc) / 100)
                 {
                     //StartCoroutine(LevelCondition(true));
+                    //print("perc cond called");
                     lowDistCounter++;
                 }
                 else
@@ -139,6 +144,7 @@ public class CompareDrawings : MonoBehaviour
             else if (lowDist.Count == drawnPoints.Count)
             {
                 //StartCoroutine(LevelCondition(true));
+                //print("equal cond called");
                 lowDistCounter++;
             }
         }
@@ -148,6 +154,9 @@ public class CompareDrawings : MonoBehaviour
             highDistCounter++;
         }
         //print("Low Dist Count 2 = " + lowDist.Count);
+        drawnPoints = new List<Transform>();
+        targetPoints = new List<Transform>();
+        lowDist = new List<Transform>();
         yield return null;
     }
 
@@ -155,21 +164,26 @@ public class CompareDrawings : MonoBehaviour
 
     public IEnumerator CheckLevelState()
     {
+        print("total low dist = " + _totalLowDist + "total drawn dist = " + _totalDrawnPoints);
         if (lowDistCounter >= highDistCounter)
         {
             MainController.instance.SetActionType(GameState.Coloring);
             CameraController.instance.ChangeToWinCamera();
+            UIController.instance.HUD.SetActive(false);
             yield return new WaitForSeconds(1.2f);
             UIController.instance.winConfetti.SetActive(true);
             yield return new WaitForSeconds(1f);
-            int perc = Mathf.CeilToInt((lowDist.Count / drawnPoints.Count) * 100);
-            UIController.instance.StartCoroutine(
-                UIController.instance.ShowMatchPercentage(perc));
-            yield return new WaitForSeconds(5.2f);
+            int perc = Mathf.CeilToInt((_totalLowDist / _totalDrawnPoints) * 100);
+            print("Perc match = " + perc);
+            UIController.instance.StartCoroutine(UIController.instance.ShowMatchPercentage(60, 85));
+            yield return new WaitForSeconds(2.5f);
             MainController.instance.SetActionType(GameState.Levelwin);
         }
         else if (lowDistCounter < highDistCounter)
         {
+            UIController.instance.StartCoroutine(UIController.instance.ShowMatchPercentage(10, 30));
+            UIController.instance.HUD.SetActive(false);
+            yield return new WaitForSeconds(2.5f);
             MainController.instance.SetActionType(GameState.Levelfail);
         }
     }
@@ -185,8 +199,8 @@ public class CompareDrawings : MonoBehaviour
             yield return new WaitForSeconds(2f);
             //ColorShapes.instance.ColorShape(drawnPts);
             int perc = Mathf.CeilToInt((lowDist.Count / drawnPoints.Count) * 100);
-            UIController.instance.StartCoroutine(
-                UIController.instance.ShowMatchPercentage(perc));
+            //UIController.instance.StartCoroutine(
+                //UIController.instance.ShowMatchPercentage(perc));
             //MainController.instance.SetActionType(GameState.Levelwin);
         }
         else

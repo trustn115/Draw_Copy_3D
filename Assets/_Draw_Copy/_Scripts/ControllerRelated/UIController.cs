@@ -5,6 +5,7 @@ using _Draw_Copy._Scripts.GameplayRelated;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using Random = System.Random;
 
 namespace _Draw_Copy._Scripts.ControllerRelated
 {
@@ -43,7 +44,6 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         {
             if(newState==GameState.Levelwin)
             {
-                //HUD.SetActive(false);
                 winPanel.SetActive(true);
                 SoundsController.instance.PlaySound(SoundsController.instance.win);
             }
@@ -51,7 +51,6 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             if (newState == GameState.Levelfail)
             {
                 drawingPercText.transform.parent.gameObject.SetActive(false);
-                HUD.SetActive(false);
                 failPanel.SetActive(true);
                 SoundsController.instance.PlaySound(SoundsController.instance.fail);
             }
@@ -72,16 +71,20 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             }
         }
 
-        public IEnumerator ShowMatchPercentage(int perc)
+        public IEnumerator ShowMatchPercentage(int min, int max)
         {
             Transform perMatchPanel = drawingPercText.transform.parent;
             perMatchPanel.gameObject.SetActive(true);
             perMatchPanel.transform.DOScaleX(0, 0.3f).From().SetEase(Ease.InOutBack);
-            for (int i = 0; i < perc; i++)
+
+            int p = UnityEngine.Random.Range(min, max);
+            drawingPercText.DOText(p.ToString(), 2,false, ScrambleMode.Numerals);
+            yield return null;
+            /*for (int i = 0; i < perc; i++)
             {
                 drawingPercText.SetText(i.ToString());
-                yield return new WaitForSeconds(0.0005f);
-            }
+                yield return new WaitForSeconds(0.001f);
+            }*/
         }
     }   
 }

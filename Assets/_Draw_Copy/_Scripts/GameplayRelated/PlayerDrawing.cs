@@ -77,7 +77,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 {
                     Vector3 hitPos = hit.point;
                     pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
-                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.01f)
+                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.001f)
                     {
                         AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
                         _lastPos = hitPos;
@@ -100,20 +100,16 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             {
                 //ColoringController.instance.AddNewShapes(GetTransformsOutOfPoints(_drawnPointList));
                 _takesCounter++;
+                CompareDrawings.instance.drawnPts = _drawnPointList;
+                CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
                 if (_takesCounter == currentTakes)
                 {
                     DOVirtual.DelayedCall(0.4f,
                         () => { MainController.instance.SetActionType(GameState.RoboDrawing); });
-                    CompareDrawings.instance.drawnPts = _drawnPointList;
-                    CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
                     _takesCounter = 0;
                 }
+                CheckIfAllShapesDrawn();
 
-                DOVirtual.DelayedCall(0.3f, () =>
-                {
-                    CheckIfAllShapesDrawn();
-                });
-                
                 _drawnPointList = new List<Vector3>();
                 _mouseDownRecorded = false;
                 SoundsController.instance.playerDrawSource.enabled = false;
