@@ -1720,8 +1720,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.54097426, y: 0, z: 0, w: 0.84103924}
-  m_LocalPosition: {x: 0.1, y: 8.79, z: -5.51}
+  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalPosition: {x: 0.1, y: 6.89, z: -7.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11039,7 +11039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2039546029}
   m_Layer: 0
-  m_Name: minion robo
+  m_Name: Minion Robo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13181,37 +13181,37 @@ PrefabInstance:
     - target: {fileID: 8237314978350273241, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.79
+      value: 6.89
       objectReference: {fileID: 0}
     - target: {fileID: 8237314978350273241, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.51
+      value: -7.97
       objectReference: {fileID: 0}
     - target: {fileID: 8237314978350273241, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.84103924
+      value: 0.9063079
       objectReference: {fileID: 0}
     - target: {fileID: 8237314978350273241, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.54097426
+      value: 0.42261827
       objectReference: {fileID: 0}
     - target: {fileID: 8237314978350273241, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8237314978350273241, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8237314978350273241, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 65.5
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8237314978350273242, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}

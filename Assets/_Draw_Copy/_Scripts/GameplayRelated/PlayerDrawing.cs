@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using _Draw_Copy._Scripts.ControllerRelated;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace _Draw_Copy._Scripts.GameplayRelated
 {
@@ -62,14 +63,14 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         private bool _mouseDownRecorded;
         private void Update()
         {
-            if (Input.GetMouseButtonDown(0) && _canDraw && !_mouseDownRecorded)
+            if (Input.GetMouseButtonDown(0) && _canDraw && !_mouseDownRecorded && !EventSystem.current.currentSelectedGameObject)
             {
                 CreateBrush();
                 _mouseDownRecorded = true;
                 SoundsController.instance.playerDrawSource.enabled = true;
             }
 
-            if (Input.GetMouseButton(0) && _canDraw && _mouseDownRecorded)
+            if (Input.GetMouseButton(0) && _canDraw && _mouseDownRecorded && !EventSystem.current.currentSelectedGameObject)
             {
                 RaycastHit hit;
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -96,7 +97,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 _currentLine = null;
             }
 
-            if (Input.GetMouseButtonUp(0) && _canDraw && _mouseDownRecorded)
+            if (Input.GetMouseButtonUp(0) && _canDraw && _mouseDownRecorded && !EventSystem.current.currentSelectedGameObject)
             {
                 //ColoringController.instance.AddNewShapes(GetTransformsOutOfPoints(_drawnPointList));
                 _takesCounter++;

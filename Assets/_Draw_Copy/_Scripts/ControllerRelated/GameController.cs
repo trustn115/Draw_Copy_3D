@@ -40,12 +40,22 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             
         }
 
-        public void NextLevel()
+        public void On_NextButtonClicked()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (PlayerPrefs.GetInt("level", 1) >= SceneManager.sceneCountInBuildSettings - 1)
+            {
+                SceneManager.LoadScene(UnityEngine.Random.Range(0, SceneManager.sceneCountInBuildSettings - 1));
+                PlayerPrefs.SetInt("level", (PlayerPrefs.GetInt("level", 1) + 1));
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                PlayerPrefs.SetInt("level", (PlayerPrefs.GetInt("level", 1) + 1));
+            }
+            PlayerPrefs.SetInt("levelnumber", PlayerPrefs.GetInt("levelnumber", 1) + 1);
         }
 
-        public void RetryLevel()
+        public void On_RetryButtonClicked()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }

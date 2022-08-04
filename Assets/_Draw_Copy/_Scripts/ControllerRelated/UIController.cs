@@ -15,10 +15,11 @@ namespace _Draw_Copy._Scripts.ControllerRelated
 
         public GameObject HUD;
         public GameObject winPanel, failPanel;
+        public TextMeshProUGUI levelNumText;
         public GameObject winConfetti;
         public TextMeshProUGUI drawingPercText;
         public GameObject peelHelpButton;
-        public GameObject roboTurnStrip, yourTurnStrip;
+        public RectTransform roboTurnStrip, yourTurnStrip;
 
         private PlayerDrawing _playerPen;
 
@@ -30,6 +31,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         private void Start()
         {
             _playerPen = PlayerDrawing.instance;
+            levelNumText.text = "Lv. " + PlayerPrefs.GetInt("levelnumber", 1);
         }
 
         private void OnEnable()
@@ -57,15 +59,17 @@ namespace _Draw_Copy._Scripts.ControllerRelated
 
             if (newState == GameState.RoboDrawing)
             {
-                yourTurnStrip.SetActive(false);
-                roboTurnStrip.SetActive(true);
+                yourTurnStrip.gameObject.SetActive(false);
+                roboTurnStrip.gameObject.SetActive(true);
+                roboTurnStrip.DOAnchorPosX(roboTurnStrip.anchoredPosition.x + 350, 1).From().SetEase(Ease.OutBack);
                 SoundsController.instance.PlaySound(SoundsController.instance.swoosh);
                 //_playerPen.enabled = false;
             }
             if (newState == GameState.PlayerDrawing)
             {
-                yourTurnStrip.SetActive(true);
-                roboTurnStrip.SetActive(false);
+                roboTurnStrip.gameObject.SetActive(false);
+                yourTurnStrip.gameObject.SetActive(true);
+                yourTurnStrip.DOAnchorPosX(roboTurnStrip.anchoredPosition.x + 350, 1).From().SetEase(Ease.OutBack);
                 SoundsController.instance.PlaySound(SoundsController.instance.swoosh);
                 //_playerPen.enabled = true;
             }
