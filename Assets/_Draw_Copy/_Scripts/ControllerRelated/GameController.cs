@@ -37,7 +37,10 @@ namespace _Draw_Copy._Scripts.ControllerRelated
 
         private void Update()
         {
-            
+            if(Input.GetMouseButtonDown(1))
+            {
+                On_RetryButtonClicked();
+            }
         }
 
         public void On_NextButtonClicked()

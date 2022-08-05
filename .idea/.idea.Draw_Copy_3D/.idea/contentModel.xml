@@ -15,18 +15,18 @@
               <e p="GameController.cs" t="Include" />
               <e p="MainController.cs" t="Include" />
               <e p="SoundsController.cs" t="Include" />
-              <e p="StencilController.cs" t="Include" />
               <e p="UIController.cs" t="Include" />
             </e>
             <e p="CreateMesh.cs" t="Include" />
+            <e p="ElementRelated" t="Include">
+              <e p="BrushColoringElement.cs" t="Include" />
+            </e>
             <e p="FillWithLineRenderer.cs" t="Include" />
             <e p="GameplayRelated" t="Include">
-              <e p="ColorShapes.cs" t="Include" />
               <e p="CompareDrawings.cs" t="Include" />
               <e p="PlayerDrawing.cs" t="Include" />
               <e p="RobotPen.cs" t="Include" />
               <e p="Shape.cs" t="Include" />
-              <e p="SprayColoring.cs" t="Include" />
               <e p="StartScreen.cs" t="Include" />
               <e p="StencilArt.cs" t="Include" />
             </e>

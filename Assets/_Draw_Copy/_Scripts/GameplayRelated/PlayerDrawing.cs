@@ -133,7 +133,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             GameObject brushInst = Instantiate(brush);
             brushInst.SetActive(false);
             _currentLine = brushInst.GetComponent<LineRenderer>();
-            ColoringController.instance.outlinesList.Add(_currentLine);
+            //ColoringController.instance.outlinesList.Add(_currentLine);
             DOVirtual.DelayedCall(0.05f, () =>
             {
                 _currentLine.SetPosition(0, new Vector3(pen.position.x, -1, pen.position.z));

@@ -46,7 +46,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         {
             if(newState==GameState.Levelwin)
             {
-                winPanel.SetActive(true);
+                //winPanel.SetActive(true);
                 SoundsController.instance.PlaySound(SoundsController.instance.win);
             }
 
