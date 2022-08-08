@@ -15,18 +15,29 @@ namespace _Draw_Copy._Scripts.ElementRelated
         
         private LineRenderer _currentLine;
         private Vector3 _lastPos;
-        public GameObject brush;
         public Transform raypoint;
 
         private void Awake()
         {
             instance = this;
         }
+
+        private bool _timeCountingStarted;
+        private float _timeCounter;
+        
         private void Update()
         {
+            if (_timeCountingStarted)
+            {
+                _timeCounter += Time.deltaTime;
+            }
             if (Input.GetMouseButtonDown(0) && !EventSystem.current.currentSelectedGameObject)
             {
                 CreateBrush();
+                if (!_timeCountingStarted)
+                {
+                    _timeCountingStarted = true;
+                }
                 //SoundsController.instance.playerDrawSource.enabled = true;
             }
 
@@ -54,6 +65,11 @@ namespace _Draw_Copy._Scripts.ElementRelated
             {
                 //ColoringController.instance.AddNewShapes(GetTransformsOutOfPoints(_drawnPointList));
                 //SoundsController.instance.playerDrawSource.enabled = false;
+                if (_timeCounter >= 3.5f)
+                {
+                    _timeCountingStarted = false;
+                    UIController.instance.coloringDoneButton.SetActive(true);
+                }
             }
         }
         
@@ -66,20 +82,14 @@ namespace _Draw_Copy._Scripts.ElementRelated
 
         void CreateBrush()
         {
-            GameObject brushInst = Instantiate(brush);
-            brushInst.SetActive(false);
-            _currentLine = brushInst.GetComponent<LineRenderer>();
-            _currentLine.startColor = ColoringController.instance.currentBrushColor;
-            _currentLine.endColor = ColoringController.instance.currentBrushColor;
-            
-            _currentLine.startWidth = ColoringController.instance.currentBrushWidth;
-            _currentLine.endWidth = ColoringController.instance.currentBrushWidth;
+            _currentLine = ColoringController.instance.SetupBrush();
+            _currentLine.gameObject.SetActive(false);
             //ColoringController.instance.outlinesList.Add(_currentLine);
             DOVirtual.DelayedCall(0.05f, () =>
             {
                 _currentLine.SetPosition(0, new Vector3(raypoint.position.x, -1, raypoint.position.z));
                 _currentLine.SetPosition(1, new Vector3(raypoint.position.x, -1, raypoint.position.z));
-                brushInst.SetActive(true);
+                _currentLine.gameObject.SetActive(true);
             });
         }
     }   

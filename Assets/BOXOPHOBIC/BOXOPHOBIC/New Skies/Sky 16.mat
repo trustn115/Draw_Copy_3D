@@ -16,6 +16,7 @@ Material:
   - _CLOUDSLITBYSUN_ON
   - _ENABLEBUILTINFOG_ON
   - _ENABLECLOUDSROTATION_ON
+  - _ENABLECLOUDS_ON
   - _ENABLEPATTERNOVERLAY_ON
   - _ENABLESTARSTWINKLING_ON
   - _ENABLESTARS_ON
@@ -175,9 +176,9 @@ Material:
     - _BumpScale: 1
     - _CloudHeight: 0
     - _CloudsCat: 1
-    - _CloudsHeight: -0.173
+    - _CloudsHeight: 0.222
     - _CloudsLitbySun: 1
-    - _CloudsRotation: 100
+    - _CloudsRotation: 150
     - _CloudsRotationSpeed: 1
     - _ColorsCat: 1
     - _Contrast: 0.477
@@ -190,7 +191,7 @@ Material:
     - _DstBlend: 0
     - _Enable1Twinkling: 0
     - _EnableBuiltinFog: 1
-    - _EnableClouds: 0
+    - _EnableClouds: 1
     - _EnableCloudsRotation: 1
     - _EnableDirectionLight: 0
     - _EnableMoon: 0
@@ -205,7 +206,7 @@ Material:
     - _EnableSunMoonMask: 1
     - _EnableTwinkling: 0
     - _EqHeight: 0.419
-    - _EquatorHeight: 0.435
+    - _EquatorHeight: 0.471
     - _EquatorSmoothness: 0.01
     - _Exposure: 0
     - _Fade: 0.463
@@ -277,20 +278,20 @@ Material:
     m_Colors:
     - _CloudLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _CloudShadowColor: {r: 0.33239606, g: 0.46899295, b: 0.85294116, a: 1}
-    - _CloudsLightColor: {r: 0.1254902, g: 0.2627451, b: 0.6745098, a: 1}
-    - _CloudsShadowColor: {r: 0.3729975, g: 0.4354085, b: 0.6226415, a: 1}
+    - _CloudsLightColor: {r: 0.7264151, g: 0.7229886, b: 0.7229886, a: 1}
+    - _CloudsShadowColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0.5054344, b: 1, a: 0}
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
     - _Color2: {r: 0.059472326, g: 0.25068596, b: 0.8088235, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Eq: {r: 1, g: 0.6769777, b: 0.330882, a: 0}
-    - _EquatorColor: {r: 0.42352945, g: 0.72156864, b: 0.9843138, a: 1}
+    - _EquatorColor: {r: 0.21960786, g: 0.79215693, b: 1, a: 1}
     - _Ground: {r: 0.4779411, g: 0.43111518, b: 0.23545504, a: 0}
     - _GroundColor: {r: 0.40000004, g: 0.7176471, b: 1, a: 0}
     - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
     - _Sky: {r: 0.6691177, g: 0.29519898, b: 0.29519898, a: 0}
-    - _SkyColor: {r: 0.92682, g: 0.759434, b: 1, a: 0}
+    - _SkyColor: {r: 0.9966527, g: 0.7028302, b: 1, a: 0}
     - _Skycol: {r: 0.27941146, g: 0.64219046, b: 1, a: 0}
     - _SunColor: {r: 1, g: 0.514151, b: 0.8110585, a: 1}
     - _Tint: {r: 1, g: 1, b: 1, a: 0}

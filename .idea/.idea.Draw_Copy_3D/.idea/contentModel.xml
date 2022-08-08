@@ -20,6 +20,7 @@
             <e p="CreateMesh.cs" t="Include" />
             <e p="ElementRelated" t="Include">
               <e p="BrushColoringElement.cs" t="Include" />
+              <e p="BrushTypesElement.cs" t="Include" />
             </e>
             <e p="FillWithLineRenderer.cs" t="Include" />
             <e p="GameplayRelated" t="Include">

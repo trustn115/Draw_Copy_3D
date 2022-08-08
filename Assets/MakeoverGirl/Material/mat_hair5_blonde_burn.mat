@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_hair5_blonde_burn
+  m_Shader: {fileID: 4800000, guid: 8da11997843fd1f45b70d09119f9e37a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2AA6F891:
+        m_Texture: {fileID: 2800000, guid: 61feab3ba473298499695b894b2f6791, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5CE7B74B_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 85c979e291b64d1469c829e416926b09, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6AEF572A_Texture_1:
+        m_Texture: {fileID: 2800000, guid: c7c707a60d03d3448b34503e1d00c47d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_96B60C36_Texture_1:
+        m_Texture: {fileID: 2800000, guid: c7c707a60d03d3448b34503e1d00c47d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_C1688FDC_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 85c979e291b64d1469c829e416926b09, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_296856fda5984379a5277139aa3e713c: 1
+    - Vector1_3E437835: 0
+    - Vector1_8630B0BC: 0
+    - Vector1_8b76b22e88cc4fb486216ea3e0d4598f: 0
+    - Vector1_97B7950A: 1
+    - Vector1_9d7eaae4d1164c65a094334248939dd1: 0
+    - Vector1_AFF3CA6: 0.07
+    - Vector1_B8BEAA08: 0
+    - Vector1_b9abb1f79d1744c7bfc125c6e76696d7: 0
+    - Vector1_fc4173beaecc4161a30b8345a6e51bd1: 0.089
+    m_Colors:
+    - Color_1: {r: 1, g: 0.5214751, b: 0, a: 1}
+    - Color_1E921D69: {r: 0.65882355, g: 0, b: 0.33333334, a: 0}
+    - Color_54e8cf5cc1b748bfad5f0ebf797f6f02: {r: 1, g: 0.7260082, b: 0.24056602, a: 0}
+    - Color_90171dddb5de4dcdb4e29f9476da6459: {r: 1, g: 0.20058572, b: 0, a: 1}
+    - Color_A6A618E9: {r: 1, g: 0.7254902, b: 0.23921569, a: 0}
+    - Color_B46C1670: {r: 1, g: 0.52156866, b: 0, a: 1}
+    - Color_C08FDED9: {r: 1, g: 0.2, b: 0, a: 1}
+    - Color_b84f442f00b5495fa4695e81fbe5da72: {r: 0.65882355, g: 0, b: 0.33200416, a: 1}
+    - Vector2_5B18EFA5: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_7ab77dc1fe0a4cffa78aba7f86e0400c: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

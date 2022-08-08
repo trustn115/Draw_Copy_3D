@@ -45,6 +45,9 @@ TagManager:
   - name: colors
     uniqueID: 2400866537
     locked: 0
+  - name: outline
+    uniqueID: 3548158989
+    locked: 0
   - name: brush
     uniqueID: 2272691469
     locked: 0

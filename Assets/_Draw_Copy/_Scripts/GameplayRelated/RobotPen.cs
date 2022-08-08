@@ -23,6 +23,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
 
         public List<int> takes;
         public List<Shape> shapes;
+        public Transform mask;
+        public bool canvasLevel;
 
         private void Awake()
         {
@@ -60,7 +62,9 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             if(_canDraw)
             {
                 _currentLine.positionCount++;
-                Vector3 newPoint = new Vector3(transform.position.x, -1, transform.position.z);
+                Vector3 newPoint = Vector3.zero;
+                if(!canvasLevel) newPoint = new Vector3(transform.position.x, -1, transform.position.z);
+                else newPoint = new Vector3(transform.position.x, transform.position.y, 2);
                 _currentLine.SetPosition(_currentLine.positionCount - 1, newPoint);
             }
         }
@@ -97,7 +101,15 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 CreateBrush(pointsTaken);
                 for (int j = 0; j < pointsTaken.Count; j++)
                 {
-                    Vector3 newMovePos = new Vector3(pointsTaken[j].position.x, transform.position.y, pointsTaken[j].position.z);
+                    Vector3 newMovePos = Vector3.zero;
+                    if (!canvasLevel)
+                    {
+                        newMovePos = new Vector3(pointsTaken[j].position.x, transform.position.y,
+                            pointsTaken[j].position.z);
+                    }
+                    else
+                        newMovePos = new Vector3(pointsTaken[j].position.x, pointsTaken[j].position.y,
+                            transform.position.z);
                     transform.DOMove(newMovePos, 0.025f).SetEase(Ease.Linear);
                     _drawnPointList.Add(newMovePos);
                     yield return  new WaitForSeconds(0.025f);
@@ -122,13 +134,26 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             _canDraw = false;
             GameObject brushInst = Instantiate(brush);
             _currentLine = brushInst.GetComponent<LineRenderer>();
-            Vector3 penMovePos = new Vector3(pointsTaken[0].position.x, transform.position.y, pointsTaken[0].position.z);
+            if(!canvasLevel)
+            {
+                Vector3 penMovePos = new Vector3(pointsTaken[0].position.x, transform.position.y,
+                    pointsTaken[0].position.z);
 
-            transform.position = penMovePos;
-            _currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));
-            _currentLine.SetPosition(1, new Vector3(transform.position.x, -1, transform.position.z));
-            _canDraw = true;
+                transform.position = penMovePos;
+                _currentLine.SetPosition(0, new Vector3(transform.position.x, -1, transform.position.z));
+                _currentLine.SetPosition(1, new Vector3(transform.position.x, -1, transform.position.z));
+                _canDraw = true;
+            }
+            else
+            {
+                Vector3 penMovePos = new Vector3(pointsTaken[0].position.x, pointsTaken[0].position.y,
+                    transform.position.z);
 
+                transform.position = penMovePos;
+                _currentLine.SetPosition(0, new Vector3(transform.position.x, transform.position.y, 2));
+                _currentLine.SetPosition(1, new Vector3(transform.position.x, transform.position.y, 2));
+                _canDraw = true;
+            }
             SoundsController.instance.roboDrawSource.enabled = true;
             /*transform.DOMove(penMovePos, 0.5f).OnComplete(() =>
             {

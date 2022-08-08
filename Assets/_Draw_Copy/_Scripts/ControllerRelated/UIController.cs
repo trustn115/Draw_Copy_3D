@@ -20,7 +20,10 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public TextMeshProUGUI drawingPercText;
         public GameObject peelHelpButton;
         public RectTransform roboTurnStrip, yourTurnStrip;
-
+        public GameObject coloringWindow;
+        public GameObject brushObject;
+        public GameObject coloringDoneButton;
+        
         private PlayerDrawing _playerPen;
 
         private void Awake()

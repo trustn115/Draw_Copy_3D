@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using _Draw_Copy._Scripts.ControllerRelated;
+using _Draw_Copy._Scripts.GameplayRelated;
 using DG.Tweening;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
@@ -177,7 +178,13 @@ public class CompareDrawings : MonoBehaviour
             print("Perc match = " + perc);
             UIController.instance.StartCoroutine(UIController.instance.ShowMatchPercentage(60, 85));
             yield return new WaitForSeconds(2.5f);
-            MainController.instance.SetActionType(GameState.Levelwin);
+            //MainController.instance.SetActionType(GameState.Levelwin);
+            UIController.instance.drawingPercText.transform.parent.DOScaleX(0, 1);
+            yield return new WaitForSeconds(1f);
+            RobotPen.instance.mask.DOScaleY(0, 1);
+            yield return new WaitForSeconds(1.5f);
+            UIController.instance.coloringWindow.SetActive(true);
+            UIController.instance.brushObject.SetActive(true);
         }
         else if (lowDistCounter < highDistCounter)
         {

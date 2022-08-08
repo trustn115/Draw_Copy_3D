@@ -25,6 +25,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         public List<Vector3> _drawnPointList = new List<Vector3>();
         public int currentTakes;
         [SerializeField] private int _takesCounter = 0;
+        public bool isCanvasLevel;
 
         private void Awake()
         {
@@ -76,11 +77,14 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 if (Physics.Raycast(ray, out hit, 100))
                 {
+                    print(hit.collider.name);
                     Vector3 hitPos = hit.point;
-                    pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
+                    if(!isCanvasLevel) pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
+                    else pen.position = new Vector3(hitPos.x, hitPos.y, pen.position.z);
                     if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.001f)
                     {
-                        AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
+                        if(!isCanvasLevel) AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
+                        else AddPoint(new Vector3(hitPos.x, hitPos.y,-0.857f));
                         _lastPos = hitPos;
                         _drawnPointList.Add(hitPos);
                     }
@@ -133,11 +137,20 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             GameObject brushInst = Instantiate(brush);
             brushInst.SetActive(false);
             _currentLine = brushInst.GetComponent<LineRenderer>();
+            _currentLine.sortingLayerName = "outline";
             //ColoringController.instance.outlinesList.Add(_currentLine);
             DOVirtual.DelayedCall(0.05f, () =>
             {
-                _currentLine.SetPosition(0, new Vector3(pen.position.x, -1, pen.position.z));
-                _currentLine.SetPosition(1, new Vector3(pen.position.x, -1, pen.position.z));
+                if(!isCanvasLevel)
+                {
+                    _currentLine.SetPosition(0, new Vector3(pen.position.x, -1, pen.position.z));
+                    _currentLine.SetPosition(1, new Vector3(pen.position.x, -1, pen.position.z));
+                }
+                else
+                {
+                    _currentLine.SetPosition(0, new Vector3(pen.position.x, pen.position.y,-0.857f));
+                    _currentLine.SetPosition(1, new Vector3(pen.position.x, pen.position.y,-0.857f));
+                }
                 brushInst.SetActive(true);
             });
         }
