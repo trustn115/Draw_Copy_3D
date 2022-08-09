@@ -4072,7 +4072,7 @@ MonoBehaviour:
   yourTurnStrip: {fileID: 7093392146318293026}
   coloringWindow: {fileID: 7088495388608420828}
   brushObject: {fileID: 5309950338257065004}
-  coloringDoneButton: {fileID: 0}
+  coloringDoneButton: {fileID: 3491828828884289254}
 --- !u!114 &8237314977019963126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5616,6 +5616,7 @@ MonoBehaviour:
   red: {r: 1, g: 0.14901961, b: 0, a: 1}
   yellow: {r: 1, g: 0.80392164, b: 0, a: 1}
   green: {r: 0.046991818, g: 0.9056604, b: 0.29536694, a: 1}
+  isCanvasLevel: 0
 --- !u!1 &8237314978307692985
 GameObject:
   m_ObjectHideFlags: 0
@@ -5903,7 +5904,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.5625, y: 1}
+    m_SensorSize: {x: 0.8, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

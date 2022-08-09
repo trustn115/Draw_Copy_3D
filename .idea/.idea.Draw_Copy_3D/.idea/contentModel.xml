@@ -32,6 +32,7 @@
               <e p="StencilArt.cs" t="Include" />
             </e>
             <e p="MeshGenerator.cs" t="Include" />
+            <e p="MoveWithTime.cs" t="Include" />
             <e p="Tests" t="Include">
               <e p="ShapeScaleDown.cs" t="Include" />
             </e>

@@ -16,10 +16,16 @@ namespace _Draw_Copy._Scripts.ElementRelated
         private LineRenderer _currentLine;
         private Vector3 _lastPos;
         public Transform raypoint;
+        private bool _isCanvasLevel;
 
         private void Awake()
         {
             instance = this;
+        }
+
+        private void Start()
+        {
+            _isCanvasLevel = ColoringController.instance.isCanvasLevel;
         }
 
         private bool _timeCountingStarted;
@@ -48,10 +54,12 @@ namespace _Draw_Copy._Scripts.ElementRelated
                 if (Physics.Raycast(ray, out hit, 100))
                 {
                     Vector3 hitPos = hit.point;
-                    transform.position = new Vector3(hitPos.x, transform.position.y, hitPos.z);
+                    if(!_isCanvasLevel) transform.position = new Vector3(hitPos.x, transform.position.y, hitPos.z);
+                    else transform.position = new Vector3(hitPos.x,hitPos.y,transform.position.z);
                     if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.001f)
                     {
-                        AddPoint(new Vector3(raypoint.position.x, -1, raypoint.position.z));
+                        if(!_isCanvasLevel) AddPoint(new Vector3(raypoint.position.x, -1, raypoint.position.z));
+                        else AddPoint(new Vector3(raypoint.position.x, raypoint.position.y, -0.9f));
                         _lastPos = hitPos;
                     }
                 }
@@ -87,8 +95,16 @@ namespace _Draw_Copy._Scripts.ElementRelated
             //ColoringController.instance.outlinesList.Add(_currentLine);
             DOVirtual.DelayedCall(0.05f, () =>
             {
-                _currentLine.SetPosition(0, new Vector3(raypoint.position.x, -1, raypoint.position.z));
-                _currentLine.SetPosition(1, new Vector3(raypoint.position.x, -1, raypoint.position.z));
+                if(!_isCanvasLevel)
+                {
+                    _currentLine.SetPosition(0, new Vector3(raypoint.position.x, -1, raypoint.position.z));
+                    _currentLine.SetPosition(1, new Vector3(raypoint.position.x, -1, raypoint.position.z));
+                }
+                if(_isCanvasLevel)
+                {
+                    _currentLine.SetPosition(0, new Vector3(raypoint.position.x, raypoint.position.y, -0.9f));
+                    _currentLine.SetPosition(1, new Vector3(raypoint.position.x, raypoint.position.y, -0.9f));
+                }
                 _currentLine.gameObject.SetActive(true);
             });
         }

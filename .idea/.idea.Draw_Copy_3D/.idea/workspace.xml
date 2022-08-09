@@ -20,688 +20,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502d6599-c259-435e-91f7-3777a44178b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/GirlController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/GirlController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Angry.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Angry.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature.SnakeSnakeAnimation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature.SnakeSnakeAnimation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyButton_Angry.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyButton_Angry.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyIdle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyIdle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyPlayDown.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyPlayDown.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyPlayDownFail.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyPlayDownFail.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyPlayIdle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyPlayIdle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodySlap_reaction.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodySlap_reaction.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyWalking_Catwalk.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_BodyWalking_Catwalk.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_Bodyhappy_gesture_01.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_Bodyhappy_gesture_01.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_Bodyshock.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/Armature_Bodyshock.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/angry_0.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimationClip/angry_0.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimatorController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimatorController/CharacterController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimatorController/CharacterController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimatorController/SnakeController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/AnimatorController/SnakeController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Avatar.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Avatar/anim_chr_baseAvatar.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Avatar/anim_chr_baseAvatar.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/MakeoverCharacter.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/MakeoverCharacter.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Acid.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Acid.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Acne.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Acne.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Bug.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Bug.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Character_Body_Blonde.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Character_Body_Blonde.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Face01_Blonde.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Face01_Blonde.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Face06_Blonde.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Face06_Blonde.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Glasses_Textured_3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Glasses_Textured_3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/LipStick03.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/LipStick03.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/MakeoverRaceColor_2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/MakeoverRaceColor_2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/MakeoverRaceColor_3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/MakeoverRaceColor_3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Miss_queen_body.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Miss_queen_body.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Mud.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Mud.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Tooth.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/Tooth.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/invisible.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/invisible.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_bikini_material_blonde.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_bikini_material_blonde.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_green_eye.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_green_eye.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair1_blonde.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair1_blonde.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair2_blonde.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair2_blonde.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair3_blonde.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair3_blonde.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair4_blonde.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair4_blonde.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair5_blonde_burn.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair5_blonde_burn.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair_style1_blonde.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_hair_style1_blonde.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_outfit9_body.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_outfit9_body.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_outfit9_skirt.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_outfit9_skirt.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_pijama_material_red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Material/mat_pijama_material_red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/AcidFace.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/AcidFace.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/AcneModel.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/AcneModel.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/BugModel.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/BugModel.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/CatEar.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/CatEar.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Choker.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Choker.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Eye.L.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Eye.L.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Eye.R.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Eye.R.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Facehair_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Facehair_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Facehair_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Facehair_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Facial_Hair_02.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Facial_Hair_02.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Hair5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Mud5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Everyday_04.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Everyday_04.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2.001.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2.001.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office2_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office3_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office3_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office3_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office3_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office4_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office4_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office4_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_Office4_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_head.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/Scarlett_head.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_bracelet.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_bracelet.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_earrings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_earrings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_piercing.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_piercing.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_rotten_fish_badlook.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_rotten_fish_badlook.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_sunglasses .asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mdl_sunglasses .asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_16.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_16.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/mesh_outfit_9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/miss_queen_body.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/miss_queen_body.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/miss_queen_crown.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/miss_queen_crown.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/necklace.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/necklace.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_everyday_01.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_everyday_01.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_everyday_02.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_everyday_02.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_everyday_03.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_everyday_03.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_pijama.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_pijama.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_scifi_02.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/scarlett_scifi_02.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/shoulderSnake.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Mesh/shoulderSnake.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/AcneTextureOriginal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/AcneTextureOriginal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/BathingSuit1_Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/BathingSuit1_Black.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/BeachAccessories_Diffuse_BStripeRed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/BeachAccessories_Diffuse_BStripeRed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Face01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Face01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Face06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Face06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/FaceAcidInjuired.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/FaceAcidInjuired.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/FaceBugInjuired.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/FaceBugInjuired.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/MakeoverraceColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/MakeoverraceColor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/MakeoverraceColor03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/MakeoverraceColor03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Mug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Mug.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Office_Hair3_Texture_Painting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Office_Hair3_Texture_Painting.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Office_Hair_1_texure_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Office_Hair_1_texure_paint.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Scarlett_Body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/Scarlett_Body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/lip_texture_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/lip_texture_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/office_hair4_texture_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/office_hair4_texture_paint.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/pony_tail_texture_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/pony_tail_texture_paint.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_hair_burn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_hair_burn.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_hair_burn_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_hair_burn_normal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_miss_queen_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_miss_queen_body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_outfit9_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_outfit9_body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_outfit9_skirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_outfit9_skirt.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_randomnoise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverGirl/Texture2D/tex_randomnoise.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature.SnakeSnakeAnimation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature.SnakeSnakeAnimation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyIdle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyIdle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyIdle_01_0.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyIdle_01_0.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyIdle_02.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyIdle_02.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyPlayDown.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyPlayDown.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyPlayDownFail.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyPlayDownFail.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyPlayIdle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyPlayIdle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodySitting_idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodySitting_idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodySlap_Left.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodySlap_Left.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyStanding_01.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyStanding_01.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyStanding_happy_01.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyStanding_happy_01.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyWalking_Catwalk.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyWalking_Catwalk.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodyclap_01.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodyclap_01.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodyhappy_dance_01.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodyhappy_dance_01.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodyhappy_dance_02.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodyhappy_dance_02.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodynew_idle_2.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodynew_idle_2.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodysitting_happy_01.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodysitting_happy_01.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Hapy.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Hapy.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Shapekey_angry.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Shapekey_angry.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Shapekey_idle_0.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Shapekey_idle_0.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Shapekey_laugh_JumpPad.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Shapekey_laugh_JumpPad.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/happyLooped.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/happyLooped.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/Acid.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/Acid.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/Acne.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/Acne.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/LipStick_face4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/LipStick_face4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/Mud.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/Mud.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/invisible.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/invisible.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/mat_green_eye.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/mat_green_eye.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/AcidFace.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/AcidFace.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/AcneModel.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/AcneModel.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/BugModel.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/BugModel.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/CatEar.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/CatEar.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Choker.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Choker.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Eye.L.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Eye.L.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Eye.R.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Eye.R.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Facehair_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Facehair_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Facehair_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Facehair_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Facial_Hair_02.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Facial_Hair_02.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Hair5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/Mud5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_bracelet.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_bracelet.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_earrings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_earrings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_piercing.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_piercing.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_rotten_fish_badlook.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_rotten_fish_badlook.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_sunglasses .asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mdl_sunglasses .asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_16.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_16.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/mesh_outfit_9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/miss_queen_body.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/miss_queen_body.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/miss_queen_crown.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/miss_queen_crown.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/necklace.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/necklace.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/shoulderSnake.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Mesh/shoulderSnake.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/AcneTextureOriginal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/AcneTextureOriginal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/BathingSuit1_Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/BathingSuit1_Black.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/BeachAccessories_Diffuse_BStripeRed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/BeachAccessories_Diffuse_BStripeRed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/FaceAcidInjuired.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/FaceAcidInjuired.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/FaceBugInjuired.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/FaceBugInjuired.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/Mug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/Mug.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/Office_Hair3_Texture_Painting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/Office_Hair3_Texture_Painting.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/Office_Hair_1_texure_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/Office_Hair_1_texure_paint.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/lip_texture_00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/lip_texture_00.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/lip_texture_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/lip_texture_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/office_hair4_texture_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/office_hair4_texture_paint.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/pony_tail_texture_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/pony_tail_texture_paint.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/tex_hair_burn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/tex_hair_burn.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/tex_hair_burn_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/tex_hair_burn_normal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/tex_randomnoise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Texture2D/tex_randomnoise.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/sand.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/sand.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/brushes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/brushes/default brush.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/brushes/default brush.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/brushes/eraser brush.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/brushes/eraser brush.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/water_brighter.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/water_brighter.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/face.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/face.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/BucketDIFF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/BucketDIFF.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/BucketSPEC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/BucketSPEC.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselDIFF psd.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselDIFF psd.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselDIFF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselDIFF.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselSPEC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselSPEC.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/TrayDiff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/TrayDiff.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/TraySPEC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/TraySPEC.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/brush tray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/brush tray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/bucket.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/bucket.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/horrorStudio.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/horrorStudio.mtl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/horrorStudio.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/horrorStudio.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/stand.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/stand.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/BucketDIFF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/BucketDIFF.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/BucketSPEC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/BucketSPEC.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/EaselDIFF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/EaselDIFF.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/EaselSPEC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/EaselSPEC.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/TrayDiff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/TrayDiff.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/TraySPEC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/textures/TraySPEC.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/Materials/textcoco.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/Materials/textcoco.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconut green.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconut green.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconut tree.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconut tree.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconut.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconut.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconutTrunk.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconutTrunk.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconutleaf-1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconutleaf-1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconutleaf-2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/coconutleaf-2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/folha_de_bananiera1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/folha_de_bananiera1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/folha_de_bananiera1_trans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/folha_de_bananiera1_trans.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/folha_de_bananiera2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/folha_de_bananiera2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/folha_de_bananiera2_trans].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/folha_de_bananiera2_trans].png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/textcoco green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/textcoco green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/textcoco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/textcoco.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/textpalmeira.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coconut Tree/textpalmeira.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/MakeoverCharacter.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/MakeoverCharacter.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Default Brush.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Default Brush.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Eraser Brush.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Eraser Brush.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/CheckMark #22787.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/CheckMark #22787.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/CurvedArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/CurvedArrow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/Eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/Eraser.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/Red-WaterBrush.png..png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/Red-WaterBrush.png..png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/Trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/Trash.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Colored Shapes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Colored Shapes/House.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Colored Shapes/House.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Colored Shapes/House.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Colored Shapes/House.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sheets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sheets/EmojiAngry.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sheets/EmojiAngry.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sheets/EmojiHappy.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sheets/EmojiHappy.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sheets/ezgif-4-437429cc37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sheets/ezgif-4-437429cc37.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sheets/ezgif-4-d4adffe506.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sheets/ezgif-4-d4adffe506.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/MakeoverraceColor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/MakeoverraceColor.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/MakeoverraceColor03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/MakeoverraceColor03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Brush Tex.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Brush Tex/Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Brush Tex/Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Brush Tex/CrayonTexture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Brush Tex/CrayonTexture.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Brush Tex/blured.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Brush Tex/blured.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face00.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Face2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Face00.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Face00.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Face2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Face2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Scarlett_Body.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Scarlett_Body.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_gray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_gray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_lip2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_lip2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_outfit9_skirt.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_outfit9_skirt.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Scarlett_Body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Scarlett_Body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Scarlett_hand_Dirty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Scarlett_hand_Dirty.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Scarlett_hand_Paw_Dirty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Scarlett_hand_Paw_Dirty.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_blue_eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_blue_eye.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color1_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color1_4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color1_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color1_5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color1_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color1_6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color2_4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color2_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color2_5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color2_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face2_color2_6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color1_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color1_4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color1_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color1_5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color1_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color1_6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color2_4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color2_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color2_5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color2_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face3_color2_6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color1_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color1_4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color1_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color1_5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color1_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color1_6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color2_4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color2_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_face4_color2_5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_1_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_1_gray.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_2_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_2_gray.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_3_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_3_gray.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_4_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_4_gray.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_5_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_hair_5_gray.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip3_color1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip3_color1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip4_color1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip4_color1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip4_color2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_lip4_color2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_miss_queen_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_miss_queen_body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_outfit9_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_outfit9_body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_outfit9_skirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/tex_outfit9_skirt.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushTypesElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/paper.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/paper.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/hand rig.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/hand rig.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Parrot.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/Parrot.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/13.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/13.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/17.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/17.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/23.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/23.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/29.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/29.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/31.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/31.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/34.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/34.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/35.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/35.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/36.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/36.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/37.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/37.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/44.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/44.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/45.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/45.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/48.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/48.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/49.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/49.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/50.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/50.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/51.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/51.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/57.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/57.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/59.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/59.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/60.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/60.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 21 Parrot.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 21 Parrot.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MoveWithTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MoveWithTime.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 16.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 16.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 17.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 17.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 18.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 18.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 07.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 07.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 08.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 08.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 09.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 09.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 10.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 13.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/Polyverse Skies/Core/Presets/Sky 13.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/brush 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/brush 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/paint brush 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/paint brush 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush Rainbow.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush Rainbow.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Spray Brush.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Spray Brush.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hand Mats/hand main.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Hand Mats/hand main.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hand Mats/hand skin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Hand Mats/hand skin.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Related.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Related/Red-WaterBrush.png..png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Related/Red-WaterBrush.png..png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 4 House.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 4 House.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/SampleScene/Level Painting Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/SampleScene/Level Painting Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Beach Tex/42.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/42.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Beach Tex/57.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/57.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/26.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/26.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/43.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/43.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/58.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/58.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_gray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_gray.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -715,6 +101,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/FillWithLineRenderer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MoveWithTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CreateMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FDD05F60-78ED-45AD-BCCC-43989AD47DA7/84/fa86e6c4/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -758,12 +145,13 @@
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/StartScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushTypesElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MoveWithTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" />
       </list>
     </option>
   </component>

@@ -24,6 +24,8 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
         private List<GameObject> _brushesList= new List<GameObject>();
         private List<GameObject> _undoBrushes = new List<GameObject>();
 
+        public bool isCanvasLevel;
+
         private void Awake()
         {
             instance = this;
