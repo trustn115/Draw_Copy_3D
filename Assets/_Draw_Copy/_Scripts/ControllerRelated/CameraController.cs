@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 namespace _Draw_Copy._Scripts.ControllerRelated
@@ -22,6 +23,12 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         {
             //mainCam.orthographic = true;
             coloringCamera.SetActive(true);
+        }
+
+        public void ChangeToDrawingCamera(RectTransform btnRT)
+        {
+            coloringCamera.SetActive(false);
+            DOVirtual.DelayedCall(0.5f, () => { btnRT.DOAnchorPosX(btnRT.anchoredPosition.x + 300, 0.5f); });
         }
     }   
 }

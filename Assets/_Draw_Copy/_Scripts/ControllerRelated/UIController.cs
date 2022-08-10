@@ -23,6 +23,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public GameObject coloringWindow;
         public GameObject brushObject;
         public GameObject coloringDoneButton;
+        public GameObject tshirtArtDoneButton;
         
         private PlayerDrawing _playerPen;
 

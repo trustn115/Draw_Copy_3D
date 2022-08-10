@@ -18,6 +18,7 @@
               <e p="UIController.cs" t="Include" />
             </e>
             <e p="CreateMesh.cs" t="Include" />
+            <e p="CustomerTShirtDrawing.cs" t="Include" />
             <e p="ElementRelated" t="Include">
               <e p="BrushColoringElement.cs" t="Include" />
               <e p="BrushTypesElement.cs" t="Include" />
@@ -33,6 +34,7 @@
             </e>
             <e p="MeshGenerator.cs" t="Include" />
             <e p="MoveWithTime.cs" t="Include" />
+            <e p="PlayerDrawingTShirtElement.cs" t="Include" />
             <e p="Tests" t="Include">
               <e p="ShapeScaleDown.cs" t="Include" />
             </e>
