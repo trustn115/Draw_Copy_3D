@@ -13,6 +13,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public Camera mainCam;
         public GameObject drawingCamera;
         public GameObject coloringCamera;
+        public GameObject finalCamera;
 
         private void Awake()
         {
@@ -25,10 +26,14 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             coloringCamera.SetActive(true);
         }
 
-        public void ChangeToDrawingCamera(RectTransform btnRT)
+        public void On_ColoringDoneButtonClicked(RectTransform btnRT)
         {
             coloringCamera.SetActive(false);
             DOVirtual.DelayedCall(0.5f, () => { btnRT.DOAnchorPosX(btnRT.anchoredPosition.x + 300, 0.5f); });
+            UIController.instance.winConfetti.SetActive(true);
+            UIController.instance.coloringWindow.SetActive(false);
+
+            if(finalCamera)finalCamera.SetActive(true);
         }
     }   
 }

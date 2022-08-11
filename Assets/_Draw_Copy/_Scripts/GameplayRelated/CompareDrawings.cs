@@ -169,6 +169,7 @@ public class CompareDrawings : MonoBehaviour
         if (lowDistCounter >= highDistCounter)
         {
             MainController.instance.SetActionType(GameState.Coloring);
+            yield return new WaitForSeconds(2.5f);
             CameraController.instance.ChangeToWinCamera();
             UIController.instance.HUD.SetActive(false);
             yield return new WaitForSeconds(1.2f);
@@ -179,12 +180,13 @@ public class CompareDrawings : MonoBehaviour
             UIController.instance.StartCoroutine(UIController.instance.ShowMatchPercentage(60, 85));
             yield return new WaitForSeconds(2.5f);
             //MainController.instance.SetActionType(GameState.Levelwin);
-            UIController.instance.drawingPercText.transform.parent.DOScaleX(0, 1);
+            UIController.instance.drawingPercText.transform.parent.DOScaleX(0, .5F);
             yield return new WaitForSeconds(1f);
             RobotPen.instance.mask.DOScaleY(0, 1);
             yield return new WaitForSeconds(1.5f);
             UIController.instance.coloringWindow.SetActive(true);
             UIController.instance.brushObject.SetActive(true);
+            UIController.instance.winConfetti.SetActive(false);
         }
         else if (lowDistCounter < highDistCounter)
         {

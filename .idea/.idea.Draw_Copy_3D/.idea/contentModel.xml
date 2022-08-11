@@ -32,6 +32,7 @@
               <e p="StartScreen.cs" t="Include" />
               <e p="StencilArt.cs" t="Include" />
             </e>
+            <e p="GirlDrawingBackElement.cs" t="Include" />
             <e p="MeshGenerator.cs" t="Include" />
             <e p="MoveWithTime.cs" t="Include" />
             <e p="PlayerDrawingTShirtElement.cs" t="Include" />
