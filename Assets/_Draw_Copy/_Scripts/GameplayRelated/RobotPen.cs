@@ -25,6 +25,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         public List<Shape> shapes;
         public Transform mask;
         public bool canvasLevel;
+        public Transform artStand;
 
         private void Awake()
         {
@@ -133,6 +134,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         {
             _canDraw = false;
             GameObject brushInst = Instantiate(brush);
+            if(artStand) brushInst.transform.parent = artStand.transform;
             _currentLine = brushInst.GetComponent<LineRenderer>();
             if(!canvasLevel)
             {

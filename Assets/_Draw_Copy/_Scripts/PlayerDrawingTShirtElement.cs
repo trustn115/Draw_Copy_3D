@@ -27,6 +27,7 @@ public class PlayerDrawingTShirtElement : MonoBehaviour
         
         public Transform hand;
         private Vector3 _handOrigPos;
+        public Transform brushParent;
 
         private void Awake()
         {
@@ -115,6 +116,7 @@ public class PlayerDrawingTShirtElement : MonoBehaviour
                 SoundsController.instance.playerDrawSource.enabled = false;
                 hand.DOLocalMoveX(-6.22f, 0.45f);
                 hand.DOLocalMoveZ(-3f, 0.45f);
+                
             }
         }
 
@@ -125,9 +127,11 @@ public class PlayerDrawingTShirtElement : MonoBehaviour
         void CreateBrush()
         {
             GameObject brushInst = Instantiate(brush);
+            brushInst.transform.parent = brushParent;
             brushInst.SetActive(false);
             _currentLine = brushInst.GetComponent<LineRenderer>();
             _currentLine.sortingLayerName = "outline";
+            //_currentLine.useWorldSpace = false;
             //ColoringController.instance.outlinesList.Add(_currentLine);
             DOVirtual.DelayedCall(0.05f, () =>
             {

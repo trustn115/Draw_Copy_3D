@@ -32,6 +32,8 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             DOVirtual.DelayedCall(0.5f, () => { btnRT.DOAnchorPosX(btnRT.anchoredPosition.x + 300, 0.5f); });
             UIController.instance.winConfetti.SetActive(true);
             UIController.instance.coloringWindow.SetActive(false);
+            UIController.instance.brushObject.SetActive(false);
+            DOVirtual.DelayedCall(1.5f, () => { CustomerTShirtDrawing.instance.Slap(); });
 
             if(finalCamera)finalCamera.SetActive(true);
         }

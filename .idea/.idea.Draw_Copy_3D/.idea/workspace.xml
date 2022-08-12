@@ -20,35 +20,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502d6599-c259-435e-91f7-3777a44178b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush Girl Back.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush Girl Back.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_3_gray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_3_gray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_4_gray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_4_gray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_5_gray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_5_gray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy 1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy 1.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GirlDrawingBackElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/Cat color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Coloring Related/Cat color.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/House 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/House 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl T Shirt Drawing 1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl T Shirt Drawing 1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringOnTShirt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringOnTShirt.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GirlColoring.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GirlColoring.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/new_vid_067.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/new_vid_071.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/new_vid_073.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/GirlController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GirlController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyWalking_Catwalk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_BodyWalking_Catwalk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodyclap_01.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/AnimationClip/Armature_Bodyclap_01.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Room mats/furniture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Room mats/furniture.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Room mats/pot.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Room mats/pot.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselDIFF psd.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselDIFF psd.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselDIFF.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/EaselDIFF.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/stand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/stand.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/House.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Drawing Shapes/House.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Scarlett_Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Scarlett_Body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_blue_eye.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_blue_eye.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_gray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_gray.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_grey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1 Circle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 1 Circle.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl Drawing Copy.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl T Shirt Drawing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/__Level Girl T Shirt Drawing.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CustomerTShirtDrawing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CustomerTShirtDrawing.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/PlayerDrawingTShirtElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/PlayerDrawingTShirtElement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
@@ -77,6 +84,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/FillWithLineRenderer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringOnTShirt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CreateMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/PlayerDrawingTShirtElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FDD05F60-78ED-45AD-BCCC-43989AD47DA7/84/fa86e6c4/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -111,17 +119,18 @@
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/StartScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushTypesElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MoveWithTime.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GirlDrawingBackElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringOnTShirt.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/PlayerDrawingTShirtElement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CustomerTShirtDrawing.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GirlDrawingBackElement.cs" />
       </list>
     </option>
   </component>

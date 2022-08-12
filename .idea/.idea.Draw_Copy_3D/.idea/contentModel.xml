@@ -21,6 +21,7 @@
             <e p="CustomerTShirtDrawing.cs" t="Include" />
             <e p="ElementRelated" t="Include">
               <e p="BrushColoringElement.cs" t="Include" />
+              <e p="BrushColoringOnTShirt.cs" t="Include" />
               <e p="BrushTypesElement.cs" t="Include" />
             </e>
             <e p="FillWithLineRenderer.cs" t="Include" />
@@ -32,6 +33,7 @@
               <e p="StartScreen.cs" t="Include" />
               <e p="StencilArt.cs" t="Include" />
             </e>
+            <e p="GirlColoring.cs" t="Include" />
             <e p="GirlDrawingBackElement.cs" t="Include" />
             <e p="MeshGenerator.cs" t="Include" />
             <e p="MoveWithTime.cs" t="Include" />

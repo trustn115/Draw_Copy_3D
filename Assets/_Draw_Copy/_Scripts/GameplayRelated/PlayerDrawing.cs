@@ -81,7 +81,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                     Vector3 hitPos = hit.point;
                     if(!isCanvasLevel) pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
                     else pen.position = new Vector3(hitPos.x, hitPos.y, pen.position.z);
-                    if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.001f)
+                    if (hitPos != _lastPos/* && Vector3.Distance(hitPos, _lastPos) > 0.001f*/)
                     {
                         if(!isCanvasLevel) AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
                         else AddPoint(new Vector3(hitPos.x, hitPos.y,-0.857f));
