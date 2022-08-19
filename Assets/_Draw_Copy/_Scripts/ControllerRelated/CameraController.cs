@@ -28,14 +28,20 @@ namespace _Draw_Copy._Scripts.ControllerRelated
 
         public void On_ColoringDoneButtonClicked(RectTransform btnRT)
         {
-            coloringCamera.SetActive(false);
+            //coloringCamera.SetActive(false);
             DOVirtual.DelayedCall(0.5f, () => { btnRT.DOAnchorPosX(btnRT.anchoredPosition.x + 300, 0.5f); });
             UIController.instance.winConfetti.SetActive(true);
             UIController.instance.coloringWindow.SetActive(false);
             UIController.instance.brushObject.SetActive(false);
-            DOVirtual.DelayedCall(1.5f, () => { CustomerTShirtDrawing.instance.Slap(); });
+            DOVirtual.DelayedCall(1.5f, () => {UIController.instance.winPanel.SetActive(true); });
+            //DOVirtual.DelayedCall(1.5f, () => { CustomerTShirtDrawing.instance.Slap(); });
 
-            if(finalCamera)finalCamera.SetActive(true);
+            //if(finalCamera)finalCamera.SetActive(true);
+        }
+
+        public void NormalLevel_On_ColoringDoneButtonClicked()
+        {
+            
         }
     }   
 }

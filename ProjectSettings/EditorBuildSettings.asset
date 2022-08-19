@@ -15,6 +15,15 @@ EditorBuildSettings:
     path: Assets/_Draw_Copy/_Scenes/Level 2 Smiley.unity
     guid: 71246f09deb497048a5c60dee08d8109
   - enabled: 1
+    path: Assets/_Draw_Copy/_Scenes/Level 24 Lip On Phone case.unity
+    guid: d5f124ea4bd397643b81719f1f95b57a
+  - enabled: 1
+    path: Assets/_Draw_Copy/_Scenes/Level 22 Cat - Pig Tshirt.unity
+    guid: aeb20b95928944e4487944561ae399a3
+  - enabled: 1
+    path: Assets/_Draw_Copy/_Scenes/Level 23 Lip On Tshirt.unity
+    guid: 8dedddba87fa2b64181c20b9d370c970
+  - enabled: 1
     path: Assets/_Draw_Copy/_Scenes/Level 3 Tree.unity
     guid: 11d8f99c7d28dbc4089770635d019b56
   - enabled: 1
