@@ -27,10 +27,18 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         public bool canvasLevel;
         public Transform artStand;
 
+        [HideInInspector] public GameObject shapesParent;
+
         private void Awake()
         {
             instance = this;
         }
+
+        private void Start()
+        {
+            shapesParent = new GameObject("Shapes Parent");
+        }
+
         private void OnEnable()
         {
             MainController.GameStateChanged += GameManager_GameStateChanged;
@@ -118,6 +126,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 CompareDrawings.instance.targetPts = _drawnPointList;
                 _drawnPointList = new List<Vector3>();
                 SoundsController.instance.roboDrawSource.enabled = false;
+                _currentLine.transform.parent = shapesParent.transform;
             }
 
             /*if (_loopCounter < takes.Count)
@@ -125,7 +134,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 StartCoroutine(FormMultipleShapes());
                 _loopCounter++;
             }*/
-            DOVirtual.DelayedCall(0.4f,
+            DOVirtual.DelayedCall(0.5f,
                 () => { MainController.instance.SetActionType(GameState.PlayerDrawing); });
             
             yield return null;

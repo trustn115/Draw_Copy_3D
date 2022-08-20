@@ -24,6 +24,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public GameObject brushObject;
         public GameObject coloringDoneButton;
         public GameObject tshirtArtDoneButton;
+        public GameObject colorReferenceImg;
         
         private PlayerDrawing _playerPen;
 

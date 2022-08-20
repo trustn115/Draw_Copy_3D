@@ -12,61 +12,61 @@ EditorBuildSettings:
     path: Assets/_Draw_Copy/_Scenes/Level 1 Circle.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 2 Smiley.unity
+    path: Assets/_Draw_Copy/_Scenes/Old Levels/Level 2 Smiley.unity
     guid: 71246f09deb497048a5c60dee08d8109
   - enabled: 1
     path: Assets/_Draw_Copy/_Scenes/Level 24 Lip On Phone case.unity
     guid: d5f124ea4bd397643b81719f1f95b57a
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 22 Cat - Pig Tshirt.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 11 Cat - Pig Tshirt.unity
     guid: aeb20b95928944e4487944561ae399a3
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 23 Lip On Tshirt.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 6 Lip On Tshirt.unity
     guid: 8dedddba87fa2b64181c20b9d370c970
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 3 Tree.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 4 Tree.unity
     guid: 11d8f99c7d28dbc4089770635d019b56
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 4 House.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 5 House.unity
     guid: 9ca25f77b11a49e4a98c4cb42b8d917c
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 5 Apple.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 12 Apple.unity
     guid: e0312e21b19ce534bae902e92872ebb5
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 6 Among Us.unity
+    path: Assets/_Draw_Copy/_Scenes/Old Levels/Level 6 Among Us.unity
     guid: 24743e34fb7b84a4883afe78d8cf1fd6
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 7 Bird.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 13 Bird.unity
     guid: a610d096b7b408442a6048758d766d3d
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 9 Dog.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 14 Dog.unity
     guid: 5c26b33c85e4ada4c9ab8be930051470
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 10 Heart.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 2 Heart.unity
     guid: faf6c205784602949b3d537d7e0cbca8
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 8 Butterfly 2.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 19  Honey Bee.unity
     guid: d8cda7c4a8fc3814e948b8e73b1f287b
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 15 Turtle.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 18 Turtle.unity
     guid: 1388efe7fb625d94da1650fd81193212
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 11 Flower.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 17 Flower.unity
     guid: da60f785a7d1a414ea8fd8dc773dee38
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 16 Dolphin.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 15 Dolphin.unity
     guid: d242246824d751e4dad7fedaf9c085d4
   - enabled: 1
     path: Assets/_Draw_Copy/_Scenes/Level 18 Ducks.unity
     guid: 019c4d186ec23a847a07dcf77900feaa
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 14 Monalisha.unity
+    path: Assets/_Draw_Copy/_Scenes/Old Levels/Level 14 Monalisha.unity
     guid: d25ff16b0216dc94d8265f72445c6446
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 12 Cat.unity
+    path: Assets/_Draw_Copy/_Scenes/Old Levels/Level 12 Cat.unity
     guid: a83d0ce2ebb4c4f43ab210c883b09bd3
   - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 13 Rabbit.unity
+    path: Assets/_Draw_Copy/_Scenes/Level 20 Rabbit.unity
     guid: ddffe887ef93d4e4c80b71067b922eed
   - enabled: 1
     path: Assets/_Draw_Copy/_Scenes/Level 8 Butterfly.unity

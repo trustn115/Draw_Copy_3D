@@ -109,7 +109,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
                 if (_takesCounter == currentTakes)
                 {
-                    DOVirtual.DelayedCall(0.4f,
+                    DOVirtual.DelayedCall(0.5f,
                         () => { MainController.instance.SetActionType(GameState.RoboDrawing); });
                     _takesCounter = 0;
                 }
