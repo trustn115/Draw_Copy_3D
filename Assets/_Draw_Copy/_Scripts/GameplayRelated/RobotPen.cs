@@ -26,6 +26,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         public Transform mask;
         public bool canvasLevel;
         public Transform artStand;
+        private Vector3 _startPenPos;
 
         [HideInInspector] public GameObject shapesParent;
 
@@ -37,6 +38,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         private void Start()
         {
             shapesParent = new GameObject("Shapes Parent");
+            _startPenPos = transform.position;
         }
 
         private void OnEnable()
@@ -62,6 +64,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             if (newState == GameState.PlayerDrawing)
             {
                 _canDraw = false;
+                transform.DOMove(_startPenPos, 0.5f);
             }
             
         }

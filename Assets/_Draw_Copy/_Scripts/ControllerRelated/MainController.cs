@@ -15,6 +15,8 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         RoboDrawing,
         PlayerDrawing,
         Coloring,
+        Eraser,
+        Brush,
         Levelwin,
         Levelfail
     }

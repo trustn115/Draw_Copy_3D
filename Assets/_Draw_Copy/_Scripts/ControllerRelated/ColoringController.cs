@@ -23,6 +23,7 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
         //TODO: Variables
         private List<GameObject> _brushesList= new List<GameObject>();
         private List<GameObject> _undoBrushes = new List<GameObject>();
+        public List<GameObject> selectedRingsList;
 
         public bool isCanvasLevel;
 
@@ -54,6 +55,7 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
 
         public void ChangeCurrentColor(string colorName)
         {
+            DisableAllSelectedRings();
             switch (colorName)
             {
                 case "grey": SetUpColor(grey);
@@ -142,6 +144,14 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
         {
             _brushParent.SetActive(false);
             _brushParent = new GameObject("Brush Parent");
+        }
+        
+        void DisableAllSelectedRings()
+        {
+            for (int i = 0; i < selectedRingsList.Count; i++)
+            {
+                selectedRingsList[i].SetActive(false);
+            }
         }
     }
 }

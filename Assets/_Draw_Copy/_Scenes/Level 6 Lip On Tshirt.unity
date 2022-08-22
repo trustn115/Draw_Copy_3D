@@ -700,8 +700,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.42656872, y: 0, z: 0, w: 0.9044552}
-  m_LocalPosition: {x: 0.1, y: 5.5, z: -7.66}
+  m_LocalRotation: {x: 0.5735764, y: 0, z: 0, w: 0.8191521}
+  m_LocalPosition: {x: 0.02, y: 6.71, z: -3.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2480,7 +2480,7 @@ GameObject:
   - component: {fileID: 1275159035}
   - component: {fileID: 1275159034}
   m_Layer: 0
-  m_Name: Turtle (1)
+  m_Name: On_Draw Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2527,7 +2527,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 989be204bf159ad40a723207b9b908c4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d555501300d3c4c4bb5cc4744fd75588, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2546,8 +2546,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275159033}
   m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.7071079}
-  m_LocalPosition: {x: 0.01, y: -1.0027697, z: -4.63}
-  m_LocalScale: {x: 0.955803, y: 0.9558032, z: 0.9558032}
+  m_LocalPosition: {x: 0.29, y: -1.0027697, z: -3.47}
+  m_LocalScale: {x: 0.84597164, y: 0.8459719, z: 0.8459719}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5046,6 +5046,12 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3786332681392732945, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0da81db850f8f8d46bc7afb607cd520c,
+        type: 3}
     - target: {fileID: 3951574121495631623, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}
       propertyPath: m_AnchorMax.y

@@ -77,7 +77,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 if (Physics.Raycast(ray, out hit, 100))
                 {
-                    print(hit.collider.name);
+                    //print(hit.collider.name);
                     Vector3 hitPos = hit.point;
                     if(!isCanvasLevel) pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
                     else pen.position = new Vector3(hitPos.x, hitPos.y, pen.position.z);
