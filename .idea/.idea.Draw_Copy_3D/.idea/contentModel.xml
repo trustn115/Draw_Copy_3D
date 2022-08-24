@@ -35,6 +35,7 @@
             </e>
             <e p="GirlColoring.cs" t="Include" />
             <e p="GirlDrawingBackElement.cs" t="Include" />
+            <e p="Help.cs" t="Include" />
             <e p="MeshGenerator.cs" t="Include" />
             <e p="MoveWithTime.cs" t="Include" />
             <e p="PlayerDrawingTShirtElement.cs" t="Include" />

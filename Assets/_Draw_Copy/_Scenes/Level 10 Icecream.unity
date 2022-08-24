@@ -1443,7 +1443,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8d14345f3ebcfb84fb3a52435d0f5a08, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56a7c23d178f4264186f42148097e5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1462,8 +1462,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648821909}
   m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.7071079}
-  m_LocalPosition: {x: 0.049, y: -1.0027697, z: -3.534}
-  m_LocalScale: {x: 0.51649684, y: 0.51649696, z: 0.51649696}
+  m_LocalPosition: {x: -0.422, y: -1.0027697, z: -3.11}
+  m_LocalScale: {x: 0.3978007, y: 0.3978008, z: 0.3978008}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4320,6 +4320,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VIEW
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978295027014, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: eraserColor.b
+      value: 0.909804
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978295027014, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: eraserColor.g
+      value: 0.8352942
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978295027014, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: eraserColor.r
+      value: 0.75294125
       objectReference: {fileID: 0}
     - target: {fileID: 8237314978295027015, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}

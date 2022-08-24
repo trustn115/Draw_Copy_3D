@@ -27,6 +27,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         [SerializeField] private int _takesCounter = 0;
         public bool isCanvasLevel;
 
+        private Vector3 penOrigPos;
+
         private void Awake()
         {
             instance = this;
@@ -36,6 +38,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         {
             _camera = Camera.main;
             _raypoint = pen.GetChild(0);
+            penOrigPos = new Vector3(1.5f, transform.position.y, -1.75f);
         }
 
         private void OnEnable()

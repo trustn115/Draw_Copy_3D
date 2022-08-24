@@ -175,6 +175,7 @@ public class CompareDrawings : MonoBehaviour
             UIController.instance.HUD.SetActive(false);
             yield return new WaitForSeconds(1.2f);
             UIController.instance.winConfetti.SetActive(true);
+            SoundsController.instance.PlaySound(SoundsController.instance.confetti);
             yield return new WaitForSeconds(1f);
             int perc = Mathf.CeilToInt((_totalLowDist / _totalDrawnPoints) * 100);
             print("Perc match = " + perc);
@@ -207,7 +208,7 @@ public class CompareDrawings : MonoBehaviour
         {
             MainController.instance.SetActionType(GameState.Coloring);
             UIController.instance.winConfetti.SetActive(true);
-            //SoundsController.instance.PlaySound(SoundsController.instance.confetti);
+            SoundsController.instance.PlaySound(SoundsController.instance.confetti);
             yield return new WaitForSeconds(1f);
             CameraController.instance.ChangeToWinCamera();
             yield return new WaitForSeconds(2f);

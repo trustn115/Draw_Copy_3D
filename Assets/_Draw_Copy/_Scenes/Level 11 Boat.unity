@@ -4835,6 +4835,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIEW
       objectReference: {fileID: 0}
+    - target: {fileID: 8237314978295027014, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: eraserColor.b
+      value: 0.6862745
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978295027014, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: eraserColor.g
+      value: 0.6627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978295027014, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: eraserColor.r
+      value: 0.6666667
+      objectReference: {fileID: 0}
     - target: {fileID: 8237314978295027015, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}
       propertyPath: stencil

@@ -10,7 +10,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public static SoundsController instance;
 
         public AudioSource mainAudioSource, roboDrawSource, playerDrawSource;
-        public AudioClip confetti, win, fail, swoosh;
+        public AudioClip confetti, win, fail, swoosh, paintBrush, buttonPop, buttonClick, buttonBrushPop;
 
         private void Awake()
         {

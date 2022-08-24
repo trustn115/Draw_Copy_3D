@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using _Draw_Copy._Scripts.ElementRelated;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace  _Draw_Copy._Scripts.ControllerRelated
 {
@@ -15,7 +16,7 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
         public GameObject eraserBrush;
         private int _sortingOrder = 1;
         public float currentBrushWidth = 0.15f;
-        public Color grey,brown,blue, red, yellow, green;
+        public Color grey,brown,purple,blue, red, pink,yellow, green;
         Gradient _gradient = new Gradient();
 
         private GameObject _brushParent;
@@ -25,6 +26,13 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
         private List<GameObject> _undoBrushes = new List<GameObject>();
         public List<GameObject> selectedRingsList;
 
+        public SpriteRenderer brush;
+        public List<Sprite> brushSprites;
+
+        public LineRenderer eraser;
+        public Color eraserColor;
+
+        public BrushTypesElement brushTypesElement;
         public bool isCanvasLevel;
 
         private void Awake()
@@ -62,9 +70,13 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
                     break;
                 case "brown": SetUpColor(brown);
                     break;
+                case "purple": SetUpColor(purple);
+                    break;
                 case "blue": SetUpColor(blue);
                     break;
                 case "red": SetUpColor(red);
+                    break;
+                case "pink": SetUpColor(pink);
                     break;
                 case "yellow": SetUpColor(yellow);;
                     break;
@@ -73,10 +85,13 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
                 case "rainbow": SetUpRainbowColor();
                     break;
             }
+            SoundsController.instance.PlaySound(SoundsController.instance.buttonPop);
         }
 
+        private bool _canChangeColor = true;
         void SetUpColor(Color c)
         {
+            if(!_canChangeColor) return;
             _gradient = new Gradient();
             _gradient.SetKeys(
                 new GradientColorKey[] { new GradientColorKey(c, 0.0f), new GradientColorKey(c, 1.0f), },
@@ -100,14 +115,29 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
 
         public void ChangeBrush(int i)
         {
-            BrushTypesElement.instance.ChangeBrush(i);
-            List<GameObject> brushes = BrushTypesElement.instance.brushObjects;
-            if (i == brushes.Count - 1)
+            brushTypesElement.ChangeBrush(i);
+            switch (i)
+            {
+                case 0: currentBrushWidth = 0.15f;
+                    break;
+                case 1: currentBrushWidth = 0.3f;
+                    break;
+                case 2: currentBrushWidth = 0.5f;
+                    break;
+            }
+            SoundsController.instance.PlaySound(SoundsController.instance.buttonBrushPop);
+            /*if (i == brushes.Count - 1)
             {
                 currentBrush = eraserBrush;
-                SetUpColor(Color.white);
+                _canChangeColor = true;
+                SetUpColor(eraserColor);
+                _canChangeColor = false;
             }
-            else currentBrush = defaultBrush;
+            else
+            {
+                currentBrush = defaultBrush;
+                _canChangeColor = true;
+            }*/
         }
         public void ChangeBrushWidth(float val)
         {

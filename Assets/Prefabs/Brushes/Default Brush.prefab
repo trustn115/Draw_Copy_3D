@@ -125,7 +125,7 @@ LineRenderer:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     numCornerVertices: 0
-    numCapVertices: 4
+    numCapVertices: 20
     alignment: 0
     textureMode: 1
     textureScale: {x: 1, y: 1}

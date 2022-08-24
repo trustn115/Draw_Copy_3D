@@ -7305,7 +7305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2136613472
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7635,6 +7635,21 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2774381928993050252, guid: f2515e9c462d51849ad35df6709f5d16,
+        type: 3}
+      propertyPath: brushColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774381928993050252, guid: f2515e9c462d51849ad35df6709f5d16,
+        type: 3}
+      propertyPath: brushColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774381928993050252, guid: f2515e9c462d51849ad35df6709f5d16,
+        type: 3}
+      propertyPath: brushColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2774381928993050255, guid: f2515e9c462d51849ad35df6709f5d16,
         type: 3}
       propertyPath: m_RootOrder
@@ -8808,6 +8823,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VIEW
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978295027014, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: eraserColor.b
+      value: 0.23137257
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978295027014, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: eraserColor.g
+      value: 0.24705884
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237314978295027014, guid: 5e384e86e8475e34da48d8dc4a687ae7,
+        type: 3}
+      propertyPath: eraserColor.r
+      value: 0.23137257
       objectReference: {fileID: 0}
     - target: {fileID: 8237314978295027015, guid: 5e384e86e8475e34da48d8dc4a687ae7,
         type: 3}

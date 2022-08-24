@@ -26,6 +26,7 @@ namespace _Draw_Copy._Scripts.ElementRelated
         private void Start()
         {
             _isCanvasLevel = ColoringController.instance.isCanvasLevel;
+            SoundsController.instance.playerDrawSource.clip = SoundsController.instance.paintBrush;
         }
 
         private bool _timeCountingStarted;
@@ -36,6 +37,11 @@ namespace _Draw_Copy._Scripts.ElementRelated
             if (_timeCountingStarted)
             {
                 _timeCounter += Time.deltaTime;
+                if (_timeCounter >= 3.5f)
+                {
+                    _timeCountingStarted = false;
+                    UIController.instance.coloringDoneButton.SetActive(true);
+                }
             }
             if (Input.GetMouseButtonDown(0) && !EventSystem.current.currentSelectedGameObject)
             {
@@ -44,7 +50,7 @@ namespace _Draw_Copy._Scripts.ElementRelated
                 {
                     _timeCountingStarted = true;
                 }
-                //SoundsController.instance.playerDrawSource.enabled = true;
+                SoundsController.instance.playerDrawSource.enabled = true;
             }
 
             if (Input.GetMouseButton(0) && !EventSystem.current.currentSelectedGameObject)
@@ -72,12 +78,7 @@ namespace _Draw_Copy._Scripts.ElementRelated
             if (Input.GetMouseButtonUp(0) && !EventSystem.current.currentSelectedGameObject)
             {
                 //ColoringController.instance.AddNewShapes(GetTransformsOutOfPoints(_drawnPointList));
-                //SoundsController.instance.playerDrawSource.enabled = false;
-                if (_timeCounter >= 3.5f)
-                {
-                    _timeCountingStarted = false;
-                    UIController.instance.coloringDoneButton.SetActive(true);
-                }
+                SoundsController.instance.playerDrawSource.enabled = false;
             }
         }
         

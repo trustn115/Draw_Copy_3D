@@ -33,10 +33,10 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             UIController.instance.winConfetti.SetActive(true);
             UIController.instance.coloringWindow.SetActive(false);
             UIController.instance.brushObject.SetActive(false);
-            DOVirtual.DelayedCall(1.5f, () => {UIController.instance.winPanel.SetActive(true); });
+            if(finalCamera)finalCamera.SetActive(true);
+            SoundsController.instance.PlaySound(SoundsController.instance.buttonClick);
+            DOVirtual.DelayedCall(2f, () => {UIController.instance.winPanel.SetActive(true); });
             //DOVirtual.DelayedCall(1.5f, () => { CustomerTShirtDrawing.instance.Slap(); });
-
-            //if(finalCamera)finalCamera.SetActive(true);
         }
 
         public void NormalLevel_On_ColoringDoneButtonClicked()
