@@ -37,7 +37,7 @@ namespace _Draw_Copy._Scripts.ElementRelated
             if (_timeCountingStarted)
             {
                 _timeCounter += Time.deltaTime;
-                if (_timeCounter >= 3.5f)
+                if (_timeCounter >= 2f)
                 {
                     _timeCountingStarted = false;
                     UIController.instance.coloringDoneButton.SetActive(true);

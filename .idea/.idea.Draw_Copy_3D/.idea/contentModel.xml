@@ -5,6 +5,7 @@
     <e p="C:\Users\ADMIN\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Draw_Copy_3D.-254037420.00" t="ExcludeRecursive" />
     <e p="D:\Projects\Draw_Copy_3D" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_Draw_Copy" t="Include">
@@ -23,6 +24,7 @@
               <e p="BrushColoringElement.cs" t="Include" />
               <e p="BrushColoringOnTShirt.cs" t="Include" />
               <e p="BrushTypesElement.cs" t="Include" />
+              <e p="PlayerTurnButtonElement.cs" t="Include" />
             </e>
             <e p="FillWithLineRenderer.cs" t="Include" />
             <e p="GameplayRelated" t="Include">
@@ -42,6 +44,7 @@
             <e p="Tests" t="Include">
               <e p="ShapeScaleDown.cs" t="Include" />
             </e>
+            <e p="Vibration.cs" t="Include" />
             <e p="ViewRelated" t="Include">
               <e p="LevelCompleteView.cs" t="Include" />
               <e p="LevelFailView.cs" t="Include" />
@@ -151,6 +154,7 @@
             </e>
           </e>
         </e>
+        <e p="csc.rsp" t="Include" />
         <e p="Demigiant" t="Include">
           <e p="DemiLib" t="Include">
             <e p="Core" t="Include">
@@ -184,6 +188,14 @@
             <e p="readme.txt" t="Include" />
           </e>
           <e p="readme_DOTweenPro.txt" t="Include" />
+        </e>
+        <e p="Editor" t="Include">
+          <e p="TTPDependencies.xml" t="Include" />
+        </e>
+        <e p="ExternalDependencyManager" t="Include">
+          <e p="Editor" t="Include">
+            <e p="external-dependency-manager_version-1.2.167_manifest.txt" t="Include" />
+          </e>
         </e>
         <e p="FastIK" t="Include">
           <e p="Documentation.txt" t="Include" />
@@ -482,6 +494,252 @@
                 </e>
               </e>
             </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="AndroidConfigurations.androidlib" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="res" t="Include">
+                <e p="values" t="Include">
+                  <e p="google-services.xml" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="appBuildConfig.json" t="Include" />
+          <e p="Bundle" t="Include">
+            <e p="BUAdSDK-Admob.bundle" t="Include">
+              <e p="version.txt" t="Include" />
+            </e>
+            <e p="BUAdSDK-Mopub.bundle" t="Include">
+              <e p="version.txt" t="Include" />
+            </e>
+          </e>
+          <e p="iso_4217.xml" t="Include" />
+          <e p="ttp" t="Include">
+            <e p="configurations" t="Include">
+              <e p="additionalConfig.json" t="Include" />
+              <e p="analytics.json" t="Include" />
+              <e p="appsFlyer.json" t="Include" />
+              <e p="banners.json" t="Include" />
+              <e p="billing.json" t="Include" />
+              <e p="crashMonitoringTool.json" t="Include" />
+              <e p="ecpm.json" t="Include" />
+              <e p="elephant.json" t="Include" />
+              <e p="global.json" t="Include" />
+              <e p="interstitials.json" t="Include" />
+              <e p="openads.json" t="Include" />
+              <e p="popupsMgr.json" t="Include" />
+              <e p="privacySettings.json" t="Include" />
+              <e p="promotion.json" t="Include" />
+              <e p="rateUs.json" t="Include" />
+              <e p="rewardedAds.json" t="Include" />
+              <e p="rewardedInterstitials.json" t="Include" />
+            </e>
+            <e p="houseads" t="Include">
+              <e p="config.json" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tabtale" t="Include">
+          <e p="TTPlugins" t="Include">
+            <e p="Analytics" t="Include">
+              <e p="Editor" t="Include">
+                <e p="AnalyticsConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="TTPAnalytics.cs" t="Include" />
+              <e p="TTPAnalyticsHelper.cs" t="Include" />
+              <e p="TTPFirebaseEchoAgent.cs" t="Include" />
+            </e>
+            <e p="AppsFlyer" t="Include">
+              <e p="Editor" t="Include">
+                <e p="AppsFlyerConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="TTPAppsFlyer.cs" t="Include" />
+            </e>
+            <e p="Banners" t="Include">
+              <e p="Editor" t="Include">
+                <e p="BannersConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="TTPBanners.cs" t="Include" />
+            </e>
+            <e p="CLIK" t="Include">
+              <e p="Editor" t="Include">
+                <e p="AndroidReplaceJcenterGradlePreProcess.cs" t="Include" />
+                <e p="CLIKConfiguration.cs" t="Include" />
+                <e p="DepsParser.cs" t="Include" />
+                <e p="DisableBitcodePostProcess.cs" t="Include" />
+                <e p="PodfileExtension.txt" t="Include" />
+                <e p="PomParser.cs" t="Include" />
+                <e p="PostProcessIOS.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Core" t="Include">
+              <e p="ATTDisclaimer.cs" t="Include" />
+              <e p="Common" t="Include">
+                <e p="JsonUtilityWrapper.cs" t="Include" />
+                <e p="SimpleJSON.cs" t="Include" />
+                <e p="TTAssetBundlesManager" t="Include">
+                  <e p="AssetBundleLoadOperation.cs" t="Include" />
+                  <e p="AssetBundleManager.cs" t="Include" />
+                  <e p="TTAssetBundleManager.cs" t="Include" />
+                  <e p="Utility.cs" t="Include" />
+                </e>
+                <e p="TTPEvents.cs" t="Include" />
+                <e p="TTPILRDData.cs" t="Include" />
+                <e p="TTPJson.cs" t="Include" />
+                <e p="TTPOnDemandsResources.cs" t="Include" />
+                <e p="TTPUtils.cs" t="Include" />
+                <e p="Zip.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="CoreConfigurationDownloader.cs" t="Include" />
+                <e p="TTPEditorUtils.cs" t="Include" />
+                <e p="TTPMenu.cs" t="Include" />
+                <e p="TTPPostProcessSettings.cs" t="Include" />
+                <e p="TTPPreProcessSettings.cs" t="Include" />
+              </e>
+              <e p="TTPCore.cs" t="Include" />
+              <e p="TTPIncludedServicesScriptableObject.cs" t="Include" />
+            </e>
+            <e p="GameProgression" t="Include">
+              <e p="TTPGameProgression.cs" t="Include" />
+            </e>
+            <e p="Interstitials" t="Include">
+              <e p="Editor" t="Include">
+                <e p="InterstitialsConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="Locations.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="Prefabs" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="TTPInterstitialCanvas.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="TTPInterstitials.cs" t="Include" />
+            </e>
+            <e p="OpenAds" t="Include">
+              <e p="Editor" t="Include">
+                <e p="OpenAdsConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="TTPOpenAds.cs" t="Include" />
+            </e>
+            <e p="PopUpMgr" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PopUpsMgrConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="TTPPopupMgr.cs" t="Include" />
+            </e>
+            <e p="PrivacySettings" t="Include">
+              <e p="Editor" t="Include">
+                <e p="DownloadLocalConsentForm.cs" t="Include" />
+                <e p="NativeLocale" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="NativeLocale.cs" t="Include" />
+                    <e p="Xcode" t="Include">
+                      <e p="AssetCatalog.cs" t="Include" />
+                      <e p="JsonParser.cs" t="Include" />
+                      <e p="PBX" t="Include">
+                        <e p="Elements.cs" t="Include" />
+                        <e p="Lexer.cs" t="Include" />
+                        <e p="Objects.cs" t="Include" />
+                        <e p="Parser.cs" t="Include" />
+                        <e p="Sections.cs" t="Include" />
+                        <e p="Serializer.cs" t="Include" />
+                        <e p="Utils.cs" t="Include" />
+                      </e>
+                      <e p="PBXCapabilityType.cs" t="Include" />
+                      <e p="PBXPath.cs" t="Include" />
+                      <e p="PBXProject.cs" t="Include" />
+                      <e p="PBXProjectData.cs" t="Include" />
+                      <e p="PBXProjectExtensions.cs" t="Include" />
+                      <e p="PlistParser.cs" t="Include" />
+                      <e p="ProjectCapabilityManager.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="PrivacySettingsConfigurationDownloader.cs" t="Include" />
+                <e p="TTPPrivacySettingsPostProcess.cs" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="Prefabs" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="PrivacySettingsPopUp.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="TTPPrivacySettings.cs" t="Include" />
+            </e>
+            <e p="Promotion" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PromotionConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="Prefabs" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="TTPPromotionCanvas.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="TTPPromotion.cs" t="Include" />
+            </e>
+            <e p="RateUs" t="Include">
+              <e p="Editor" t="Include">
+                <e p="RateUsConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="Prefabs" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="TTPRateUsCanvas.cs" t="Include" />
+                    <e p="TTPRateUsNotConnectedCanvas.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="TTPRateUs.cs" t="Include" />
+            </e>
+            <e p="RewardedAds" t="Include">
+              <e p="Editor" t="Include">
+                <e p="RewardedAdsConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="Prefabs" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="TTPRewardedAdsCanvas.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="TTPRewardedAds.cs" t="Include" />
+            </e>
+            <e p="RewardedInterstitials" t="Include">
+              <e p="Editor" t="Include">
+                <e p="RewardedInterstitialsConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="Prefabs" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="TTPRewardedInterstitialsCanvas.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="TTPRewardedInterstitials.cs" t="Include" />
+            </e>
+            <e p="TT_Plugins.json" t="Include" />
+            <e p="TTPCrashTool" t="Include">
+              <e p="Editor" t="Include">
+                <e p="CrashToolConfigurationDownloader.cs" t="Include" />
+              </e>
+              <e p="TTPCrashTool.cs" t="Include" />
+            </e>
+            <e p="TTPElephant" t="Include">
+              <e p="Editor" t="Include">
+                <e p="ElephantConfigurationDownloader.cs" t="Include" />
+              </e>
+            </e>
+            <e p="version.txt" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

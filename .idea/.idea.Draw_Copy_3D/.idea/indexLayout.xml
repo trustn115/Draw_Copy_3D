@@ -70,11 +70,17 @@
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Recordings</Path>
+      <Path>Robo Artist 4_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Robo Artist 4_BurstDebugInformation_DoNotShip</Path>
+      <Path>Robot Artist_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Robot Artist_BurstDebugInformation_DoNotShip</Path>
       <Path>Temp</Path>
       <Path>The Robo Artist 1_BackUpThisFolder_ButDontShipItWithYourGame</Path>
       <Path>The Robo Artist 1_BurstDebugInformation_DoNotShip</Path>
       <Path>The Robo Artist 2_BackUpThisFolder_ButDontShipItWithYourGame</Path>
       <Path>The Robo Artist 2_BurstDebugInformation_DoNotShip</Path>
+      <Path>The Robo Artist 3_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>The Robo Artist 3_BurstDebugInformation_DoNotShip</Path>
       <Path>The Robo Artist_BackUpThisFolder_ButDontShipItWithYourGame</Path>
       <Path>The Robo Artist_BurstDebugInformation_DoNotShip</Path>
       <Path>UserSettings</Path>

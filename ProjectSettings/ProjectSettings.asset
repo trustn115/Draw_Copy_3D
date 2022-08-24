@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: The Robo Artist
+  companyName: fastfailgames
+  productName: Robot Artist
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -156,7 +156,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.defaultc.theroboartist
+    Android: com.fastfailgames.robotartist
     Standalone: com.UnityTechnologies.com.unity.template-starter-kit
   buildNumber:
     Standalone: 0
@@ -164,7 +164,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 22
+  AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -243,24 +243,24 @@ PlayerSettings:
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
-  useCustomMainGradleTemplate: 0
-  useCustomLauncherGradleManifest: 0
-  useCustomBaseGradleTemplate: 0
+  useCustomMainGradleTemplate: 1
+  useCustomLauncherGradleManifest: 1
+  useCustomBaseGradleTemplate: 1
   useCustomGradlePropertiesTemplate: 0
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 3
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: D:/Game Stuffs/INTEGRATIONS/Keystores/FastFailGames/FastFailGames.keystore
+  AndroidKeyaliasName: fastfailgames
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
@@ -792,7 +792,9 @@ PlayerSettings:
   webGLMemoryLinearGrowthStep: 16
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: TTP_ANALYTICS;TTP_OPENADS;TTP_INTERSTITIALS;TTP_BANNERS;TTP_RATEUS;TTP_APPSFLYER;TTP_CRASHTOOL;TTP_GAMEPROGRESSION;TTP_PRIVACY_SETTINGS;TTP_PROMOTION;TTP_POPUPMGR;TTP_REWARDED_ADS;TTP_REWARDED_INTERSTITIALS
+    iPhone: TTP_ANALYTICS;TTP_OPENADS;TTP_INTERSTITIALS;TTP_BANNERS;TTP_RATEUS;TTP_APPSFLYER;TTP_CRASHTOOL;TTP_GAMEPROGRESSION;TTP_PRIVACY_SETTINGS;TTP_PROMOTION;TTP_POPUPMGR;TTP_REWARDED_ADS;TTP_REWARDED_INTERSTITIALS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -881,7 +883,7 @@ PlayerSettings:
   luminVersion:
     m_VersionCode: 1
     m_VersionName: 
-  apiCompatibilityLevel: 6
+  apiCompatibilityLevel: 3
   activeInputHandler: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0

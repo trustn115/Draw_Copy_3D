@@ -65,13 +65,26 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         }
 
         private bool _mouseDownRecorded;
+        private bool _startVibrating;
+        private float _timeGap;
+        
         private void Update()
         {
+            if (_startVibrating)
+            {
+                _timeGap += Time.deltaTime;
+                if (_timeGap >= 0.3)
+                {
+                    Vibration.Vibrate(10);
+                    _timeGap = 0;
+                }
+            }
             if (Input.GetMouseButtonDown(0) && _canDraw && !_mouseDownRecorded && !EventSystem.current.currentSelectedGameObject)
             {
                 CreateBrush();
                 _mouseDownRecorded = true;
                 SoundsController.instance.playerDrawSource.enabled = true;
+                _startVibrating = true;
             }
 
             if (Input.GetMouseButton(0) && _canDraw && _mouseDownRecorded && !EventSystem.current.currentSelectedGameObject)
@@ -112,27 +125,42 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CompareShape());
                 if (_takesCounter == currentTakes)
                 {
-                    DOVirtual.DelayedCall(0.5f,
-                        () => { MainController.instance.SetActionType(GameState.RoboDrawing); });
+                    /*DOVirtual.DelayedCall(0.5f,
+                        () => { MainController.instance.SetActionType(GameState.RoboDrawing); });*/
                     _takesCounter = 0;
+                    _shapesCounter++;
                 }
-                CheckIfAllShapesDrawn();
+                //CheckIfAllShapesDrawn();
 
                 _drawnPointList = new List<Vector3>();
                 _mouseDownRecorded = false;
                 SoundsController.instance.playerDrawSource.enabled = false;
+                _startVibrating = false;
             }
         }
 
         private int _shapesCounter = 0;
         
-        void CheckIfAllShapesDrawn()
+        public void CheckIfAllShapesDrawn(int playerTurnCount)
         {
-            _shapesCounter++;
-            if (_shapesCounter == RobotPen.instance.shapes.Count)
+            if (playerTurnCount >= RobotPen.instance.takes.Count)
+            {
+                CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CheckLevelState());
+            }else
+            {
+                DOVirtual.DelayedCall(0.5f,
+                    () => { MainController.instance.SetActionType(GameState.RoboDrawing); });
+            }
+            //_shapesCounter++;
+            /*if (_shapesCounter >= RobotPen.instance.shapes.Count)
             {
                 CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CheckLevelState());
             }
+            else
+            {
+                DOVirtual.DelayedCall(0.5f,
+                    () => { MainController.instance.SetActionType(GameState.RoboDrawing); });
+            }*/
         }
 
         void CreateBrush()

@@ -86,6 +86,7 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
                     break;
             }
             SoundsController.instance.PlaySound(SoundsController.instance.buttonPop);
+            Vibration.Vibrate(27);
         }
 
         private bool _canChangeColor = true;
@@ -126,6 +127,7 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
                     break;
             }
             SoundsController.instance.PlaySound(SoundsController.instance.buttonBrushPop);
+            Vibration.Vibrate(27);
             /*if (i == brushes.Count - 1)
             {
                 currentBrush = eraserBrush;
@@ -156,6 +158,7 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
                     break;
                 }
             }
+            Vibration.Vibrate(27);
         }
         public void OnRedoButtonPressed()
         {
@@ -169,11 +172,13 @@ namespace  _Draw_Copy._Scripts.ControllerRelated
                     break;
                 }
             }
+            Vibration.Vibrate(27);
         }
         public void OnClearButtonPressed()
         {
             _brushParent.SetActive(false);
             _brushParent = new GameObject("Brush Parent");
+            Vibration.Vibrate(27);
         }
         
         void DisableAllSelectedRings()

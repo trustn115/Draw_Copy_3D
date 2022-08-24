@@ -137,6 +137,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 StartCoroutine(FormMultipleShapes());
                 _loopCounter++;
             }*/
+            
             DOVirtual.DelayedCall(0.5f,
                 () => { MainController.instance.SetActionType(GameState.PlayerDrawing); });
             

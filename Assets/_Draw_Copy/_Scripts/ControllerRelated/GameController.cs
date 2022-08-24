@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using _Draw_Copy._Scripts.GameplayRelated;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,8 +10,19 @@ namespace _Draw_Copy._Scripts.ControllerRelated
 {
     public class GameController : MonoBehaviour
     {
+        public static GameController instance;
         public List<GameObject> thingsToDeactivateDuringColoring;
-        
+
+        private void Awake()
+        {
+            instance = this;
+        }
+
+        private void Start()
+        {
+            Vibration.Init();
+        }
+
         private void OnEnable()
         {
             MainController.GameStateChanged += GameManager_GameStateChanged;
@@ -37,10 +50,10 @@ namespace _Draw_Copy._Scripts.ControllerRelated
 
         private void Update()
         {
-            if(Input.GetMouseButtonDown(1))
-            {
-                On_RetryButtonClicked();
-            }
+            // if(Input.GetMouseButtonDown(1))
+            // {
+            //     On_RetryButtonClicked();
+            // }
         }
 
         public void On_NextButtonClicked()
@@ -56,11 +69,21 @@ namespace _Draw_Copy._Scripts.ControllerRelated
                 PlayerPrefs.SetInt("level", (PlayerPrefs.GetInt("level", 1) + 1));
             }
             PlayerPrefs.SetInt("levelnumber", PlayerPrefs.GetInt("levelnumber", 1) + 1);
+            Vibration.Vibrate(27);
         }
 
         public void On_RetryButtonClicked()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Vibration.Vibrate(27);
+        }
+        
+        [HideInInspector] public int playerTurnCounter;
+        public void ChangeToRoboDrawingState()
+        {
+            playerTurnCounter++;
+            PlayerDrawing.instance.CheckIfAllShapesDrawn(playerTurnCounter);
+            Vibration.Vibrate(27);
         }
     }   
 }
