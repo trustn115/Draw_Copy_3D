@@ -369,7 +369,7 @@ MonoBehaviour:
   currentTakes: 0
   _takesCounter: 0
   isCanvasLevel: 0
-  brushColor: {r: 0, g: 0, b: 0, a: 1}
+  drawFx: {fileID: 636534994669431653, guid: 5ef610c61405d1e408325c496e294795, type: 3}
 --- !u!1 &6495507815421726139
 GameObject:
   m_ObjectHideFlags: 0

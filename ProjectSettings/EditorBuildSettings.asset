@@ -17,88 +17,88 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Draw_Copy/_Scenes/Level 3 Cloud.unity
     guid: 5c4a1db0800bf044d9af928aba97b6cd
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 4 Tree.unity
     guid: 11d8f99c7d28dbc4089770635d019b56
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 5 House.unity
     guid: 9ca25f77b11a49e4a98c4cb42b8d917c
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 6 Lip On Tshirt.unity
     guid: 8dedddba87fa2b64181c20b9d370c970
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 7 Mouse.unity
     guid: 0b10118959230f84d8e4ad1127c08143
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 8 Butterfly.unity
     guid: ff2cc072cb56a024a8e2aa75e9d99ea7
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 9 Brinjal.unity
     guid: 6cec9fd5d8ddcff40b130e92b2a04384
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 10 Icecream.unity
     guid: 4bc5acdee9efa144a9454c1a11495f57
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 11 Boat.unity
     guid: c8d7984aaa9c4f24782eb9b339902fc6
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 12.1 Cat - Pig Tshirt.unity
     guid: aeb20b95928944e4487944561ae399a3
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 12 Apple.unity
     guid: e0312e21b19ce534bae902e92872ebb5
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 13 Bird.unity
     guid: a610d096b7b408442a6048758d766d3d
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 14 Dog.unity
     guid: 5c26b33c85e4ada4c9ab8be930051470
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 15 Dolphin.unity
     guid: d242246824d751e4dad7fedaf9c085d4
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 16 Ducks.unity
     guid: 019c4d186ec23a847a07dcf77900feaa
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 17 Flower.unity
     guid: da60f785a7d1a414ea8fd8dc773dee38
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 18 Turtle.unity
     guid: 1388efe7fb625d94da1650fd81193212
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 19  Honey Bee.unity
     guid: d8cda7c4a8fc3814e948b8e73b1f287b
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 20 Rabbit.unity
     guid: ddffe887ef93d4e4c80b71067b922eed
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 21 Penguine- Face.unity
     guid: 163d2d4ea7557ce4da977c7790401703
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 22 Fish.unity
     guid: 2058e1619755e12429303aa2905d3b24
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 23  Snake 1.unity
     guid: b0f12c30f47d894428c23e47bd5d7eed
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 23 Parrot.unity
     guid: 4a0759e905295414b945fa795416b135
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 24 Dinosaur.unity
     guid: 75b818d8cde7b70419e5d7a32e9514ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 25  Shark.unity
     guid: 556c70adb92651440aea48983a5474fa
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 26 Sheep.unity
     guid: c68f02ee4c2d8dc41a18d469f86be6a2
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 27 Snail.unity
     guid: 1c1d2be5c4fe8524ba3b8e2b115c6567
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Draw_Copy/_Scenes/Level 28 Elephant.unity
     guid: fe68667ba7c15c14ba5bb6dfad1f7876
-  - enabled: 1
-    path: Assets/_Draw_Copy/_Scenes/Level 1.1 Smiley.unity
+  - enabled: 0
+    path: Assets/_Draw_Copy/_Scenes/Old Levels/Level 1.1 Smiley.unity
     guid: 71246f09deb497048a5c60dee08d8109
   m_configObjects: {}

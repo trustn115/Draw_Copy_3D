@@ -28,6 +28,7 @@
             </e>
             <e p="FillWithLineRenderer.cs" t="Include" />
             <e p="GameplayRelated" t="Include">
+              <e p="BezierPath.cs" t="Include" />
               <e p="CompareDrawings.cs" t="Include" />
               <e p="PlayerDrawing.cs" t="Include" />
               <e p="RobotPen.cs" t="Include" />

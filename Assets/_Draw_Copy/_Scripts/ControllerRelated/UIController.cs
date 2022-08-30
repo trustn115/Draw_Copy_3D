@@ -25,6 +25,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public GameObject coloringDoneButton;
         public GameObject tshirtArtDoneButton;
         public GameObject colorReferenceImg;
+        public TextMeshProUGUI instructionText;
         
         private PlayerDrawing _playerPen;
 

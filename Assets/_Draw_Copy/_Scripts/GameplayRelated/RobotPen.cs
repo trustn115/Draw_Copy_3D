@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using _Draw_Copy._Scripts.ControllerRelated;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 
 namespace _Draw_Copy._Scripts.GameplayRelated
@@ -29,6 +30,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         private Vector3 _startPenPos;
 
         [HideInInspector] public GameObject shapesParent;
+        private TextMeshProUGUI _instructionText;
+        public List<string> instructions;
 
         private void Awake()
         {
@@ -39,6 +42,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         {
             shapesParent = new GameObject("Shapes Parent");
             _startPenPos = transform.position;
+            _instructionText = UIController.instance.instructionText;
         }
 
         private void OnEnable()
@@ -101,11 +105,13 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             MainController.instance.SetActionType(GameState.PlayerDrawing);
         }
 
-        private int _loopCounter = 0, _pointsCounter = 0;
+        private int _loopCounter = 0, _pointsCounter = 0, _voiceOverCounter = 0;
+        public List<AudioClip> voiceOvers;
         IEnumerator FormMultipleShapes()
         {
             PlayerDrawing.instance.currentTakes = takes[_loopCounter];
             int loopNum = takes[_loopCounter++];
+            ShowDrawingInstructions();
             for (int i = 0; i < loopNum; i++)
             {
                 CompareDrawings.instance.drawnPointsMovePos = shapes[_pointsCounter].transform.position;
@@ -142,6 +148,13 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 () => { MainController.instance.SetActionType(GameState.PlayerDrawing); });
             
             yield return null;
+        }
+
+        void ShowDrawingInstructions()
+        {
+            SoundsController.instance.PlaySound(voiceOvers[_voiceOverCounter]);
+            _instructionText.text = instructions[_voiceOverCounter];
+            _voiceOverCounter++;
         }
         void CreateBrush(List<Transform> pointsTaken)
         {

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using _Draw_Copy._Scripts.ControllerRelated;
 using DG.Tweening;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -28,6 +29,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         public bool isCanvasLevel;
 
         private Vector3 penOrigPos;
+        public GameObject drawFx;
 
         private void Awake()
         {
@@ -39,6 +41,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             _camera = Camera.main;
             _raypoint = pen.GetChild(0);
             penOrigPos = new Vector3(1.5f, transform.position.y, -1.75f);
+            /*drawFx = Instantiate(drawFx, Vector3.zero, Quaternion.identity);
+            drawFx.SetActive(false);*/
         }
 
         private void OnEnable()
@@ -65,9 +69,9 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         }
 
         private bool _mouseDownRecorded;
-        private bool _startVibrating;
-        private float _timeGap;
-        
+        private bool _startVibrating, _canShowFx;
+        private float _timeGap, fxTimeGap;
+
         private void Update()
         {
             if (_startVibrating)
@@ -79,32 +83,45 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                     _timeGap = 0;
                 }
             }
-            if (Input.GetMouseButtonDown(0) && _canDraw && !_mouseDownRecorded && !EventSystem.current.currentSelectedGameObject)
+
+            if (_canShowFx)
+            {
+                fxTimeGap += Time.deltaTime;
+                if (fxTimeGap >= 0.65)
+                {
+                    fxTimeGap = 0;
+                    ShowDrawFx();
+                }
+            }
+
+            if (Input.GetMouseButtonDown(0) && _canDraw && !_mouseDownRecorded &&
+                !EventSystem.current.currentSelectedGameObject)
             {
                 CreateBrush();
                 _mouseDownRecorded = true;
                 SoundsController.instance.playerDrawSource.enabled = true;
                 _startVibrating = true;
+                _canShowFx = true;
+                ShowDrawFx();
+                //drawFx.SetActive(true);
             }
 
-            if (Input.GetMouseButton(0) && _canDraw && _mouseDownRecorded && !EventSystem.current.currentSelectedGameObject)
+            if (Input.GetMouseButton(0) && _canDraw && _mouseDownRecorded &&
+                !EventSystem.current.currentSelectedGameObject)
             {
-                RaycastHit hit;
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                if (Physics.Raycast(ray, out hit, 100))
+                Vector3 hitPos = GetHitPoint();
+                if (!isCanvasLevel) pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
+                else pen.position = new Vector3(hitPos.x, hitPos.y, pen.position.z);
+                if (hitPos != _lastPos /* && Vector3.Distance(hitPos, _lastPos) > 0.001f*/)
                 {
-                    //print(hit.collider.name);
-                    Vector3 hitPos = hit.point;
-                    if(!isCanvasLevel) pen.position = new Vector3(hitPos.x, pen.position.y, hitPos.z);
-                    else pen.position = new Vector3(hitPos.x, hitPos.y, pen.position.z);
-                    if (hitPos != _lastPos/* && Vector3.Distance(hitPos, _lastPos) > 0.001f*/)
-                    {
-                        if(!isCanvasLevel) AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
-                        else AddPoint(new Vector3(hitPos.x, hitPos.y,-0.857f));
-                        _lastPos = hitPos;
-                        _drawnPointList.Add(hitPos);
-                    }
+                    if (!isCanvasLevel) AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
+                    else AddPoint(new Vector3(hitPos.x, hitPos.y, -0.857f));
+                    _lastPos = hitPos;
+                    _drawnPointList.Add(hitPos);
+                    BezierInterpolate();
+                    //drawFx.transform.position = new Vector3(hitPos.x, -1, hitPos.z);
                 }
+
 
                 if (ink.localScale.y > 0)
                 {
@@ -117,7 +134,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 _currentLine = null;
             }
 
-            if (Input.GetMouseButtonUp(0) && _canDraw && _mouseDownRecorded && !EventSystem.current.currentSelectedGameObject)
+            if (Input.GetMouseButtonUp(0) && _canDraw && _mouseDownRecorded &&
+                !EventSystem.current.currentSelectedGameObject)
             {
                 //ColoringController.instance.AddNewShapes(GetTransformsOutOfPoints(_drawnPointList));
                 _takesCounter++;
@@ -136,21 +154,55 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 _mouseDownRecorded = false;
                 SoundsController.instance.playerDrawSource.enabled = false;
                 _startVibrating = false;
+                _canShowFx = false;
+                //drawFx.SetActive(false);
             }
         }
 
-        private int _shapesCounter = 0;
+        void ShowDrawFx()
+        {
+            Vector3 hitPoint = GetHitPoint();
+            Instantiate(drawFx, new Vector3(hitPoint.x, -1, hitPoint.z), Quaternion.identity);
+        }
         
+        private static List<Vector3> bezierDrawingPoints;
+        public void BezierInterpolate()
+        {
+            BezierPath bezierPath = new BezierPath ();
+            bezierPath.Interpolate(_drawnPointList, 0.3f);
+            bezierDrawingPoints = bezierPath.GetDrawingPoints2();
+            _currentLine.SetVertexCount(bezierDrawingPoints.Count);
+            _currentLine.SetPositions (bezierDrawingPoints.ToArray ());
+        }
+
+        Vector3 GetHitPoint()
+        {
+            Vector3 hitPoint = Vector3.zero;
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit, 100))
+            {
+                //print(hit.collider.name);
+                hitPoint = hit.point;
+            }
+
+            return hitPoint;
+        }
+
+        private int _shapesCounter = 0;
+
         public void CheckIfAllShapesDrawn(int playerTurnCount)
         {
             if (playerTurnCount >= RobotPen.instance.takes.Count)
             {
                 CompareDrawings.instance.StartCoroutine(CompareDrawings.instance.CheckLevelState());
-            }else
+            }
+            else
             {
                 DOVirtual.DelayedCall(0.5f,
                     () => { MainController.instance.SetActionType(GameState.RoboDrawing); });
             }
+
             //_shapesCounter++;
             /*if (_shapesCounter >= RobotPen.instance.shapes.Count)
             {
@@ -172,16 +224,17 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             //ColoringController.instance.outlinesList.Add(_currentLine);
             DOVirtual.DelayedCall(0.05f, () =>
             {
-                if(!isCanvasLevel)
+                if (!isCanvasLevel)
                 {
                     _currentLine.SetPosition(0, new Vector3(pen.position.x, -1, pen.position.z));
                     _currentLine.SetPosition(1, new Vector3(pen.position.x, -1, pen.position.z));
                 }
                 else
                 {
-                    _currentLine.SetPosition(0, new Vector3(pen.position.x, pen.position.y,-0.857f));
-                    _currentLine.SetPosition(1, new Vector3(pen.position.x, pen.position.y,-0.857f));
+                    _currentLine.SetPosition(0, new Vector3(pen.position.x, pen.position.y, -0.857f));
+                    _currentLine.SetPosition(1, new Vector3(pen.position.x, pen.position.y, -0.857f));
                 }
+
                 brushInst.SetActive(true);
             });
         }
@@ -202,6 +255,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 pointObj.transform.position = points[i];
                 drawnPointsAsTransforms.Add(pointObj.transform);
             }
+
             return drawnPointsAsTransforms;
         }
     }
