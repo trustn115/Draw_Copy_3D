@@ -111,7 +111,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         {
             PlayerDrawing.instance.currentTakes = takes[_loopCounter];
             int loopNum = takes[_loopCounter++];
-            ShowDrawingInstructions();
+            //ShowDrawingInstructions();
             for (int i = 0; i < loopNum; i++)
             {
                 CompareDrawings.instance.drawnPointsMovePos = shapes[_pointsCounter].transform.position;

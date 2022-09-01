@@ -6362,12 +6362,12 @@ PrefabInstance:
     - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
         type: 3}
       propertyPath: takes.Array.data[0]
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
         type: 3}
       propertyPath: takes.Array.data[1]
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
         type: 3}
@@ -6433,17 +6433,17 @@ PrefabInstance:
         type: 3}
       propertyPath: shapes.Array.data[0]
       value: 
-      objectReference: {fileID: 246134133}
+      objectReference: {fileID: 2140344203}
     - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
         type: 3}
       propertyPath: shapes.Array.data[1]
       value: 
-      objectReference: {fileID: 47330847}
+      objectReference: {fileID: 246134133}
     - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
         type: 3}
       propertyPath: shapes.Array.data[2]
       value: 
-      objectReference: {fileID: 2140344203}
+      objectReference: {fileID: 47330847}
     - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
         type: 3}
       propertyPath: shapes.Array.data[3]
@@ -6564,6 +6564,56 @@ PrefabInstance:
       propertyPath: points.Array.data[30]
       value: 
       objectReference: {fileID: 1086804639}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ec1ec5c29ed06c947a487ee9c0012848, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 96080f848f7d43049ae0240ca8e8466f, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8cf5d7a682019004faed3489c6d8d78c, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 66d5ae7c435cc8e4a8b79f1c7e433797, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[0]
+      value: Draw circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[1]
+      value: Draw two U
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[2]
+      value: Draw two circles
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[3]
+      value: Draw the letter C
+      objectReference: {fileID: 0}
     - target: {fileID: 4891380706299848412, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
         type: 3}
       propertyPath: m_RootOrder

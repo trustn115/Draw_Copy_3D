@@ -8201,6 +8201,56 @@ PrefabInstance:
       propertyPath: points.Array.data[30]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: b00efadf0dbe4224a80dfdce41208e58, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: a1dc3fc047bdeed47bc904ec2b97132f, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: a1dc3fc047bdeed47bc904ec2b97132f, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 055f46c511d22a84794c5a6b0b50dd96, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[0]
+      value: Draw a capsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[1]
+      value: Draw the letter B
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[2]
+      value: Draw the letter B
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[3]
+      value: Draw the tentacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4891380706299848412, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
         type: 3}
       propertyPath: m_RootOrder

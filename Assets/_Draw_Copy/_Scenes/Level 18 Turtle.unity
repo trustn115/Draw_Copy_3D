@@ -10280,6 +10280,66 @@ PrefabInstance:
       propertyPath: shapes.Array.data[13]
       value: 
       objectReference: {fileID: 141551718}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ec1ec5c29ed06c947a487ee9c0012848, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: ef87cef5f6670434a88e1b87cec3f014, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: e6438ec028bdaaa40ac0e879f120d95f, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8ad8cdad963e67b42bd4f2fcd257c24e, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: voiceOvers.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e1ae4cab188ef1468e6b0d9477a2501, type: 3}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[0]
+      value: Draw circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[1]
+      value: Draw a hexagon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[2]
+      value: Draw 6 lines
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[3]
+      value: Draw 5 C
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891380706299848402, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
+        type: 3}
+      propertyPath: instructions.Array.data[4]
+      value: Draw the tail
+      objectReference: {fileID: 0}
     - target: {fileID: 4891380706299848412, guid: 8c57857a49d8d294fa6bcb2bfddbd4d0,
         type: 3}
       propertyPath: m_RootOrder

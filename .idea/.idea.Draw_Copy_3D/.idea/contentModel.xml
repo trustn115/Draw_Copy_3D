@@ -615,6 +615,9 @@
                   <e p="Water WindWaker2.shader" t="Include" />
                 </e>
               </e>
+              <e p="User" t="Include">
+                <e p="My TCP2 Shader.shader" t="Include" />
+              </e>
             </e>
           </e>
         </e>

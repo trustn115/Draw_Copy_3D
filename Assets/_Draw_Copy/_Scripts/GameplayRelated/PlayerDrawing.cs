@@ -115,7 +115,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 if (hitPos != _lastPos /* && Vector3.Distance(hitPos, _lastPos) > 0.001f*/)
                 {
                     if (!isCanvasLevel) AddPoint(new Vector3(hitPos.x, -1, hitPos.z));
-                    else AddPoint(new Vector3(hitPos.x, hitPos.y, -0.857f));
+                    else AddPoint(new Vector3(hitPos.x, hitPos.y, -0.91f));
                     _lastPos = hitPos;
                     _drawnPointList.Add(hitPos);
                     BezierInterpolate();
@@ -162,7 +162,10 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         void ShowDrawFx()
         {
             Vector3 hitPoint = GetHitPoint();
-            Instantiate(drawFx, new Vector3(hitPoint.x, -1, hitPoint.z), Quaternion.identity);
+            Vector3 spawnPos = Vector3.zero;
+            if (!isCanvasLevel) spawnPos =  new Vector3(hitPoint.x, -1, hitPoint.z);
+            else spawnPos = new Vector3(hitPoint.x, hitPoint.y, -0.9f);
+            Instantiate(drawFx, spawnPos, Quaternion.identity);
         }
         
         private static List<Vector3> bezierDrawingPoints;
@@ -231,8 +234,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 }
                 else
                 {
-                    _currentLine.SetPosition(0, new Vector3(pen.position.x, pen.position.y, -0.857f));
-                    _currentLine.SetPosition(1, new Vector3(pen.position.x, pen.position.y, -0.857f));
+                    _currentLine.SetPosition(0, new Vector3(pen.position.x, pen.position.y, -0.91f));
+                    _currentLine.SetPosition(1, new Vector3(pen.position.x, pen.position.y, -0.91f));
                 }
 
                 brushInst.SetActive(true);
