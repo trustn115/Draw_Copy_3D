@@ -7261,6 +7261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   raypoint: {fileID: 4786974181241960087}
+  zPos: -0.9
 --- !u!114 &1678303816072822017
 MonoBehaviour:
   m_ObjectHideFlags: 0

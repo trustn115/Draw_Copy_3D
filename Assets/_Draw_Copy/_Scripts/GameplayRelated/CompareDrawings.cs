@@ -169,9 +169,7 @@ public class CompareDrawings : MonoBehaviour
         if (lowDistCounter >= highDistCounter)
         {
             MainController.instance.SetActionType(GameState.Coloring);
-            UIController.instance.HUD.SetActive(false);
             yield return new WaitForSeconds(1.5f);
-            CameraController.instance.ChangeToWinCamera();
             UIController.instance.HUD.SetActive(false);
             yield return new WaitForSeconds(1.2f);
             UIController.instance.winConfetti.SetActive(true);
@@ -181,6 +179,7 @@ public class CompareDrawings : MonoBehaviour
             print("Perc match = " + perc);
             UIController.instance.StartCoroutine(UIController.instance.ShowMatchPercentage(60, 85));
             yield return new WaitForSeconds(2.5f);
+            CameraController.instance.ChangeToWinCamera();
             //MainController.instance.SetActionType(GameState.Levelwin);
             UIController.instance.drawingPercText.transform.parent.DOScaleX(0, .3F);
             UIController.instance.colorReferenceImg.SetActive(true);

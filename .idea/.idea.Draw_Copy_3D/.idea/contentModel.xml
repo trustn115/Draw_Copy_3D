@@ -31,6 +31,7 @@
               <e p="BezierPath.cs" t="Include" />
               <e p="CompareDrawings.cs" t="Include" />
               <e p="PlayerDrawing.cs" t="Include" />
+              <e p="PlayerDrawingGirlBack.cs" t="Include" />
               <e p="RobotPen.cs" t="Include" />
               <e p="Shape.cs" t="Include" />
               <e p="StartScreen.cs" t="Include" />

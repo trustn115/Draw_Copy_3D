@@ -74,7 +74,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             if (newState == GameState.PlayerDrawing)
             {
                 roboTurnStrip.gameObject.SetActive(false);
-                yourTurnStrip.gameObject.SetActive(true);
+               // yourTurnStrip.gameObject.SetActive(true);
                 yourTurnStrip.DOAnchorPosX(roboTurnStrip.anchoredPosition.x + 350, 1).From().SetEase(Ease.OutBack);
                 SoundsController.instance.PlaySound(SoundsController.instance.swoosh);
                 //_playerPen.enabled = true;

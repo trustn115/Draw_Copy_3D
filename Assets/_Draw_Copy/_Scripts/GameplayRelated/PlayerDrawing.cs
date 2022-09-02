@@ -194,7 +194,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
 
         private int _shapesCounter = 0;
 
-        public void CheckIfAllShapesDrawn(int playerTurnCount)
+        public void   CheckIfAllShapesDrawn(int playerTurnCount)
         {
             if (playerTurnCount >= RobotPen.instance.takes.Count)
             {

@@ -35,7 +35,7 @@ namespace _Draw_Copy._Scripts.ControllerRelated
             UIController.instance.brushObject.SetActive(false);
             if(finalCamera)finalCamera.SetActive(true);
             SoundsController.instance.PlaySound(SoundsController.instance.buttonClick);
-            DOVirtual.DelayedCall(2f, () => {UIController.instance.winPanel.SetActive(true); });
+            DOVirtual.DelayedCall(3.5f, () => {UIController.instance.winPanel.SetActive(true); });
             //DOVirtual.DelayedCall(1.5f, () => { CustomerTShirtDrawing.instance.Slap(); });
         }
 

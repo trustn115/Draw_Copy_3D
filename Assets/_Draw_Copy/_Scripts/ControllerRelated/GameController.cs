@@ -50,10 +50,10 @@ namespace _Draw_Copy._Scripts.ControllerRelated
 
         private void Update()
         {
-            // if(Input.GetMouseButtonDown(1))
-            // {
-            //     On_RetryButtonClicked();
-            // }
+             if(Input.GetMouseButtonDown(1))
+             {
+                 On_RetryButtonClicked();
+             }
         }
 
         public void On_NextButtonClicked()
@@ -82,7 +82,9 @@ namespace _Draw_Copy._Scripts.ControllerRelated
         public void ChangeToRoboDrawingState()
         {
             playerTurnCounter++;
-            PlayerDrawing.instance.CheckIfAllShapesDrawn(playerTurnCounter);
+            if(PlayerDrawing.instance)
+                PlayerDrawing.instance.CheckIfAllShapesDrawn(playerTurnCounter);
+            else PlayerDrawingGirlBack.instance.CheckIfAllShapesDrawn(playerTurnCounter);
             Vibration.Vibrate(27);
         }
     }   

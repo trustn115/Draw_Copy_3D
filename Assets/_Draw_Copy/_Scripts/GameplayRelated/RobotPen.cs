@@ -33,6 +33,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         private TextMeshProUGUI _instructionText;
         public List<string> instructions;
 
+        public float zPos = 2;
+
         private void Awake()
         {
             instance = this;
@@ -80,7 +82,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 _currentLine.positionCount++;
                 Vector3 newPoint = Vector3.zero;
                 if(!canvasLevel) newPoint = new Vector3(transform.position.x, -1, transform.position.z);
-                else newPoint = new Vector3(transform.position.x, transform.position.y, 2);
+                else newPoint = new Vector3(transform.position.x, transform.position.y, zPos);
                 _currentLine.SetPosition(_currentLine.positionCount - 1, newPoint);
             }
         }
@@ -109,7 +111,12 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         public List<AudioClip> voiceOvers;
         IEnumerator FormMultipleShapes()
         {
-            PlayerDrawing.instance.currentTakes = takes[_loopCounter];
+            if(PlayerDrawing.instance)
+                PlayerDrawing.instance.currentTakes = takes[_loopCounter];
+            else
+            {
+                PlayerDrawingGirlBack.instance.currentTakes = takes[_loopCounter];
+            }
             int loopNum = takes[_loopCounter++];
             //ShowDrawingInstructions();
             for (int i = 0; i < loopNum; i++)
@@ -178,8 +185,8 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                     transform.position.z);
 
                 transform.position = penMovePos;
-                _currentLine.SetPosition(0, new Vector3(transform.position.x, transform.position.y, 2));
-                _currentLine.SetPosition(1, new Vector3(transform.position.x, transform.position.y, 2));
+                _currentLine.SetPosition(0, new Vector3(transform.position.x, transform.position.y, zPos));
+                _currentLine.SetPosition(1, new Vector3(transform.position.x, transform.position.y, zPos));
                 _canDraw = true;
             }
             SoundsController.instance.roboDrawSource.enabled = true;

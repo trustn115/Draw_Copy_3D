@@ -20,171 +20,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502d6599-c259-435e-91f7-3777a44178b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 19 pink.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 19 pink.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Toony Colors Pro/Shaders Generated/User.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Toony Colors Pro/Shaders Generated/User/My TCP2 Shader.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Toony Colors Pro/Shaders Generated/User/My TCP2 Shader.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pencil mats.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pencil mats/pencil body.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pencil mats/pencil body.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pencil mats/pencil end.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pencil mats/pencil end.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pen pencil set.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Pen pencil set.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 10 Icecream,v.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 10 Icecream,v/Draw-another-circle-and-a-line1662011448.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 10 Icecream,v/Draw-another-circle-and-a-line1662011448.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 10 Icecream,v/Draw-the-letter-V1662011359.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 10 Icecream,v/Draw-the-letter-V1662011359.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 11 Boat, two lines.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 11 Boat, two lines/Draw-two-lines1662012912.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 11 Boat, two lines/Draw-two-lines1662012912.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12 Apple, a line,leaf,stem.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12 Apple, a line,leaf,stem/Draw-the-leaf1662014066.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12 Apple, a line,leaf,stem/Draw-the-leaf1662014066.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12 Apple, a line,leaf,stem/Draw-the-stem1662014347.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12 Apple, a line,leaf,stem/Draw-the-stem1662014347.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12.1 Cat, 2v,w.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12.1 Cat, 2v,w/Draw-the-letter-W1662015326.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12.1 Cat, 2v,w/Draw-the-letter-W1662015326.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12.1 Cat, 2v,w/Draw-two-V1662014983.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12.1 Cat, 2v,w/Draw-two-V1662014983.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12.1 Cat, 2v,w/Draw-two-circles1662015544.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 12.1 Cat, 2v,w/Draw-two-circles1662015544.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 13 Bird, leaf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 13 Bird, leaf/Draw-a-leaf1662026651.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 13 Bird, leaf/Draw-a-leaf1662026651.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 14 Dog, big C.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 14 Dog, big C/Draw-a-big-C1662027020.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 14 Dog, big C/Draw-a-big-C1662027020.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-the-eyes1662017109.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-the-eyes1662017109.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-the-mouth1662017159.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-the-mouth1662017159.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-the-tail1662017180.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-the-tail1662017180.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-three-C1662016981.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-three-C1662016981.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-three-V1662017122.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 15 Dolphin, 3c/Draw-three-V1662017122.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 16 Ducks, 2c,2-2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 16 Ducks, 2c,2-2/Draw-two-21662023087.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 16 Ducks, 2c,2-2/Draw-two-21662023087.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 16 Ducks, 2c,2-2/Draw-two-C1662022909.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 16 Ducks, 2c,2-2/Draw-two-C1662022909.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 16 Ducks, 2c,2-2/Draw-two-waves1662023128.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 16 Ducks, 2c,2-2/Draw-two-waves1662023128.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 17 Flower,U,B.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 17 Flower,U,B/Draw-the-letter-B1662025753.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 17 Flower,U,B/Draw-the-letter-B1662025753.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 17 Flower,U,B/Draw-the-letter-U1662024814.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 17 Flower,U,B/Draw-the-letter-U1662024814.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 18, hexagon,6lines.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 18, hexagon,6lines/Draw-5-C1662027914.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 18, hexagon,6lines/Draw-5-C1662027914.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 18, hexagon,6lines/Draw-6-lines1662027856.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 18, hexagon,6lines/Draw-6-lines1662027856.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 18, hexagon,6lines/Draw-a-hexagon1662027822.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 18, hexagon,6lines/Draw-a-hexagon1662027822.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 19 Honey Bee, 8.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 19 Honey Bee, 8/Draw-eyes-and-mouth1662028456.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 19 Honey Bee, 8/Draw-eyes-and-mouth1662028456.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 19 Honey Bee, 8/write-another-31662028306.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 19 Honey Bee, 8/write-another-31662028306.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 19 Honey Bee, 8/write-the-number-81662028154.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 19 Honey Bee, 8/write-the-number-81662028154.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 19 Honey Bee, 8/write-two-3s1662028278.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 19 Honey Bee, 8/write-two-3s1662028278.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart, c.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart, c/Draw-another-C.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart, c/Draw-another-C.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart, c/Draw-the-letter-C.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart, c/Draw-the-letter-C.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 20 Rabbit, 2u.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 20 Rabbit, 2u/Draw-two-U1662030167.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 20 Rabbit, 2u/Draw-two-U1662030167.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 3  Cloud, 3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 3  Cloud, 3/Draw-the-number 3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 3  Cloud, 3/Draw-the-number 3.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree, cloud, U.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree, cloud, U/Draw-a-cloud.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree, cloud, U/Draw-a-cloud.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree, cloud, U/Draw-the-letter-U.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree, cloud, U/Draw-the-letter-U.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House, tria, big U, anthr U.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House, tria, big U, anthr U/Draw-a-big-U1661864844.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House, tria, big U, anthr U/Draw-a-big-U1661864844.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House, tria, big U, anthr U/Draw-a-triangle1661864918.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House, tria, big U, anthr U/Draw-a-triangle1661864918.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House, tria, big U, anthr U/Draw-another-U1661864892.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House, tria, big U, anthr U/Draw-another-U1661864892.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 8 Butterfly, capsule, tentacles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 8 Butterfly, capsule, tentacles/Draw-a-capsule1662026134.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 8 Butterfly, capsule, tentacles/Draw-a-capsule1662026134.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 8 Butterfly, capsule, tentacles/Draw-the-tentacles1662026197.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 8 Butterfly, capsule, tentacles/Draw-the-tentacles1662026197.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 9 Brinjal, cap.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 9 Brinjal, cap/Draw-the-cap1662026459.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 9 Brinjal, cap/Draw-the-cap1662026459.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Parrot 1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Parrot 1.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Parrot.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Parrot.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ToonyColorsPro.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recordings/Recordings- Robo Artist/11.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recordings/Recordings- Robo Artist/12.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recordings/Recordings- Robo Artist/13.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recordings/Recordings- Robo Artist/14.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/38.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/51.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/53.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/59.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/68.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/73.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/38.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/38.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/51.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/51.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/53.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/53.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/59.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/59.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/68.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/68.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/73.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/Materials/73.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/lady-bundle-pack-1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/lady-bundle-pack-1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/lady-bundle-pack-2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Girl/lady-bundle-pack-2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Colored References/parrot blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Colored References/parrot blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Graph paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Graph paper.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Parrot Girl 2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Parrot Girl 2.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawingGirlBack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/new_vid_030.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/new_vid_034.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/new_vid_042.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/new_vid_043.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Draw_Copy_3D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 19 pink.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/BOXOPHOBIC/New Skies/Sky 19 pink.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/mat_green_eye.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MakeoverRunAssets/Material/mat_green_eye.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hand Mats/hand skin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Hand Mats/hand skin.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/paper.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/paper.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/stand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Art Stand/source/horrorStudio/stand.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush Girl Back.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush Girl Back.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Brushes/Brush.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fx/Drawing Fx.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fx/Drawing Fx.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VIEW.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart/Draw-another-C.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart/Draw-another-C.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart/Draw-the-letter-C.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 2 Heart/Draw-the-letter-C.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 3  Cloud.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 3  Cloud/Draw-the-number 3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 3  Cloud/Draw-the-number 3.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree/Draw-a-cloud.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree/Draw-a-cloud.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree/Draw-the-letter-U.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 4 Tree/Draw-the-letter-U.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House/Draw-a-big-U1661864844.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House/Draw-a-big-U1661864844.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House/Draw-a-triangle1661864918.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House/Draw-a-triangle1661864918.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House/Draw-another-U1661864892.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Voice Overs/Level 5 House/Draw-another-U1661864892.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 10 Icecream.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 10 Icecream.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 11 Boat.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 11 Boat.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 12 Apple.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 12 Apple.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 12.1 Cat - Pig Tshirt.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 12.1 Cat - Pig Tshirt.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 13 Bird.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 13 Bird.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 14 Dog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 14 Dog.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 15 Dolphin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 15 Dolphin.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 16 Ducks.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 16 Ducks.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 17 Flower.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 17 Flower.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 18 Turtle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 18 Turtle.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 19  Honey Bee.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 19  Honey Bee.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 20 Rabbit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 20 Rabbit.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 8 Butterfly.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 8 Butterfly.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 9 Brinjal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Level 9 Brinjal.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Copy.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Copy.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/13.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Beach Tex/Materials/13.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Scarlett_Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/Scarlett_Body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_gray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Girl Textures/Materials/tex_hair_1_gray.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Parrot 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scenes/Recording Levels/__Level Girl Drawing Parrot 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Robot Artist.aab" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
@@ -198,6 +98,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///CameraController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MoveWithTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -205,8 +106,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/StartScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/MeshGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///PlayerDrawing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/Shape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/PlayerTurnButtonElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///CameraController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@13.1.8/Shaders/Lit.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GirlDrawingBackElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/StencilArt.cs" root0="FORCE_HIGHLIGHTING" />
@@ -218,14 +121,18 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringOnTShirt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/CreateMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/PlayerDrawingTShirtElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///PlayerDrawing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FDD05F60-78ED-45AD-BCCC-43989AD47DA7/84/fa86e6c4/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushTypesElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///PlayerDrawing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawingGirlBack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ViewRelated/LevelFailView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ViewRelated/LevelCompleteView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/SoundsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///PlayerDrawing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/Tests/ShapeScaleDown.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -254,16 +161,18 @@
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/MainController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/SoundsController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/Help.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/PlayerTurnButtonElement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/ColoringController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/StartScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/CompareDrawings.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPenGirlBack.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawingGirlBack.cs" />
         <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/RobotPen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/GameplayRelated/PlayerDrawing.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ElementRelated/BrushColoringElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Draw_Copy/_Scripts/ControllerRelated/GameController.cs" />
       </list>
     </option>
   </component>

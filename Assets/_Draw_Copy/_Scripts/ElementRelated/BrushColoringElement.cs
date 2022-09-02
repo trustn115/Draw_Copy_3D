@@ -17,6 +17,7 @@ namespace _Draw_Copy._Scripts.ElementRelated
         private Vector3 _lastPos;
         public Transform raypoint;
         private bool _isCanvasLevel;
+        public float zPos = -0.9f;
 
         private void Awake()
         {
@@ -65,7 +66,7 @@ namespace _Draw_Copy._Scripts.ElementRelated
                     if (hitPos != _lastPos && Vector3.Distance(hitPos, _lastPos) > 0.001f)
                     {
                         if(!_isCanvasLevel) AddPoint(new Vector3(raypoint.position.x, -1, raypoint.position.z));
-                        else AddPoint(new Vector3(raypoint.position.x, raypoint.position.y, -0.9f));
+                        else AddPoint(new Vector3(raypoint.position.x, raypoint.position.y, zPos));
                         _lastPos = hitPos;
                     }
                 }
@@ -103,8 +104,8 @@ namespace _Draw_Copy._Scripts.ElementRelated
                 }
                 if(_isCanvasLevel)
                 {
-                    _currentLine.SetPosition(0, new Vector3(raypoint.position.x, raypoint.position.y, -0.9f));
-                    _currentLine.SetPosition(1, new Vector3(raypoint.position.x, raypoint.position.y, -0.9f));
+                    _currentLine.SetPosition(0, new Vector3(raypoint.position.x, raypoint.position.y, zPos));
+                    _currentLine.SetPosition(1, new Vector3(raypoint.position.x, raypoint.position.y, zPos));
                 }
                 _currentLine.gameObject.SetActive(true);
             });
