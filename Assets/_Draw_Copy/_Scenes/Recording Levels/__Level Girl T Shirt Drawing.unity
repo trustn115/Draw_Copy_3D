@@ -2142,6 +2142,7 @@ MonoBehaviour:
   - {fileID: 525203587}
   - {fileID: 409079877}
   - {fileID: 3299807046764923419}
+  playerTurnCounter: 0
 --- !u!114 &438582927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2180,6 +2181,8 @@ MonoBehaviour:
   brushObject: {fileID: 4314564884024298571}
   coloringDoneButton: {fileID: 4766397774721605249}
   tshirtArtDoneButton: {fileID: 5878816268033852963}
+  colorReferenceImg: {fileID: 0}
+  instructionText: {fileID: 0}
 --- !u!114 &438582929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8408,10 +8411,18 @@ MonoBehaviour:
   currentBrushWidth: 0.15
   grey: {r: 0.6696333, g: 0.6744393, b: 0.6792453, a: 1}
   brown: {r: 1, g: 0.495283, b: 0.94118416, a: 1}
+  purple: {r: 0, g: 0, b: 0, a: 0}
   blue: {r: 0, g: 0.5882353, b: 1, a: 1}
   red: {r: 1, g: 0.14901961, b: 0, a: 1}
+  pink: {r: 0, g: 0, b: 0, a: 0}
   yellow: {r: 1, g: 0.80392164, b: 0, a: 1}
   green: {r: 0.046991818, g: 0.9056604, b: 0.29536694, a: 1}
+  selectedRingsList: []
+  brush: {fileID: 0}
+  brushSprites: []
+  eraser: {fileID: 0}
+  eraserColor: {r: 0, g: 0, b: 0, a: 0}
+  brushTypesElement: {fileID: 0}
   isCanvasLevel: 1
 --- !u!1 &1850993339
 GameObject:
@@ -15966,6 +15977,7 @@ MonoBehaviour:
   currentTakes: 0
   _takesCounter: 0
   isCanvasLevel: 1
+  drawFx: {fileID: 0}
 --- !u!23 &2779426259916734327
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33597,6 +33609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   raypoint: {fileID: 3476336856235716336}
+  zPos: -0.9
 --- !u!82 &6529184796004995462
 AudioSource:
   m_ObjectHideFlags: 0
@@ -62029,6 +62042,10 @@ MonoBehaviour:
   win: {fileID: 8300000, guid: 3b90e1acf6319e448b55eb9fb3d7ec9e, type: 3}
   fail: {fileID: 8300000, guid: 0eb9865a65f2ac54fa21df3434d79aa2, type: 3}
   swoosh: {fileID: 8300000, guid: 4922561f27acd9844bbc728392630afd, type: 3}
+  paintBrush: {fileID: 0}
+  buttonPop: {fileID: 0}
+  buttonClick: {fileID: 0}
+  buttonBrushPop: {fileID: 0}
 --- !u!33 &8698765868160686199
 MeshFilter:
   m_ObjectHideFlags: 0

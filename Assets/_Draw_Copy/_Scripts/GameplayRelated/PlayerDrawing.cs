@@ -36,11 +36,13 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             instance = this;
         }
 
+        private Vector3 _startPenPos;
         private void Start()
         {
             _camera = Camera.main;
             _raypoint = pen.GetChild(0);
             penOrigPos = new Vector3(1.5f, transform.position.y, -1.75f);
+            _startPenPos = transform.position;
             /*drawFx = Instantiate(drawFx, Vector3.zero, Quaternion.identity);
             drawFx.SetActive(false);*/
         }
@@ -65,6 +67,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             if (newState == GameState.RoboDrawing)
             {
                 _canDraw = false;
+                transform.DOMove(_startPenPos, 0.5f);
             }
         }
 
@@ -145,6 +148,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
                 {
                     /*DOVirtual.DelayedCall(0.5f,
                         () => { MainController.instance.SetActionType(GameState.RoboDrawing); });*/
+                    GameController.instance.ChangeToRoboDrawingState();
                     _takesCounter = 0;
                     _shapesCounter++;
                 }

@@ -31,6 +31,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
         private Vector3 penOrigPos;
         public GameObject drawFx;
         public float zPos = -0.91f;
+        private Vector3 _startPenPos;
 
         private void Awake()
         {
@@ -42,6 +43,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             _camera = Camera.main;
             _raypoint = pen.GetChild(0);
             penOrigPos = new Vector3(1.5f, transform.position.y, -1.75f);
+            _startPenPos = transform.position;
             /*drawFx = Instantiate(drawFx, Vector3.zero, Quaternion.identity);
             drawFx.SetActive(false);*/
         }
@@ -66,6 +68,7 @@ namespace _Draw_Copy._Scripts.GameplayRelated
             if (newState == GameState.RoboDrawing)
             {
                 _canDraw = false;
+                transform.DOMove(_startPenPos, 0.5f);
             }
         }
 
